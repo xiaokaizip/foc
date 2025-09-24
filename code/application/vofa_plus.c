@@ -31,7 +31,7 @@ void send_to_vofa() {
     packet.data[9] = gADC_IN10;
     packet.data[10] = gADC_IN11;
     // 3. 通过串口发送整个数据包
-    HAL_UART_Transmit(&huart2, (uint8_t *) &packet, sizeof(VofaPacket), HAL_MAX_DELAY);
+    HAL_UART_Transmit(&huart4, (uint8_t *) &packet, sizeof(VofaPacket), HAL_MAX_DELAY);
 }
 
 // 示例调用

@@ -30,6 +30,7 @@ set(MX_Application_Src
         ../../startup_stm32f405xx.s
         ../../Core/Src/tim.c
         ../../Core/Src/adc.c
+        ../../Core/Src/dma.c
 )
 
 # STM32 HAL/LL Drivers

@@ -24,7 +24,7 @@ private:
     float velocity_error_sum_min = -1000.0f;
 
 
-    float position_kp = 1;
+    float position_kp = 1.5;
     float Uq = 0.0f, Ud = 0.0f;
 
     // 工具函数：DQ0 正变换（Clark + Park）

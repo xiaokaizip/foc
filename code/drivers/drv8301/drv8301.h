@@ -39,6 +39,8 @@ public:
         FaultType_GVDD_OV = (1 << 23) //!< DRV8301 Vdd Over Voltage fault
     } FaultType_e;
 
+    FaultType_e fault_status;
+
     Drv8301(SPI_HandleTypeDef *spi_arbiter,
             GPIO_TypeDef *ncs_gpio_port, unsigned int ncs_gpio_pin,
             GPIO_TypeDef *enable_gpio_port, unsigned int enable_gpio_pin,

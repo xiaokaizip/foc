@@ -4,25 +4,19 @@
 
 #include "main.h"
 
-static unsigned int delay_us_factor = 0;
+#include "delay.h"
 
-void delayus(unsigned int xus) {
-    delay_us_factor = SystemCoreClock / 1000000;
-    unsigned int Ticks, Time_Old, Time_Now, Time_Count = 0;
-    unsigned int Reload = SysTick->LOAD;
-    Ticks = xus * delay_us_factor;
-    Time_Old = SysTick->VAL;
-    while (1) {
-        Time_Now = SysTick->VAL;
-        if (Time_Now != Time_Old) {
-            if (Time_Now < Time_Old)
-                Time_Count += Time_Old - Time_Now;
-            else
-                Time_Count += Reload - Time_Now + Time_Old;
-            Time_Old = Time_Now;
-            if (Time_Count >= Ticks)
-                break;
-        }
+static TIM_HandleTypeDef *delay_tim = NULL;
+
+void delay_us_init(TIM_HandleTypeDef *htim) {
+    delay_tim = htim;
+    HAL_TIM_Base_Start(delay_tim);
+}
+
+void delayus(uint32_t us) {
+    __HAL_TIM_SET_COUNTER(delay_tim, 0);
+    while (__HAL_TIM_GET_COUNTER(delay_tim) < us) {
+        // 空循环
     }
 }
 

@@ -6,9 +6,12 @@
 #define FOC_FOC_H
 #include <iostream>
 
-class foc{
-
-public:bool enable = false;
+class foc {
+public:
+    bool enable = false;
+    float position = 0;
+    float velocity = 0;
+    float torque = 0;
 };
 
 

@@ -13,6 +13,9 @@ set(MX_Include_Dirs
         ../../Core/Inc
         ../../Drivers/STM32F4xx_HAL_Driver/Inc
         ../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+        ../../Middlewares/Third_Party/FreeRTOS/Source/include
+        ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
+        ../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
         ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include
         ../../Drivers/CMSIS/Include
 )
@@ -21,24 +24,26 @@ set(MX_Include_Dirs
 set(MX_Application_Src
         ../../Core/Src/main.c
         ../../Core/Src/gpio.c
+        ../../Core/Src/freertos.c
+        ../../Core/Src/adc.c
+        ../../Core/Src/dma.c
         ../../Core/Src/spi.c
+        ../../Core/Src/tim.c
         ../../Core/Src/usart.c
         ../../Core/Src/stm32f4xx_it.c
         ../../Core/Src/stm32f4xx_hal_msp.c
+        ../../Core/Src/stm32f4xx_hal_timebase_tim.c
         ../../Core/Src/sysmem.c
         ../../Core/Src/syscalls.c
         ../../startup_stm32f405xx.s
-        ../../Core/Src/tim.c
-        ../../Core/Src/adc.c
-        ../../Core/Src/dma.c
 )
 
+# STM32 HAL/LL Drivers
 # STM32 HAL/LL Drivers
 set(STM32_Drivers_Src
         ../../Core/Src/system_stm32f4xx.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
@@ -61,6 +66,19 @@ set(STM32_Drivers_Src
 # Drivers Midllewares
 
 
+set(FreeRTOS_Src
+        ../../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/list.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+        ../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+)
+
 # Link directories setup
 set(MX_LINK_DIRS
 
@@ -68,6 +86,7 @@ set(MX_LINK_DIRS
 # Project static libraries
 set(MX_LINK_LIBS
         STM32_Drivers
+        FreeRTOS
 
 )
 # Interface library for includes and symbols
@@ -80,6 +99,11 @@ add_library(STM32_Drivers OBJECT)
 target_sources(STM32_Drivers PRIVATE ${STM32_Drivers_Src})
 target_link_libraries(STM32_Drivers PUBLIC stm32cubemx)
 
+
+# Create FreeRTOS static library
+add_library(FreeRTOS OBJECT)
+target_sources(FreeRTOS PRIVATE ${FreeRTOS_Src})
+target_link_libraries(FreeRTOS PUBLIC stm32cubemx)
 
 # Add STM32CubeMX generated application sources to the project
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE ${MX_Application_Src})

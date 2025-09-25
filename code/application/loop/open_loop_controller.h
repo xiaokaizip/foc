@@ -9,8 +9,8 @@
 
 // 假设 EncoderData_t 和 encoderData 在全局作用域中定义
 extern "C" {
-#include "math_ops.h"
-#include "FastMath.h"
+#include "math/math_ops.h"
+#include "math/FastMath.h"
 #include "position_sensor.h"
 }
 

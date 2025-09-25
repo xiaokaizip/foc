@@ -17,7 +17,8 @@ void open_loop_controller::updata(float period) {
     // } else {
     //     electric_angle -= speed * period;
     // }
-    electric_angle += speed * period;
+//    electric_angle -= 10 * speed * period;
+    electric_angle += 0.00;
     // ✅ 强制限制在 [0, 2π)
     electric_angle = fmodf(electric_angle, 2.0f * PI);
     // if (electric_angle < 0.0f) electric_angle += 2.0f * PI;
@@ -31,7 +32,7 @@ void open_loop_controller::updata(float period) {
     // Ub = (-0.5f * U_alpha + 0.8660254f * U_beta) + voltage_power_supply / 2.0f;
     // Uc = (-0.5f * U_alpha - 0.8660254f * U_beta) + voltage_power_supply / 2.0f;
 
-    abc(electric_angle, 0, Uq, &Ua, &Ub, &Uc);
+    abc(electric_angle, 1, 0.0f, &Ua, &Ub, &Uc);
 
     setPWM(&Ua, &Ub, &Uc);
 }

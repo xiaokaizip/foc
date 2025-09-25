@@ -10,6 +10,7 @@ extern "C" {
 }
 
 #define PI 3.141592653589793f
+const int ENCODER_DIRECTION = -1; // 1 = 正向, -1 = 反向
 
 // 全局实例
 EncoderData_t encoderData = {0};
@@ -35,7 +36,7 @@ namespace {
     float velocity_filtered = 0.0f;
 
     // 滤波参数（可调）
-    const float VELOCITY_LPF_ALPHA = 0.8f;
+    const float VELOCITY_LPF_ALPHA = 0.7f;
 } // namespace
 
 
@@ -46,7 +47,7 @@ namespace {
  */
 void Encoder_Update(int devidx, float dt) {
     // 读取当前原始角度（0~16383）
-    uint16_t raw_angle = AS5047_ReadData(devidx, ANGLEUNC_AS5047P_VOL_REG_ADD);
+    uint16_t raw_angle = AS5047_ReadData(devidx, ANGLECOM_AS5047P_VOL_REG_ADD);
 
     // 读取诊断信息
     uint16_t mag_value = AS5047D_Get_MAGCORDIC_Value(devidx);
@@ -63,15 +64,17 @@ void Encoder_Update(int devidx, float dt) {
     }
 
     // ====== 1. 计算原始角度变化（处理跨零）======
-    int raw_diff = static_cast<int>(raw_angle) - static_cast<int>(prev_raw_angle);
+    // 在 namespace { } 中添加方向修正
 
-    // 处理跨 0 或跨 16383 的情况
+    // 在计算 raw_diff 后：
+    int raw_diff = static_cast<int>(raw_angle - prev_raw_angle) * ENCODER_DIRECTION;
+
     if (raw_diff > COUNTS_PER_REV / 2) {
         raw_diff -= COUNTS_PER_REV;
-        total_rotations--; // 正向过零（从高到低），圈数减
+        total_rotations--; // 反向过零（从低到高），圈数减
     } else if (raw_diff < -COUNTS_PER_REV / 2) {
         raw_diff += COUNTS_PER_REV;
-        total_rotations++; // 反向过零（从低到高），圈数加
+        total_rotations++; // 正向过零（从高到低），圈数加 ← 这才是正向！
     }
 
     // 更新累积机械角度（弧度）

@@ -12,6 +12,10 @@
 #include "position_sensor.h"
 #include "foc.h"
 #include "serial_logger.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "cmsis_os.h"
+#include "delay.h"
 
 extern "C" {
 #include "lwprintf/lwprintf.h"
@@ -19,6 +23,8 @@ extern "C" {
 
 
 void SystemClock_Config(void);
+
+void MX_FREERTOS_Init(void);
 }
 
 int uart_out(int ch, lwprintf_t *lwp);
@@ -27,22 +33,35 @@ unsigned char uart_rxdata[10];
 open_loop_controller open_loop;
 velocityPositionLoopController velocityPositionLoopController;
 foc foc;
-SerialLogger serial_logger(&huart4);
-
+SerialLogger_t g_serial_logger;
+Drv8301 m0_gate_driver{
+    &hspi3,
+    M0_nCS_GPIO_Port, M0_nCS_Pin,
+    EN_GATE_GPIO_Port, EN_GATE_Pin,
+    nfault_GPIO_Port, nfault_Pin
+};
 unsigned int gADC_IN10, gADC_IN11;
 
-void packet_uart2vofa() {
-    serial_logger.addDataToChannel(0, &encoderData.mechanical_angle);
-    serial_logger.addDataToChannel(1, &encoderData.electrical_angle);
-    serial_logger.addDataToChannel(2, &encoderData.angular_velocity);
-    serial_logger.addDataToChannel(3, &encoderData.rpm);
-    serial_logger.addDataToChannel(4, &encoderData.cumulative_angle);
-    serial_logger.addDataToChannel(5, (float *) &(TIM1->CCR1));
-    serial_logger.addDataToChannel(6, (float *) &(TIM1->CCR2));
-    serial_logger.addDataToChannel(7, (float *) &(TIM1->CCR3));
-    serial_logger.addDataToChannel(8, (float *) &gADC_IN10);
-    serial_logger.addDataToChannel(9, (float *) &gADC_IN11);
 
+void packet_uart2vofa() {
+    SerialLogger_AddDataToChannel(&g_serial_logger, 0, &encoderData.mechanical_angle);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 1, &encoderData.electrical_angle);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 2, &encoderData.angular_velocity);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 3, &encoderData.rpm);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 4, &encoderData.cumulative_angle);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 5, (float *) &(TIM1->CCR1));
+    SerialLogger_AddDataToChannel(&g_serial_logger, 6, (float *) &(TIM1->CCR2));
+    SerialLogger_AddDataToChannel(&g_serial_logger, 7, (float *) &(TIM1->CCR3));
+    SerialLogger_AddDataToChannel(&g_serial_logger, 8, (float *) &gADC_IN10);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 9, (float *) &gADC_IN11);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 10, &foc.position);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 11, &foc.velocity);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 12, &foc.torque);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 13, (float *) &foc.enable);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 14, (float *) &velocityPositionLoopController.velocity_error);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 14, (float *) &velocityPositionLoopController.velocity_error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 14,
+                                  (float *) &velocityPositionLoopController.electrical_angle_offset);
 }
 
 int main(void) {
@@ -56,17 +75,12 @@ int main(void) {
     MX_UART4_Init();
     MX_TIM1_Init();
     MX_TIM14_Init();
-
+    MX_TIM12_Init();
     MX_ADC1_Init();
-
+    delay_us_init(&htim12);
     lwprintf_init(uart_out); // 默认实例
     lwprintf_printf("init foc\n\r");
-    Drv8301 m0_gate_driver{
-            &hspi3,
-            M0_nCS_GPIO_Port, M0_nCS_Pin,
-            EN_GATE_GPIO_Port, EN_GATE_Pin,
-            nfault_GPIO_Port, nfault_Pin
-    };
+
 
     float gain = 40;
     m0_gate_driver.config(40, &gain);
@@ -74,6 +88,7 @@ int main(void) {
         lwprintf_printf("drv8301 init successfully\n\r");
         HAL_Delay(1000);
     }
+    HAL_Delay(1000);
 
     HAL_TIM_Base_Start_IT(&htim14);
     HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
@@ -90,11 +105,22 @@ int main(void) {
     __HAL_ADC_ENABLE_IT(&hadc1, ADC_IT_JEOC); // 启动注入采样中断
     HAL_ADCEx_InjectedStart(&hadc1); // 开启注入采样
 
-    serial_logger.startReceive();
+    SerialLogger_Init(&g_serial_logger, &huart4);
     packet_uart2vofa();
+
+    SerialLogger_StartReceive(&g_serial_logger);
+
+
     while (1) {
-        // m0_gate_driver.get_error();
-        serial_logger.send_to_vofa();
+        // m0_gate_driver.fault_status = m0_gate_driver.get_error();
+        if (g_serial_logger.is_update == true) {
+            foc.enable = g_serial_logger.command.enabled;
+            foc.position = g_serial_logger.command.target_position;
+            foc.torque = g_serial_logger.command.target_torque;
+            foc.velocity = g_serial_logger.command.target_velocity;
+            g_serial_logger.is_update = false;
+        }
+        SerialLogger_SendToVofa(&g_serial_logger);
         HAL_Delay(1);
     }
 }
@@ -106,25 +132,38 @@ int uart_out(int ch, lwprintf_t *lwp) {
     return ch;
 }
 
-
-float position = 0;
-float velocity = 0;
+unsigned char flag = 0;
+unsigned short count = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM14) {
+        count++;
+
         // 检查是否是TIM3中断
-
-        Encoder_Update(0, 0.001f); // 更新编码器数据(使用devidx=0)
-        // open_loop.updata(0.001f);
-        if (foc.enable == true) {
-
-
-            velocityPositionLoopController.updata(velocity, position);
+        if (flag == 0) {
+            open_loop.updata(0.001f);
+            if (count > 4000) {
+                flag = 1;
+                TIM1->CCR1 = 0;
+                TIM1->CCR2 = 0;
+                TIM1->CCR3 = 0;
+                velocityPositionLoopController.electrical_angle_offset = encoderData.electrical_angle;
+            }
         } else {
-            TIM1->CCR1 = 0;
-            TIM1->CCR2 = 0;
-            TIM1->CCR3 = 0;
+            if (count > 10000)
+                velocityPositionLoopController.updata(20, 0);
         }
+        Encoder_Update(0, 0.001f); // 更新编码器数据(使用devidx=0)
+        // if (foc.enable == true) {
+        //     } else {
+        //         TIM1->CCR1 = 0;
+        //         TIM1->CCR2 = 0;
+        //         TIM1->CCR3 = 0;
+        //     }
+    }
+
+    if (htim->Instance == TIM13) {
+        HAL_IncTick();
     }
 }
 
@@ -136,12 +175,8 @@ void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef *hadc) {
     }
 }
 
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
-    if (huart->Instance == UART4) {
-        serial_logger.unpackData();
-        velocity = serial_logger.get_velocity();
-        position = serial_logger.get_position();
-        foc.enable = serial_logger.get_enable();
-    }
-}
+// void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+//     if (huart->Instance == UART4) {
+//     }
+// }
 

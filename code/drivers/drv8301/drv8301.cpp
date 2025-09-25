@@ -8,7 +8,10 @@
 #include "lwprintf/lwprintf.h"
 #include "spi.h"
 
+
 #include "delay.h"
+
+
 #include "spi.h"
 
 bool Drv8301::config(float requested_gain, float *actual_gain) {

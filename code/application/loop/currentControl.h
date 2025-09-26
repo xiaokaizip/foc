@@ -70,7 +70,7 @@ public:
     };
 
     pi_controller_t velocityController = {
-        0.005f, 0.0002f,
+        0.001f, 0.00002f,
         0.0f, 0.0f,
         10000.0f, -10000.0f,
         0.0f,
@@ -97,8 +97,8 @@ public:
     };
 
 private:
-    float voltage_limit = 26.0f; // 可设默认值或运行时配置
-    float voltage_power_supply = 26.0f; // 假设电源电压为 26V
+    float voltage_limit = 24.0f; // 可设默认值或运行时配置
+    float voltage_power_supply = 24.0f; // 假设电源电压为 26V
 
     float U_alpha = 0.0f, U_beta = 0.0f;
     float Ua = 0.0f, Ub = 0.0f, Uc = 0.0f;
@@ -112,6 +112,8 @@ private:
     static void dq0(float theta, float a, float b, float c, float *d, float *q);
 
     void setPWM(float *Ua, float *Ub, float *Uc);
+
+    void svm(float v_bus, float u, float v, float w, float *dtc_u, float *dtc_v, float *dtc_w);
 
     // Clark 和 Park 变换（可后续添加）
     float alpha = 0.0f, beta = 0.0f;

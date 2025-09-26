@@ -121,24 +121,29 @@ void currentControl::dq0(float theta, float a, float b, float c, float *d, float
 }
 
 void currentControl::setPWM(float *Ua, float *Ub, float *Uc) {
-    *Ua += voltage_power_supply / 2;
-    *Ub += voltage_power_supply / 2;
-    *Uc += voltage_power_supply / 2;
-    limit(Ua, 0.0f, voltage_limit);
-    limit(Ub, 0.0f, voltage_limit);
-    limit(Uc, 0.0f, voltage_limit);
+    svm(voltage_power_supply, *Ua, *Ub, *Uc, &dc_a, &dc_b, &dc_c);
 
-
-    dc_a = *Ua / voltage_power_supply;
-    dc_b = *Ub / voltage_power_supply;
-    dc_c = *Uc / voltage_power_supply;
-
-    limit(&dc_a, 0.0f, 1.0f);
-    limit(&dc_b, 0.0f, 1.0f);
-    limit(&dc_c, 0.0f, 1.0f);
 
     // 设置 PWM 寄存器
     TIM1->CCR1 = static_cast<int>((1 - dc_a) * 8400.0f);
     TIM1->CCR2 = static_cast<int>((1 - dc_b) * 8400.0f);
     TIM1->CCR3 = static_cast<int>((1 - dc_c) * 8400.0f);
 }
+
+#define DTC_MIN 0
+#define DTC_MAX 0.9f
+
+void currentControl::svm(float v_bus, float u, float v, float w, float *dtc_u, float *dtc_v, float *dtc_w) {
+    /// Space Vector Modulation ///
+    /// u,v,w amplitude = v_bus for full modulation depth ///
+    float v_offset = (fminf3(u, v, w) + fmaxf3(u, v, w)) * 0.5f;
+    *dtc_u = fminf(fmaxf(((u - v_offset) / v_bus + .5f), DTC_MIN), DTC_MAX);
+    *dtc_v = fminf(fmaxf(((v - v_offset) / v_bus + .5f), DTC_MIN), DTC_MAX);
+    *dtc_w = fminf(fmaxf(((w - v_offset) / v_bus + .5f), DTC_MIN), DTC_MAX); /*
+    sinusoidal pwm
+    *dtc_u = fminf(fmaxf((u/v_bus + .5f), DTC_MIN), DTC_MAX);
+    *dtc_v = fminf(fmaxf((v/v_bus + .5f), DTC_MIN), DTC_MAX);
+    *dtc_w = fminf(fmaxf((w/v_bus + .5f), DTC_MIN), DTC_MAX);
+    */
+}
+

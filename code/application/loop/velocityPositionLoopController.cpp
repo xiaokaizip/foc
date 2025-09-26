@@ -3,30 +3,37 @@
 //
 
 #include "velocityPositionLoopController.h"
-#include "math_ops.h"
-#include "FastMath.h"
+#include "math/math_ops.h"
+#include "math/FastMath.h"
 
-void velocityPositionLoopController::updata(float expect_velocity, float expect_position) {
-    // 速度误差
-    velocity_error = expect_velocity - encoderData.angular_velocity;
+void velocityPositionLoopController::updata(float expect_velocity, float expect_position, float period,
+                                            pos_vel_mode_e mode) {
+
+    if (mode == pos_vel) {
+        position = expect_position;
+    } else if (mode == vel) {
+        position += expect_velocity * period;
+    }
+    position_error = position - encoderData.cumulative_angle;
+
+    position2vel = position_error * position_kp;
+    limit(&position2vel, -expect_velocity, expect_velocity);
+
+
+    velocity_error = position2vel - encoderData.angular_velocity;
     velocity_error_sum += velocity_error;
     limit(&velocity_error_sum, velocity_error_sum_min, velocity_error_sum_max);
-    //
-    // // PI 控制器输出 Uq
-    // Uq = velocity_error * velocity_kp + velocity_error_sum * velocity_ki;
-    // limit(&Uq, Uq_min, Uq_max);
 
-    position_error = expect_position - encoderData.cumulative_angle;
-    // Uq = position_error * position_kp + velocity_error * velocity_kp;
+
     Uq = velocity_error * velocity_kp + velocity_error_sum * velocity_ki;
-    limit(&Uq, -1, 1);
+    limit(&Uq, Uq_min, Uq_max);
     // 设 d 轴电压为 0，q 轴电压为 Uq
     Ud = 0.0f;
 
     // 获取电角度（来自编码器）
-    electric_angle = encoderData.electrical_angle - PI;
+    electric_angle = encoderData.electrical_angle;
 
-    abc(electric_angle, 0, Uq, &Ua, &Ub, &Uc);
+    abc(electric_angle, Ud, Uq, &Ua, &Ub, &Uc);
 
     // 复用父类的 PWM 设置
     setPWM(&Ua, &Ub, &Uc);

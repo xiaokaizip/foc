@@ -7,8 +7,8 @@
 #include "adc.h""
 #include "dma.h"
 #include "application.h"
-#include "open_loop_controller.h"
-#include "velocityPositionLoopController.h"
+#include "loop/open_loop_controller.h"
+#include "loop/velocityPositionLoopController.h"
 #include "position_sensor.h"
 #include "foc.h"
 #include "serial_logger.h"
@@ -35,10 +35,10 @@ velocityPositionLoopController velocityPositionLoopController;
 foc foc;
 SerialLogger_t g_serial_logger;
 Drv8301 m0_gate_driver{
-    &hspi3,
-    M0_nCS_GPIO_Port, M0_nCS_Pin,
-    EN_GATE_GPIO_Port, EN_GATE_Pin,
-    nfault_GPIO_Port, nfault_Pin
+        &hspi3,
+        M0_nCS_GPIO_Port, M0_nCS_Pin,
+        EN_GATE_GPIO_Port, EN_GATE_Pin,
+        nfault_GPIO_Port, nfault_Pin
 };
 unsigned int gADC_IN10, gADC_IN11;
 
@@ -59,8 +59,10 @@ void packet_uart2vofa() {
     SerialLogger_AddDataToChannel(&g_serial_logger, 12, &foc.torque);
     SerialLogger_AddDataToChannel(&g_serial_logger, 13, (float *) &foc.enable);
     SerialLogger_AddDataToChannel(&g_serial_logger, 14, (float *) &velocityPositionLoopController.velocity_error);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 14, (float *) &velocityPositionLoopController.velocity_error_sum);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 14,
+    SerialLogger_AddDataToChannel(&g_serial_logger, 15, (float *) &velocityPositionLoopController.velocity_error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 16, (float *) &velocityPositionLoopController.position_error);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 17, (float *) &velocityPositionLoopController.position_error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 18,
                                   (float *) &velocityPositionLoopController.electrical_angle_offset);
 }
 
@@ -137,30 +139,20 @@ unsigned short count = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM14) {
-        count++;
 
-        // 检查是否是TIM3中断
-        if (flag == 0) {
-            open_loop.updata(0.001f);
-            if (count > 4000) {
-                flag = 1;
-                TIM1->CCR1 = 0;
-                TIM1->CCR2 = 0;
-                TIM1->CCR3 = 0;
-                velocityPositionLoopController.electrical_angle_offset = encoderData.electrical_angle;
-            }
-        } else {
-            if (count > 10000)
-                velocityPositionLoopController.updata(20, 0);
-        }
+//        open_loop.updata(0.001f);
         Encoder_Update(0, 0.001f); // 更新编码器数据(使用devidx=0)
+
+        velocityPositionLoopController.updata(50, PI, 0.001f, velocityPositionLoopController.pos_vel_mode);
+//
         // if (foc.enable == true) {
         //     } else {
+
         //         TIM1->CCR1 = 0;
         //         TIM1->CCR2 = 0;
         //         TIM1->CCR3 = 0;
-        //     }
     }
+
 
     if (htim->Instance == TIM13) {
         HAL_IncTick();

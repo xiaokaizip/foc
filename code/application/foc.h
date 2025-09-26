@@ -4,6 +4,7 @@
 
 #ifndef FOC_FOC_H
 #define FOC_FOC_H
+
 #include <iostream>
 
 class foc {

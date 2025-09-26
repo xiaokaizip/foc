@@ -14,10 +14,15 @@ public:
         pos_vel,
         vel
     };
-    pos_vel_mode_e pos_vel_mode = vel;
+
+    pos_vel_mode_e pos_vel_mode = pos_vel;
+
+    velocityPositionLoopController() = default;
+
+    virtual ~velocityPositionLoopController() = default;
 
     // 更新速度环和位置环（目前只实现了速度环）
-    void updata(float expect_velocity, float expect_position, float period, pos_vel_mode_e mode);
+    virtual void updata(float expect_velocity, float expect_position, float period, pos_vel_mode_e mode);
 
     float velocity_error = 0.0f;
     float velocity_error_sum = 0.0f;
@@ -26,9 +31,14 @@ public:
     float position_error = 0.0f;
     float position_error_sum = 0.0f;
 
+    bool enable = false;
+    float position = 0;
+    float velocity = 0;
+    float torque = 0;
+
 private:
     // PID 参数
-    float velocity_kp = 0.01f; // 示例值，可外部设置
+    float velocity_kp = 0.005f; // 示例值，可外部设置
     float velocity_ki = 0.0005;
     float velocity_error_sum_max = 10000.0f;
     float velocity_error_sum_min = -10000.0f;
@@ -36,10 +46,11 @@ private:
     float Uq_min = -2.0f;
     float Uq = 0.0f, Ud = 0.0f;
 
-    float position = 0;
+    float really_position = 0;
     float position_kp = 1.0f;
     float position2vel = 0;
 
+protected:
     // 工具函数：DQ0 正变换（Clark + Park）
     void dq0(float theta, float a, float b, float c, float *d, float *q);
 };

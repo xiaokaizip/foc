@@ -8,13 +8,12 @@
 
 void velocityPositionLoopController::updata(float expect_velocity, float expect_position, float period,
                                             pos_vel_mode_e mode) {
-
     if (mode == pos_vel) {
-        position = expect_position;
+        really_position = expect_position;
     } else if (mode == vel) {
-        position += expect_velocity * period;
+        really_position += expect_velocity * period;
     }
-    position_error = position - encoderData.cumulative_angle;
+    position_error = really_position - encoderData.cumulative_angle;
 
     position2vel = position_error * position_kp;
     limit(&position2vel, -expect_velocity, expect_velocity);

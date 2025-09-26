@@ -17,7 +17,7 @@ void open_loop_controller::updata(float period) {
     // } else {
     //     electric_angle -= speed * period;
     // }
-//    electric_angle -= 10 * speed * period;
+    // electric_angle -= 5 * speed * period;
     electric_angle += 0.00;
     // ✅ 强制限制在 [0, 2π)
     electric_angle = fmodf(electric_angle, 2.0f * PI);
@@ -32,7 +32,7 @@ void open_loop_controller::updata(float period) {
     // Ub = (-0.5f * U_alpha + 0.8660254f * U_beta) + voltage_power_supply / 2.0f;
     // Uc = (-0.5f * U_alpha - 0.8660254f * U_beta) + voltage_power_supply / 2.0f;
 
-    abc(electric_angle, 1, 0.0f, &Ua, &Ub, &Uc);
+    abc(electric_angle, 1.0f, 0.0f, &Ua, &Ub, &Uc);
 
     setPWM(&Ua, &Ub, &Uc);
 }
@@ -55,9 +55,9 @@ void open_loop_controller::setPWM(float *Ua, float *Ub, float *Uc) {
     limit(&dc_c, 0.0f, 1.0f);
 
     // 设置 PWM 寄存器
-    TIM1->CCR1 = static_cast<int>((dc_a) * 4200.0f);
-    TIM1->CCR2 = static_cast<int>((dc_b) * 4200.0f);
-    TIM1->CCR3 = static_cast<int>((dc_c) * 4200.0f);
+    TIM1->CCR1 = static_cast<int>((1 - dc_a) * 8400.0f);
+    TIM1->CCR2 = static_cast<int>((1 - dc_b) * 8400.0f);
+    TIM1->CCR3 = static_cast<int>((1 - dc_c) * 8400.0f);
 }
 
 void open_loop_controller::abc(float theta, float d, float q, float *a, float *b, float *c) {

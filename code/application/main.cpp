@@ -10,12 +10,13 @@
 #include "loop/open_loop_controller.h"
 #include "loop/velocityPositionLoopController.h"
 #include "position_sensor.h"
-#include "foc.h"
-#include "serial_logger.h"
+#include "loop/currentControl.h"
+#include "serial_modbus.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "cmsis_os.h"
 #include "delay.h"
+#include "currentCalibration.h"
 
 extern "C" {
 #include "lwprintf/lwprintf.h"
@@ -30,15 +31,15 @@ void MX_FREERTOS_Init(void);
 int uart_out(int ch, lwprintf_t *lwp);
 
 unsigned char uart_rxdata[10];
-open_loop_controller open_loop;
-velocityPositionLoopController velocityPositionLoopController;
-foc foc;
+// open_loop_controller open_loop;
+// velocityPositionLoopController velocityPositionLoopController;
+currentControl foc;
 SerialLogger_t g_serial_logger;
 Drv8301 m0_gate_driver{
-        &hspi3,
-        M0_nCS_GPIO_Port, M0_nCS_Pin,
-        EN_GATE_GPIO_Port, EN_GATE_Pin,
-        nfault_GPIO_Port, nfault_Pin
+    &hspi3,
+    M0_nCS_GPIO_Port, M0_nCS_Pin,
+    EN_GATE_GPIO_Port, EN_GATE_Pin,
+    nfault_GPIO_Port, nfault_Pin
 };
 unsigned int gADC_IN10, gADC_IN11;
 
@@ -49,21 +50,23 @@ void packet_uart2vofa() {
     SerialLogger_AddDataToChannel(&g_serial_logger, 2, &encoderData.angular_velocity);
     SerialLogger_AddDataToChannel(&g_serial_logger, 3, &encoderData.rpm);
     SerialLogger_AddDataToChannel(&g_serial_logger, 4, &encoderData.cumulative_angle);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 5, (float *) &(TIM1->CCR1));
-    SerialLogger_AddDataToChannel(&g_serial_logger, 6, (float *) &(TIM1->CCR2));
-    SerialLogger_AddDataToChannel(&g_serial_logger, 7, (float *) &(TIM1->CCR3));
-    SerialLogger_AddDataToChannel(&g_serial_logger, 8, (float *) &gADC_IN10);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 9, (float *) &gADC_IN11);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 10, &foc.position);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 11, &foc.velocity);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 12, &foc.torque);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 5, &foc.currentA);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 6, &foc.currentB);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 7, &foc.currentC);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 8, &foc.Id);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 9, &foc.Iq);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 10, &foc.position_ref);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 11, &foc.velocity_ref);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 12, &foc.torque_ref);
     SerialLogger_AddDataToChannel(&g_serial_logger, 13, (float *) &foc.enable);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 14, (float *) &velocityPositionLoopController.velocity_error);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 15, (float *) &velocityPositionLoopController.velocity_error_sum);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 16, (float *) &velocityPositionLoopController.position_error);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 17, (float *) &velocityPositionLoopController.position_error_sum);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 18,
-                                  (float *) &velocityPositionLoopController.electrical_angle_offset);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 14, &foc.velocityController.error);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 15, &foc.velocityController.error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 16, &foc.positionController.error);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 17, &foc.positionController.error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 18, &foc.Iq);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 19, &foc.Iq_ref);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 20, &foc.Uq);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 21, &foc.Id);
 }
 
 int main(void) {
@@ -117,9 +120,9 @@ int main(void) {
         // m0_gate_driver.fault_status = m0_gate_driver.get_error();
         if (g_serial_logger.is_update == true) {
             foc.enable = g_serial_logger.command.enabled;
-            foc.position = g_serial_logger.command.target_position;
-            foc.torque = g_serial_logger.command.target_torque;
-            foc.velocity = g_serial_logger.command.target_velocity;
+            foc.position_ref = g_serial_logger.command.target_position;
+            foc.torque_ref = g_serial_logger.command.target_torque;
+            foc.velocity_ref = g_serial_logger.command.target_velocity;
             g_serial_logger.is_update = false;
         }
         SerialLogger_SendToVofa(&g_serial_logger);
@@ -139,21 +142,18 @@ unsigned short count = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM14) {
-
-//        open_loop.updata(0.001f);
+        foc.calibrate(0.001f);
+        // open_loop.updata(0.001f);
         Encoder_Update(0, 0.001f); // 更新编码器数据(使用devidx=0)
 
-        velocityPositionLoopController.updata(50, PI, 0.001f, velocityPositionLoopController.pos_vel_mode);
-//
-        // if (foc.enable == true) {
-        //     } else {
-
-        //         TIM1->CCR1 = 0;
-        //         TIM1->CCR2 = 0;
-        //         TIM1->CCR3 = 0;
+        if (foc.enable == true) {
+            foc.velocityPositionLoop();;
+        } else {
+            TIM1->CCR1 = 0;
+            TIM1->CCR2 = 0;
+            TIM1->CCR3 = 0;
+        }
     }
-
-
     if (htim->Instance == TIM13) {
         HAL_IncTick();
     }
@@ -162,8 +162,15 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
 void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef *hadc) {
     if (&hadc1 == hadc) {
-        gADC_IN10 = hadc->Instance->JDR1; // Injected Rank1
-        gADC_IN11 = hadc->Instance->JDR2; // Injected Rank2
+        foc.current[1] = hadc->Instance->JDR2; // Injected Rank2
+        foc.current[0] = hadc->Instance->JDR1;
+        if (foc.enable == true) {
+            foc.currentLoop();
+        } else {
+            TIM1->CCR1 = 0;
+            TIM1->CCR2 = 0;
+            TIM1->CCR3 = 0;
+        }
     }
 }
 

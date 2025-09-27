@@ -1,5 +1,5 @@
 // serial_logger.c
-#include "serial_logger.h"
+#include "serial_modbus.h"
 #include <string.h>
 #include <stdio.h>
 
@@ -162,7 +162,7 @@ void SerialLogger_ProcessModbusFrame(SerialLogger_t *logger, uint8_t *frame, uin
                 } else if (start_addr + i == REG_VEL_OFFSET) {
                     logger->command.target_velocity = (float) val / 10.0f;
                 } else if (start_addr + i == REG_TOR_OFFSET) {
-                    logger->command.target_torque = (float) val / 100.0f;
+                    logger->command.target_torque = (float) val / 1000.0f;
                 } else if (start_addr + i == REG_CTRL_OFFSET) {
                     logger->command.enabled = (val & 0x01) ? 1 : 0;
                 }

@@ -4,6 +4,9 @@
 #include <algorithm> // for std::clamp
 #include <position_sensor.h>
 #include "tim.h"
+
+#include "FastMath.h"
+#include "math_ops.h"
 // PI 控制器计算函数（带抗饱和）
 float pi_controller_calculate(pi_controller_t *pi) {
     // 比例项
@@ -121,8 +124,18 @@ void currentControl::dq0(float theta, float a, float b, float c, float *d, float
 }
 
 void currentControl::setPWM(float *Ua, float *Ub, float *Uc) {
-    svm(voltage_power_supply, *Ua, *Ub, *Uc, &dc_a, &dc_b, &dc_c);
+    if (enable == true)
+        svm(voltage_power_supply, *Ua, *Ub, *Uc, &dc_a, &dc_b, &dc_c);
 
+    else if (enable == false) {
+        dc_a = 0.5f;
+        dc_b = 0.5f;
+        dc_c = 0.5f;
+        positionController.error_sum = 0;
+        velocityController.error_sum = 0;
+        IqController.error_sum = 0;
+        IdController.error_sum = 0;
+    }
 
     // 设置 PWM 寄存器
     TIM1->CCR1 = static_cast<int>((1 - dc_a) * 8400.0f);
@@ -139,7 +152,8 @@ void currentControl::svm(float v_bus, float u, float v, float w, float *dtc_u, f
     float v_offset = (fminf3(u, v, w) + fmaxf3(u, v, w)) * 0.5f;
     *dtc_u = fminf(fmaxf(((u - v_offset) / v_bus + .5f), DTC_MIN), DTC_MAX);
     *dtc_v = fminf(fmaxf(((v - v_offset) / v_bus + .5f), DTC_MIN), DTC_MAX);
-    *dtc_w = fminf(fmaxf(((w - v_offset) / v_bus + .5f), DTC_MIN), DTC_MAX); /*
+    *dtc_w = fminf(fmaxf(((w - v_offset) / v_bus + .5f), DTC_MIN), DTC_MAX);
+    /*
     sinusoidal pwm
     *dtc_u = fminf(fmaxf((u/v_bus + .5f), DTC_MIN), DTC_MAX);
     *dtc_v = fminf(fmaxf((v/v_bus + .5f), DTC_MIN), DTC_MAX);

@@ -4,7 +4,7 @@
 #include "usart.h"
 #include "drv8301.h"
 #include "tim.h"
-#include "adc.h""
+#include "adc.h"
 #include "dma.h"
 #include "application.h"
 #include "loop/open_loop_controller.h"
@@ -50,23 +50,24 @@ void packet_uart2vofa() {
     SerialLogger_AddDataToChannel(&g_serial_logger, 2, &encoderData.angular_velocity);
     SerialLogger_AddDataToChannel(&g_serial_logger, 3, &encoderData.rpm);
     SerialLogger_AddDataToChannel(&g_serial_logger, 4, &encoderData.cumulative_angle);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 5, &foc.currentA);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 6, &foc.currentB);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 7, &foc.currentC);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 8, &foc.Id);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 9, &foc.Iq);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 10, &foc.position_ref);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 11, &foc.velocity_ref);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 12, &foc.torque_ref);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 13, (float *) &foc.enable);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 14, &foc.velocityController.error);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 15, &foc.velocityController.error_sum);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 16, &foc.positionController.error);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 17, &foc.positionController.error_sum);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 18, &foc.Iq);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 19, &foc.Iq_ref);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 20, &foc.Uq);
-    SerialLogger_AddDataToChannel(&g_serial_logger, 21, &foc.Id);
+    float &currentA = foc.getCurrentA();
+    float &currentB = foc.getCurrentB();
+    float &currentC = foc.getCurrentC();
+    SerialLogger_AddDataToChannel(&g_serial_logger, 5, &currentA);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 6, &currentB);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 7, &currentC);
+    float &Id = foc.getId();
+    SerialLogger_AddDataToChannel(&g_serial_logger, 8, &Id);
+    float &Iq = foc.getIq();
+    SerialLogger_AddDataToChannel(&g_serial_logger, 9, &Iq);
+    float &position_ref = foc.getPositionReference();
+    SerialLogger_AddDataToChannel(&g_serial_logger, 10, &position_ref);
+    float &velocity_ref = foc.getVelocityReference();
+    SerialLogger_AddDataToChannel(&g_serial_logger, 11, &velocity_ref);
+    float &torque_ref = foc.getTorqueReference();
+    SerialLogger_AddDataToChannel(&g_serial_logger, 12, &torque_ref);
+    bool enable = foc.isEnabled();
+    SerialLogger_AddDataToChannel(&g_serial_logger, 13, reinterpret_cast<float *>(&enable));
 }
 
 int main(void) {
@@ -119,10 +120,10 @@ int main(void) {
     while (1) {
         // m0_gate_driver.fault_status = m0_gate_driver.get_error();
         if (g_serial_logger.is_update == true) {
-            foc.enable = g_serial_logger.command.enabled;
-            foc.position_ref = g_serial_logger.command.target_position;
-            foc.torque_ref = g_serial_logger.command.target_torque;
-            foc.velocity_ref = g_serial_logger.command.target_velocity;
+            foc.enableControl(g_serial_logger.command.enabled);
+            foc.setPositionReference(g_serial_logger.command.target_position);
+            foc.setTorqueReference(g_serial_logger.command.target_torque);
+            foc.setVelocityReference(g_serial_logger.command.target_velocity);
             g_serial_logger.is_update = false;
         }
         SerialLogger_SendToVofa(&g_serial_logger);
@@ -146,13 +147,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
         // open_loop.updata(0.001f);
         Encoder_Update(0, 0.001f); // 更新编码器数据(使用devidx=0)
 
-        if (foc.enable == true) {
-            foc.velocityPositionLoop();;
-        } else {
-            TIM1->CCR1 = 0;
-            TIM1->CCR2 = 0;
-            TIM1->CCR3 = 0;
-        }
+        foc.velocityPositionLoop();;
     }
     if (htim->Instance == TIM13) {
         HAL_IncTick();
@@ -164,13 +159,8 @@ void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef *hadc) {
     if (&hadc1 == hadc) {
         foc.current[1] = hadc->Instance->JDR2; // Injected Rank2
         foc.current[0] = hadc->Instance->JDR1;
-        if (foc.enable == true) {
-            foc.currentLoop();
-        } else {
-            TIM1->CCR1 = 0;
-            TIM1->CCR2 = 0;
-            TIM1->CCR3 = 0;
-        }
+
+        foc.currentLoop();
     }
 }
 

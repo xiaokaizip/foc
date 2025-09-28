@@ -7,6 +7,6 @@ add_library(app STATIC
         calibration/calibration.c
 
 )
-target_include_directories(app PUBLIC ${CMAKE_CURRENT_LIST_DIR} comnunication calibration)
+target_include_directories(app PUBLIC ${CMAKE_CURRENT_LIST_DIR} comnunication calibration math)
 
 target_link_libraries(app PUBLIC lwprintf stm32cubemx drv8301 AS5047)

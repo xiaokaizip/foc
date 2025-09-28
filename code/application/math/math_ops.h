@@ -1,6 +1,9 @@
 #ifndef MATH_OPS_H
 #define MATH_OPS_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #include "math.h"
 
@@ -26,5 +29,8 @@ int float_to_uint(float x, float x_min, float x_max, int bits);
 
 float uint_to_float(int x_int, float x_min, float x_max, int bits);
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif

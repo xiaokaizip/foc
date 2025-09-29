@@ -5,34 +5,10 @@
 #include "open_loop_controller.h"
 #include "tim.h" // 假设 TIM1 定义在此头文件中
 
-void open_loop_controller::updata(float period) {
-    float Uq = -1.0f; // 测试负值
-    float Ud = 0.0f;
-
-    float speed = 7.0f; // 电角度速度 (rad/s)
-
-    // ✅ 根据 Uq 符号决定 angle 增减
-    // if (Uq >= 0.0f) {
-    //     electric_angle += speed * period;
-    // } else {
-    //     electric_angle -= speed * period;
-    // }
-    // electric_angle -= 5 * speed * period;
-    electric_angle += 0.00;
-    // ✅ 强制限制在 [0, 2π)
+void open_loop_controller::updata(float electric_angle, float Ud, float Uq) {
     electric_angle = fmodf(electric_angle, 2.0f * PI);
-    // if (electric_angle < 0.0f) electric_angle += 2.0f * PI;
 
-    // // Park 反变换
-    // U_alpha = -Uq * sinf(electric_angle);
-    // U_beta = Uq * cosf(electric_angle);
-    //
-    // // Clark 逆变换
-    // Ua = U_alpha + voltage_power_supply / 2.0f;
-    // Ub = (-0.5f * U_alpha + 0.8660254f * U_beta) + voltage_power_supply / 2.0f;
-    // Uc = (-0.5f * U_alpha - 0.8660254f * U_beta) + voltage_power_supply / 2.0f;
-
-    abc(electric_angle, 1.0f, 0.0f, &Ua, &Ub, &Uc);
+    abc(electric_angle, Ud, Uq, &Ua, &Ub, &Uc);
 
     setPWM(&Ua, &Ub, &Uc);
 }

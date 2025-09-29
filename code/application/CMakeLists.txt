@@ -4,7 +4,7 @@ add_library(app STATIC
         loop/velocityPositionLoopController.cpp loop/currentControl.cpp
         math/FastMath.c
         comnunication/serial_modbus.c calibration/currentCalibration.cpp
-        calibration/calibration.c
+        calibration/calibrationPhase.cpp
 
 )
 target_include_directories(app PUBLIC ${CMAKE_CURRENT_LIST_DIR} comnunication calibration math)

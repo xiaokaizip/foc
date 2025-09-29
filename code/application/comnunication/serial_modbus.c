@@ -165,6 +165,7 @@ void SerialLogger_ProcessModbusFrame(SerialLogger_t *logger, uint8_t *frame, uin
                     logger->command.target_torque = (float) val / 1000.0f;
                 } else if (start_addr + i == REG_CTRL_OFFSET) {
                     logger->command.enabled = (val & 0x01) ? 1 : 0;
+                    logger->command.calibration = (val & 0x10) ? 1 : 0;
                 }
             }
 

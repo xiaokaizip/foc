@@ -54,16 +54,16 @@ void currentControl::velocityPositionLoop() {
     // （来自编码器）
     theta = encoderData.electrical_angle; //来自编码器的电角度
     velocity = encoderData.angular_velocity; //来自编码器的角速度
-    position = encoderData.mechanical_angle; //来自编码器的速度，使用编码器的角度的话，确定好方向
+    position = encoderData.cumulative_angle; //来自编码器的速度，使用编码器的角度的话，确定好方向
     float pos2Vel = 0;
 
-    positionController.error = -position_ref + position;
+    positionController.error = position_ref - position;
     pos2Vel = pi_controller_calculate(&positionController);
 
     limit(&pos2Vel, -velocity_ref, velocity_ref);
 
     // 5. 外环：位置或速度环（示例为速度环）
-    velocityController.error = pos2Vel - velocity;
+    velocityController.error = -pos2Vel + velocity;
     pi_controller_calculate(&velocityController);
     Iq_ref = velocityController.out; // 作为电流环 q轴参考值
     limit(&Iq_ref, -torque_ref, torque_ref);
@@ -92,7 +92,7 @@ void currentControl::currentLoop() {
     Ud = pi_controller_calculate(&IdController);
 
 
-    abc(theta, Ud, Uq, &Ua, &Ub, &Uc);
+    abc(theta, Id, Uq, &Ua, &Ub, &Uc);
     setPWM(&Ua, &Ub, &Uc);
 }
 
@@ -138,9 +138,17 @@ void currentControl::setPWM(float *Ua, float *Ub, float *Uc) {
     }
 
     // 设置 PWM 寄存器
+    //direction = -1;
+
     TIM1->CCR1 = static_cast<int>((1 - dc_a) * 8400.0f);
     TIM1->CCR2 = static_cast<int>((1 - dc_b) * 8400.0f);
     TIM1->CCR3 = static_cast<int>((1 - dc_c) * 8400.0f);
+
+    //direction = 1
+    //
+    // TIM1->CCR1 = static_cast<int>((1 - dc_a) * 8400.0f);
+    // TIM1->CCR2 = static_cast<int>((1 - dc_b) * 8400.0f);
+    // TIM1->CCR3 = static_cast<int>((1 - dc_c) * 8400.0f);
 }
 
 #define DTC_MIN 0

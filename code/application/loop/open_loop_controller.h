@@ -23,7 +23,7 @@ public:
     virtual ~open_loop_controller() = default;
 
     // 开环控制更新
-    virtual void updata(float period);
+    void updata(float electric_angle, float Ud, float Uq);
 
     // 提供对 PWM 占空比的访问
     float dc_a = 0.0f, dc_b = 0.0f, dc_c = 0.0f;

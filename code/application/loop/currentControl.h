@@ -37,6 +37,8 @@ public:
     void enableControl(bool en) { enable = en; }
     bool &isEnabled() { return enable; }
 
+    void setPhaseCalibration(bool cal) { phaseCalibrated = cal; }
+    bool &isPhaseCalibration() { return phaseCalibrated; }
     // ========== 参考值设置接口 ==========
     void setTorqueReference(const float torque) {
         torque_ref = torque;
@@ -72,6 +74,42 @@ public:
     // ========== 主控制循环接口 ==========
     void velocityPositionLoop(); // 外环：位置/速度控制
     void currentLoop(); // 内环：电流控制
+    // ========== PI 控制器（全部私有）==========
+    pi_controller_t positionController = {
+        5.0f, 0.0f, // kp, ki
+        0.0f, 0.0f, // error, error_sum
+        100.0f, -100.0f, // error_sum_max/min
+        0.0f, // out
+        100.0f, -100.0f, // out_max, out_min
+        false // anti_windup
+    };
+
+    pi_controller_t velocityController = {
+        0.1f, 0.0002f,
+        0.0f, 0.0f,
+        1000.0f, -1000.0f,
+        0.0f,
+        0.5f, -0.5f,
+        true
+    };
+
+    pi_controller_t IqController = {
+        1.0f, 0.002f,
+        0.0f, 0.0f,
+        10000.0f, -10000.0f,
+        0.0f,
+        2.0f, -2.0f,
+        true
+    };
+
+    pi_controller_t IdController = {
+        5.05f, 0.02f,
+        0.0f, 0.0f,
+        10000.0f, -10000.0f,
+        0.0f,
+        0.8f, -0.8f,
+        true
+    };
 
 private:
     // ========== 常量定义 ==========
@@ -83,6 +121,7 @@ private:
 
     // ========== 控制标志与参考值 ==========
     bool enable = false;
+    bool phaseCalibrated = false;
 
     float torque_ref = 0.0f;
     float velocity_ref = 0.0f;
@@ -116,42 +155,6 @@ private:
     float electric_angle = 0.0f;
     float theta = 0.0f; // 电角度
 
-    // ========== PI 控制器（全部私有）==========
-    pi_controller_t positionController = {
-        5.0f, 0.0f, // kp, ki
-        0.0f, 0.0f, // error, error_sum
-        100.0f, -100.0f, // error_sum_max/min
-        0.0f, // out
-        100.0f, -100.0f, // out_max, out_min
-        false // anti_windup
-    };
-
-    pi_controller_t velocityController = {
-        0.005f, 0.0002f,
-        0.0f, 0.0f,
-        10000.0f, -10000.0f,
-        0.0f,
-        1.0f, -1.0f,
-        true
-    };
-
-    pi_controller_t IqController = {
-        5.0f, 0.02f,
-        0.0f, 0.0f,
-        10000.0f, -10000.0f,
-        0.0f,
-        2.0f, -2.0f,
-        true
-    };
-
-    pi_controller_t IdController = {
-        0.05f, 0.01f,
-        0.0f, 0.0f,
-        10000.0f, -10000.0f,
-        0.0f,
-        2.0f, -2.0f,
-        true
-    };
 
     // ========== 电源电压 ==========
     float voltage_power_supply = 24.0f;

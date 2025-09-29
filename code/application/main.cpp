@@ -17,6 +17,7 @@
 #include "cmsis_os.h"
 #include "delay.h"
 #include "currentCalibration.h"
+#include "calibrationPhase.h"
 
 extern "C" {
 #include "lwprintf/lwprintf.h"
@@ -67,7 +68,37 @@ void packet_uart2vofa() {
     float &torque_ref = foc.getTorqueReference();
     SerialLogger_AddDataToChannel(&g_serial_logger, 12, &torque_ref);
     bool enable = foc.isEnabled();
-    SerialLogger_AddDataToChannel(&g_serial_logger, 13, reinterpret_cast<float *>(&enable));
+    SerialLogger_AddDataToChannel(&g_serial_logger, 13, &foc.IqController.error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 14, &foc.IqController.out);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 15, &foc.velocityController.error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 16, &foc.velocityController.out);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 17, &foc.positionController.error_sum);
+    SerialLogger_AddDataToChannel(&g_serial_logger, 18, &foc.positionController.out);
+    // SerialLogger_AddDataToChannel(&g_serial_logger, 19, );
+    // SerialLogger_AddDataToChannel(&g_serial_logger, 20, );
+}
+
+void uart_task(void *pvParameters) {
+    while (1) {
+        if (g_serial_logger.is_update == true) {
+            foc.enableControl(g_serial_logger.command.enabled);
+            foc.setPhaseCalibration(g_serial_logger.command.calibration);
+            foc.setPositionReference(g_serial_logger.command.target_position);
+            foc.setTorqueReference(g_serial_logger.command.target_torque);
+            foc.setVelocityReference(g_serial_logger.command.target_velocity);
+            g_serial_logger.is_update = false;
+        }
+        SerialLogger_SendToVofa(&g_serial_logger);
+        vTaskDelay(1);
+    }
+}
+
+void calibration_task(void *pvParameters) {
+    while (1) {
+        calibrate(foc.isPhaseCalibration());
+        foc.setPhaseCalibration(false);
+        vTaskDelay(1);
+    }
 }
 
 int main(void) {
@@ -116,36 +147,36 @@ int main(void) {
 
     SerialLogger_StartReceive(&g_serial_logger);
 
+    xTaskCreate(uart_task, "uart_task", 1024, NULL, tskIDLE_PRIORITY + 1, NULL);
+    xTaskCreate(calibration_task, "cal_task", 1024, NULL, tskIDLE_PRIORITY + 1, NULL);
+
+    vTaskStartScheduler();
 
     while (1) {
-        // m0_gate_driver.fault_status = m0_gate_driver.get_error();
-        if (g_serial_logger.is_update == true) {
-            foc.enableControl(g_serial_logger.command.enabled);
-            foc.setPositionReference(g_serial_logger.command.target_position);
-            foc.setTorqueReference(g_serial_logger.command.target_torque);
-            foc.setVelocityReference(g_serial_logger.command.target_velocity);
-            g_serial_logger.is_update = false;
-        }
-        SerialLogger_SendToVofa(&g_serial_logger);
         HAL_Delay(1);
     }
 }
 
 int uart_out(int ch, lwprintf_t *lwp) {
     if (ch != '\0') {
-        HAL_UART_Transmit(&huart4, (uint8_t *) &ch, 1, 10);
+        HAL_UART_Transmit(&huart4, reinterpret_cast<uint8_t *>(&ch), 1, 10);
     }
     return ch;
 }
 
 unsigned char flag = 0;
 unsigned short count = 0;
+float angle = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM14) {
         foc.calibrate(0.001f);
         // open_loop.updata(0.001f);
         Encoder_Update(0, 0.001f); // 更新编码器数据(使用devidx=0)
+        // if (foc.isEnabled()) {
+        //     angle += 10 * 7 * 0.001f;
+        //     foc.setPositionReference(angle);
+        // }
 
         foc.velocityPositionLoop();;
     }
@@ -159,7 +190,6 @@ void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef *hadc) {
     if (&hadc1 == hadc) {
         foc.current[1] = hadc->Instance->JDR2; // Injected Rank2
         foc.current[0] = hadc->Instance->JDR1;
-
         foc.currentLoop();
     }
 }

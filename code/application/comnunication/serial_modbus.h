@@ -18,7 +18,7 @@ extern "C" {
 #define REG_TOR_OFFSET        0x67           // 目标扭矩 ×100
 #define REG_CTRL_OFFSET       0x68           // 控制字
 #define REG_STAT_OFFSET       0x69           // 状态字
-#define MODBUS_REG_COUNT      0x70          // 总寄存器数量
+#define MODBUS_REG_COUNT      0x75          // 总寄存器数量
 
 // ==================== 数据结构 ====================
 
@@ -34,6 +34,7 @@ typedef struct {
     float target_velocity;
     float target_torque;
     uint8_t enabled;
+    uint8_t calibration;
 } ControlCommand_t;
 
 // Modbus 串口日志器上下文（替代 C++ 类）
@@ -46,6 +47,7 @@ typedef struct {
     uint16_t rx_index;
     //用来判断是否有更新数据
     bool is_update;
+
 
     // Modbus 寄存器池
     uint16_t modbus_registers[MODBUS_REG_COUNT];

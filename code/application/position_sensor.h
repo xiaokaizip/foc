@@ -20,6 +20,7 @@ typedef struct {
     uint16_t magnitude;
     uint8_t agc_value;
     uint16_t error_flags;
+    int direction;
     uint32_t timestamp;
 } EncoderData_t;
 

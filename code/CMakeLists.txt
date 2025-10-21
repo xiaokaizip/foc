@@ -22,7 +22,7 @@ endif ()
 set(CMAKE_PROJECT_NAME foc)
 
 # Include toolchain file
-include("board/cmake/gcc-arm-none-eabi.cmake")
+include("board/odrive/cmake/gcc-arm-none-eabi.cmake")
 
 # Enable compile command to ease indexing with e.g. clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
@@ -39,8 +39,9 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 add_executable(${CMAKE_PROJECT_NAME})
 
 # Add STM32CubeMX generated sources
-add_subdirectory(board/cmake/stm32cubemx)
-add_subdirectory(application)
+add_subdirectory(board/odrive/cmake/stm32cubemx)
+
+add_subdirectory(application/odrive)
 add_subdirectory(third_party/lwprintf)
 add_subdirectory(drivers/drv8301)
 add_subdirectory(drivers/AS5047)
@@ -68,7 +69,7 @@ target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
         stm32cubemx
-        app
+        app_odrive
         lwprintf
         drv8301
         AS5047

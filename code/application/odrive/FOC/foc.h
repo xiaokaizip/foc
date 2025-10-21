@@ -32,4 +32,10 @@ void torque_control(ControllerStruct *controller);
 void limit_current_ref(ControllerStruct *controller);
 
 void linearize_dtc(float *dtc);
+
+void open_loop(ControllerStruct *controller, float sample_time);
+
+void velocity_control(ControllerStruct *controller, float sample_time);
+
+void position_velocity_control(ControllerStruct *controller);
 #endif

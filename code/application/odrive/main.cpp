@@ -20,6 +20,8 @@
 #include "Calibration/calibration.h"
 #include "comnunication/serial_common.h"
 #include "fsm.h"
+#include "usbd_cdc_if.h"
+#include "usb_device.h"
 
 extern "C" {
 #include "lwprintf/lwprintf.h"
@@ -60,7 +62,10 @@ int main(void) {
     MX_TIM14_Init();
     MX_TIM12_Init();
     MX_ADC1_Init();
+    MX_USB_DEVICE_Init();
+
     delay_us_init(&htim12);
+
     lwprintf_init(uart_out); // 默认实例
     lwprintf_printf("init foc\n\r");
 
@@ -107,6 +112,7 @@ int main(void) {
     ps.SetMechOffset(M_OFFSET);
     int lut[128] = {0};
     memcpy(&lut, &ENCODER_LUT, sizeof(lut));
+
     ps.WriteLUT(lut); // Set potision sensor nonlinearity lookup table
     init_controller_params(&controller);
 
@@ -117,7 +123,12 @@ int main(void) {
     controller.kp = 0.04f;
     controller.kd = 0.005f;
     controller.t_ff = 0.001f;
+    controller.v_bus = 24.0f;
+
+    char str[48] = "hello world\n";
     while (1) {
+        // CDC_Transmit_FS((uint8_t *) str, strlen(str));
+        HAL_Delay(1);
         serial_process();
     }
 }
@@ -129,11 +140,14 @@ int uart_out(int ch, lwprintf_t *lwp) {
     return ch;
 }
 
-float angle = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM14) {
         ps.Sample(0.001f);
+        controller.theta_elec = ps.GetElecPosition();
+        controller.theta_mech = (1.0f / GR) * ps.GetMechPosition();
+        controller.dtheta_mech = (1.0f / GR) * ps.GetMechVelocity();
+        controller.dtheta_elec = ps.GetElecVelocity();
         fsm();
     }
     if (htim->Instance == TIM13) {
@@ -141,21 +155,13 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     }
 }
 
-int currentA, currentB = 0;
-
 
 void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef *hadc) {
     if (&hadc1 == hadc) {
         controller.adc2_raw = hadc->Instance->JDR2; // Injected Rank2
         controller.adc1_raw = hadc->Instance->JDR1;
 
-        if (state == MOTOR_MODE) {
-            controller.theta_elec = ps.GetElecPosition();
-            controller.theta_mech = (1.0f / GR) * ps.GetMechPosition();
-            controller.dtheta_mech = (1.0f / GR) * ps.GetMechVelocity();
-            controller.dtheta_elec = ps.GetElecVelocity();
-            controller.v_bus = 24.0f;
-            torque_control(&controller);
+        if (state == MOTOR_MODE || state == VELOCITY_MODE || state == POSITION_MODE) {
             commutate(&controller, controller.theta_elec); // Run current loop
             controller.timeout++;
         }

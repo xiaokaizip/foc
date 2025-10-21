@@ -98,6 +98,7 @@ void reset_foc(ControllerStruct *controller) {
     controller->i_q_filt = 0;
     controller->q_int = 0;
     controller->d_int = 0;
+    controller->vel_int = 0;
     controller->v_q = 0;
     controller->v_d = 0;
 }
@@ -238,3 +239,61 @@ void torque_control(ControllerStruct *controller) {
     controller->i_d_ref = 0.0f;
 }
 
+void open_loop(ControllerStruct *controller, float sample_time) {
+    controller->theta_elec += sample_time * 7 * controller->v_des;
+    controller->theta_elec = fmodf(controller->theta_elec, 2 * PI);
+
+    controller->v_d = 0.0f;
+    controller->v_q = 3.0f;
+    abc(controller->theta_elec, controller->v_d, controller->v_q,
+        &controller->v_u, &controller->v_v, &controller->v_w); //inverse dq0 transform on voltages
+    svm(controller->v_bus, controller->v_u, controller->v_v, controller->v_w, &controller->dtc_u,
+        &controller->dtc_v,
+        &controller->dtc_w); //space vector modulation
+
+    if (PHASE_ORDER) {
+        // Check which phase order to use,
+        TIM1->CCR3 = (PWM_ARR >> 1) * (1.0f - controller->dtc_u); // Write duty cycles
+        TIM1->CCR2 = (PWM_ARR >> 1) * (1.0f - controller->dtc_v);
+        TIM1->CCR1 = (PWM_ARR >> 1) * (1.0f - controller->dtc_w);
+    } else {
+        TIM1->CCR3 = (PWM_ARR >> 1) * (1.0f - controller->dtc_u);
+        TIM1->CCR1 = (PWM_ARR >> 1) * (1.0f - controller->dtc_v);
+        TIM1->CCR2 = (PWM_ARR >> 1) * (1.0f - controller->dtc_w);
+    }
+}
+
+void velocity_control(ControllerStruct *controller, float sample_time) {
+    controller->p_des += sample_time * controller->v_des;
+
+    controller->pos_error = controller->p_des - controller->theta_mech;
+
+    float vel_expect = 0;
+
+    // vel_expect = controller->pos_error * controller->pos_kp;
+    // vel_expect = fmaxf(fminf(vel_expect, controller->v_des * 1.1f), -controller->v_des * 1.1f);
+
+    vel_expect = controller->v_des;
+
+    controller->vel_error = vel_expect - controller->dtheta_mech;
+    controller->vel_int += controller->vel_kp * controller->vel_ki * controller->vel_error;
+    controller->vel_int = fmaxf(fminf(controller->vel_int, 1.0f), -1.0f);
+    controller->i_q_ref = controller->vel_kp * controller->vel_error + controller->vel_int;
+    controller->i_d_ref = 0.0f;
+}
+
+void position_velocity_control(ControllerStruct *controller) {
+    controller->pos_error = controller->p_des - controller->theta_mech;
+
+    float vel_expect = 0;
+
+    vel_expect = controller->pos_error * controller->pos_kp;
+    vel_expect = fmaxf(fminf(vel_expect, controller->v_des * 1.1f), -controller->v_des * 1.1f);
+
+
+    controller->vel_error = vel_expect - controller->dtheta_mech;
+    controller->vel_int += controller->vel_kp * controller->vel_ki * controller->vel_error;
+    controller->vel_int = fmaxf(fminf(controller->vel_int, 1.0f), -1.0f);
+    controller->i_q_ref = controller->vel_kp * controller->vel_error + controller->vel_int;
+    controller->i_d_ref = 0.0f;
+}

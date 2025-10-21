@@ -25,7 +25,7 @@ void send_to_vofa() {
     packet.data[1] = ps.GetElecVelocity();
     packet.data[2] = ps.GetMechPosition();
     packet.data[3] = ps.GetMechVelocity();
-    packet.data[4] = controller.adc1_offset;
+    packet.data[4] = controller.theta_elec;
     packet.data[5] = controller.adc2_offset;
     packet.data[6] = TIM1->CCR1;
     packet.data[7] = TIM1->CCR2;
@@ -34,9 +34,9 @@ void send_to_vofa() {
     packet.data[10] = controller.i_b;
     packet.data[11] = controller.i_c;
 
-    packet.data[12] = controller.i_d;
-    packet.data[13] = controller.i_q;
-    packet.data[14] = controller.t_ff;
+    packet.data[12] = controller.dtc_u;
+    packet.data[13] = controller.dtc_v;
+    packet.data[14] = controller.dtc_w;
     packet.data[15] = controller.kd;
     packet.data[16] = controller.kp;
     packet.data[17] = controller.p_des;

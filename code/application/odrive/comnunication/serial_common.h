@@ -15,7 +15,10 @@ enum State {
     CALIBRATION_MODE,
     MOTOR_MODE,
     SETUP_MODE,
-    ENCODER_MODE
+    ENCODER_MODE,
+    OPEN_LOOP_MODE,
+    VELOCITY_MODE,
+    POSITION_MODE,
 };
 
 extern int state;

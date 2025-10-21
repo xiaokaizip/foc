@@ -56,6 +56,7 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+extern PCD_HandleTypeDef hpcd_USB_OTG_FS;
 extern ADC_HandleTypeDef hadc1;
 extern TIM_HandleTypeDef htim14;
 extern DMA_HandleTypeDef hdma_uart4_rx;
@@ -208,16 +209,28 @@ void TIM8_TRG_COM_TIM14_IRQHandler(void) {
 /**
   * @brief This function handles UART4 global interrupt.
   */
-void UART4_IRQHandler(void) {
-  /* USER CODE BEGIN UART4_IRQn 0 */
+// void UART4_IRQHandler(void)
+// {
+//   /* USER CODE BEGIN UART4_IRQn 0 */
+//
+//   /* USER CODE END UART4_IRQn 0 */
+//   HAL_UART_IRQHandler(&huart4);
+//   /* USER CODE BEGIN UART4_IRQn 1 */
+//
+//   /* USER CODE END UART4_IRQn 1 */
+// }
 
-  /* USER CODE END UART4_IRQn 0 */
-  HAL_UART_IRQHandler(&huart4);
-  /* USER CODE BEGIN UART4_IRQn 1 */
+/**
+  * @brief This function handles USB On The Go FS global interrupt.
+  */
+void OTG_FS_IRQHandler(void) {
+  /* USER CODE BEGIN OTG_FS_IRQn 0 */
 
-  // 只处理 IDLE 中断
+  /* USER CODE END OTG_FS_IRQn 0 */
+  HAL_PCD_IRQHandler(&hpcd_USB_OTG_FS);
+  /* USER CODE BEGIN OTG_FS_IRQn 1 */
 
-  /* USER CODE END UART4_IRQn 1 */
+  /* USER CODE END OTG_FS_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */

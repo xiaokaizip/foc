@@ -17,6 +17,8 @@ typedef struct {
     float v_bus; // DC link voltage
     float theta_mech, theta_elec; // Rotor mechanical and electrical angle
     float dtheta_mech, dtheta_elec, dtheta_elec_filt; // Rotor mechanical and electrical angular velocit
+    float vel_error, vel_int, pos_error, pos_int;
+    float vel_kp, vel_ki, pos_kp;
     float i_d, i_q, i_q_filt, i_d_filt; // D/Q currents
     float v_d, v_q; // D/Q voltages
     float dtc_u, dtc_v, dtc_w; // Terminal duty cycles

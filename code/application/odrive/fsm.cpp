@@ -47,6 +47,7 @@ void enter_torque_mode(void) {
     delayus(.001);
     controller.i_d_ref = 0;
     controller.i_q_ref = 0; // Current Setpoints
+
     state_change = 0;
 
     lwprintf_printf("\n\r Entering Motor Mode \n\r");
@@ -100,6 +101,11 @@ void fsm() {
 
         case MOTOR_MODE: // Run torque control
             if (state_change) {
+                controller.p_des = 10.0f;
+                controller.v_des = 20.0f;
+                controller.kp = 0.1f;
+                controller.kd = 0.001f;
+                controller.t_ff = 0.001f;
                 enter_torque_mode();
                 count = 0;
             } else {
@@ -111,15 +117,63 @@ void fsm() {
                     controller.t_ff = 0;
                 }
 
-                // torque_control(&controller);
+                torque_control(&controller);
                 // commutate(&controller, controller.theta_elec); // Run current loop
                 count++;
             }
+            break;
+        case OPEN_LOOP_MODE:
+            if (state_change) {
+                controller.p_des = 0.0f;
+                controller.v_des = 20.0f;
+                controller.kp = 0.00f;
+                controller.kd = 0.00f;
+                controller.t_ff = 0.00f;
+                controller.theta_elec = 0;
+                reset_foc(&controller);
+                state_change = 0;
+            }
+            open_loop(&controller, PS_DT);
             break;
         case SETUP_MODE:
             if (state_change) {
                 enter_setup_state();
             }
+            break;
+        case VELOCITY_MODE:
+            if (state_change) {
+                controller.p_des = 0.0f;
+                controller.v_des = 20.0f;
+                controller.kp = 0.00f;
+                controller.kd = 0.00f;
+                controller.t_ff = 0.00f;
+                controller.theta_mech = 0;
+                controller.vel_kp = 0.05f;
+                controller.vel_ki = 0.0001f;
+                controller.pos_kp = 2.5f;
+                reset_foc(&controller);
+                ps.ZeroPosition();
+                state_change = 0;
+            }
+            velocity_control(&controller,PS_DT);
+            break;
+        case POSITION_MODE:
+            if (state_change) {
+                controller.p_des = 10.0f;
+                controller.v_des = 20.0f;
+                controller.kp = 0.00f;
+                controller.kd = 0.00f;
+                controller.t_ff = 0.00f;
+                controller.theta_mech = 0;
+
+                controller.vel_kp = 0.1f;
+                controller.vel_ki = 0.0001f;
+                controller.pos_kp = 2.5f;
+                reset_foc(&controller);
+                ps.ZeroPosition();
+                state_change = 0;
+            }
+            position_velocity_control(&controller);
             break;
         case ENCODER_MODE:
             print_encoder();

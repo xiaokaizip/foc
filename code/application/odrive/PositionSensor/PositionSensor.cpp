@@ -24,17 +24,6 @@ PositionSensorAM5047::PositionSensorAM5047(int CPR, float offset, int ppairs) {
 }
 
 void PositionSensorAM5047::Sample(float dt) {
-    // GPIOA->ODR &= ~(1 << 15);
-    // //raw = spi->write(readAngleCmd);
-    // //raw &= 0x3FFF;
-    // raw = spi->write(0);
-    // raw = raw>>2;                                                             //Extract last 14 bits
-    // GPIOA->ODR |= (1 << 15);
-    // int off_1 =     [raw>>7];
-    // int off_2 = offset_lut[((raw>>7)+1)%128];
-    // int off_interp = off_1 + ((off_2 - off_1)*(raw - ((raw>>7)<<7))>>7);        // Interpolate between lookup table entries
-
-
     int angle = AS5047_ReadData(0, ANGLECOM_AS5047P_VOL_REG_ADD);;
     // Correct for nonlinearity with lookup table from calibration
     if (angle - old_counts > _CPR / 2) {

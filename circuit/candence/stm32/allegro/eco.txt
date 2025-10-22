@@ -1,0 +1,922 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  A_PB6        pins ADDED TO this new net
+                                 J4.4           R66.2          U1.57          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT1        pins ADDED TO this new net
+                                 C10.1          U1.41          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT2        pins ADDED TO this new net
+                                 C11.1          U1.38          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT3        pins ADDED TO this new net
+                                 C14.1          U1.35          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_RX       pins ADDED TO this new net
+                                 U1.47          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_TX       pins ADDED TO this new net
+                                 U1.48          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK          pins ADDED TO this new net
+                                 J6.2           U1.50          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DAC1_PA4     pins ADDED TO this new net
+                                 U1.17          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DAC2_PA5     pins ADDED TO this new net
+                                 U1.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DIO          pins ADDED TO this new net
+                                 J6.3           U1.49          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GHS1         pins ADDED TO this new net
+                                 R34.1          R42.1          U1.43          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GHS2         pins ADDED TO this new net
+                                 R36.1          R43.1          U1.40          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GHS3         pins ADDED TO this new net
+                                 R38.1          R44.1          U1.37          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GLS1         pins ADDED TO this new net
+                                 R48.1          R54.1          U1.29          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GLS2         pins ADDED TO this new net
+                                 R49.1          R55.1          U1.30          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GLS3         pins ADDED TO this new net
+                                 R50.1          R56.1          U1.31          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C34.1          C35.2          U1.32          
+                                 Y1.2           Y1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND_SIGNAL   pins ADDED TO this new net
+                                 C2.2           C3.2           C4.2           
+                                 C5.2           C6.2           C28.1          
+                                 C29.1          C30.1          C32.1          
+                                 C33.1          C36.1          C37.1          
+                                 C38.1          C39.1          C40.1          
+                                 C41.1          C42.1          C43.1          
+                                 D11.1          D12.1          D13.1          
+                                 D14.2          J1.1           J3.5           
+                                 J4.5           J5.6           J6.4           
+                                 J7.4           R4.1           R5.1           
+                                 R12.2          R13.2          R14.2          
+                                 R30.2          R31.2          R32.2          
+                                 R72.2          R74.2          R76.2          
+                                 R78.1          U1.65          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C_SCL_PB8  pins ADDED TO this new net
+                                 J3.3           R67.2          U1.59          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C_SDA_B_PB7 pins ADDED TO this new net
+                                 J3.4           J4.3           R68.2          
+                                 U1.58          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03276       pins ADDED TO this new net
+                                 D5.2           Q1.4           R34.2          
+                                 R39.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03332       pins ADDED TO this new net
+                                 D6.2           Q3.4           R36.2          
+                                 R40.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03359       pins ADDED TO this new net
+                                 D9.2           R49.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03390       pins ADDED TO this new net
+                                 D7.2           Q5.4           R38.2          
+                                 R41.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N03417       pins ADDED TO this new net
+                                 D10.2          Q6.4           R50.2          
+                                 R53.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N09163       pins ADDED TO this new net
+                                 D8.2           Q2.4           R48.2          
+                                 R51.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13348       pins ADDED TO this new net
+                                 C7.1           R35.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13498       pins ADDED TO this new net
+                                 C16.1          R45.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13792       pins ADDED TO this new net
+                                 C8.1           R33.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13800       pins ADDED TO this new net
+                                 C17.1          R46.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13998       pins ADDED TO this new net
+                                 C9.1           R37.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N14018       pins ADDED TO this new net
+                                 C18.1          R47.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N851860      pins ADDED TO this new net
+                                 D7.1           R44.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N852060      pins ADDED TO this new net
+                                 D5.1           R42.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16763649    pins ADDED TO this new net
+                                 D8.1           R54.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16763733    pins ADDED TO this new net
+                                 Q4.4           R52.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16763779    pins ADDED TO this new net
+                                 D9.1           R55.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16763895    pins ADDED TO this new net
+                                 D6.1           R43.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16764138    pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 D10.1          R56.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16769287    pins ADDED TO this new net
+                                 R24.1          R25.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16769693    pins ADDED TO this new net
+                                 R26.1          R27.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16770046    pins ADDED TO this new net
+                                 R28.1          R29.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16772561    pins ADDED TO this new net
+                                 C28.2          KEY1.1         R69.1          
+                                 R72.1          R73.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16772640    pins ADDED TO this new net
+                                 D12.2          R73.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16773433    pins ADDED TO this new net
+                                 C30.2          KEY3.1         R71.1          
+                                 R76.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16774050    pins ADDED TO this new net
+                                 C29.2          KEY2.1         R70.1          
+                                 R74.1          R75.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16774172    pins ADDED TO this new net
+                                 D13.2          R75.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16775582    pins ADDED TO this new net
+                                 R60.2          R61.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16775602    pins ADDED TO this new net
+                                 D11.2          R61.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NRST_PG10    pins ADDED TO this new net
+                                 U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPN1_PA3     pins ADDED TO this new net
+                                 R15.1          R18.2          R21.2          
+                                 U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPN2_PC5     pins ADDED TO this new net
+                                 R16.1          R19.2          R22.2          
+                                 U1.22          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  OPN3_PB2     pins ADDED TO this new net
+                                 R17.1          R20.2          R23.2          
+                                 U1.25          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPO1_PA2     pins ADDED TO this new net
+                                 R18.1          R21.1          U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPO2_PA6     pins ADDED TO this new net
+                                 R19.1          R22.1          U1.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPO3_PB1     pins ADDED TO this new net
+                                 R20.1          R23.1          U1.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPP1_PA1     pins ADDED TO this new net
+                                 R6.2           R9.1           R12.1          
+                                 U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPP2_PA7     pins ADDED TO this new net
+                                 R7.2           R10.1          R13.1          
+                                 U1.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPP3_PB0     pins ADDED TO this new net
+                                 R8.2           R11.1          R14.1          
+                                 U1.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSCIN_PF0    pins ADDED TO this new net
+                                 C34.2          U1.6           Y1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSCOUT_PF1   pins ADDED TO this new net
+                                 C35.1          U1.7           Y1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT1         pins ADDED TO this new net
+                                 C7.2           C10.2          J2.1           
+                                 Q1.1           Q1.2           Q1.3           
+                                 Q2.5           Q2.6           Q2.7           
+                                 Q2.8           R24.2          R39.1          
+                                 R45.2          U1.42          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT2         pins ADDED TO this new net
+                                 C8.2           C11.2          J2.2           
+                                 Q3.1           Q4.5           Q4.6           
+                                 Q4.7           Q4.8           R26.2          
+                                 R40.1          R46.2          U1.39          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT3         pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C9.2           C14.2          J2.3           
+                                 Q5.1           Q5.2           Q5.3           
+                                 Q6.5           Q6.6           Q6.7           
+                                 Q6.8           R28.2          R41.1          
+                                 R47.2          U1.36          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA8          pins ADDED TO this new net
+                                 U1.44          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA15         pins ADDED TO this new net
+                                 U1.51          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PB9          pins ADDED TO this new net
+                                 U1.60          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC0          pins ADDED TO this new net
+                                 C4.1           D2.2           R25.1          
+                                 R30.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC1          pins ADDED TO this new net
+                                 C5.1           D3.2           R27.1          
+                                 R31.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC2          pins ADDED TO this new net
+                                 C6.1           D4.2           R29.1          
+                                 R32.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC3          pins ADDED TO this new net
+                                 U1.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC4          pins ADDED TO this new net
+                                 C3.1           D1.2           R1.1           
+                                 R2.1           R5.2           U1.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC13         pins ADDED TO this new net
+                                 R69.2          U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC14         pins ADDED TO this new net
+                                 R70.2          U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PC15         pins ADDED TO this new net
+                                 U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PG10         pins ADDED TO this new net
+                                 R71.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  REGIN        pins ADDED TO this new net
+                                 U1.64          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCREF        pins ADDED TO this new net
+                                 R77.1          R78.2          U1.52          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SNA          pins ADDED TO this new net
+                                 C19.2          C20.2          C21.2          
+                                 C22.2          C23.2          C24.2          
+                                 C25.2          C26.2          C27.2          
+                                 R15.2          R16.2          R17.2          
+                                 R57.1          R58.1          R59.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPA          pins ADDED TO this new net
+                                 C12.2          C16.2          Q2.1           
+                                 Q2.2           Q2.3           R9.2           
+                                 R51.1          R57.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPB          pins ADDED TO this new net
+                                 C13.2          C17.2          Q4.1           
+                                 Q4.2           Q4.3           R10.2          
+                                 R52.1          R58.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPC          pins ADDED TO this new net
+                                 C15.2          C18.2          Q6.1           
+                                 Q6.2           Q6.3           R11.2          
+                                 R53.1          R59.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_CS_PD2   pins ADDED TO this new net
+                                 J5.5           U1.53          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_MISO_PB4 pins ADDED TO this new net
+                                 J5.3           R63.2          U1.55          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_MOSI_PB5 pins ADDED TO this new net
+                                 J5.2           R62.2          U1.56          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_SCK_Z_PB3 pins ADDED TO this new net
+                                 J4.2           J5.4           R64.2          
+                                 R65.2          U1.54          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SW           pins ADDED TO this new net
+                                 D14.1          L1.1           U1.62          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_RX      pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J7.2           U1.46          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_TX      pins ADDED TO this new net
+                                 J7.3           U1.45          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USER2_PB10   pins ADDED TO this new net
+                                 U1.28          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBAT         pins ADDED TO this new net
+                                 C36.2          C37.2          C38.2          
+                                 C39.2          C40.2          C41.2          
+                                 C42.2          C43.2          D2.1           
+                                 D3.1           D4.1           J3.1           
+                                 J4.1           J5.1           J6.1           
+                                 J7.1           KEY1.2         KEY2.2         
+                                 KEY3.2         NTC1.2         R6.1           
+                                 R7.1           R8.1           R62.1          
+                                 R63.1          R64.1          R65.1          
+                                 R66.1          R67.1          R68.1          
+                                 R77.2          U1.1           U1.2           
+                                 U1.26          U1.27          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBUS_PA0     pins ADDED TO this new net
+                                 C2.1           NTC1.1         R4.2           
+                                 U1.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 C33.2          L1.2           U1.63          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_BAR      pins ADDED TO this new net
+                                 C22.1          C23.1          C24.1          
+                                 C25.1          C26.1          C27.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VM           pins ADDED TO this new net
+                                 C12.1          C13.1          C15.1          
+                                 C19.1          C20.1          C21.1          
+                                 C32.2          D1.1           J1.2           
+                                 Q1.5           Q1.6           Q1.7           
+                                 Q1.8           Q3.5           Q3.6           
+                                 Q3.7           Q3.8           Q5.5           
+                                 Q5.6           Q5.7           Q5.8           
+                                 R1.2           R2.2           R33.2          
+                                 R35.2          R37.2          R60.1          
+                                 U1.61          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VOUT1_PC0    pins ADDED TO this new net
+                                 U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOUT2_PC1    pins ADDED TO this new net
+                                 U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOUT3_PC2    pins ADDED TO this new net
+                                 U1.11          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ B5819WSL_SOD123_B5819WSL
+ CON_01X02_CONN-SM02B-1R25-5R75X4R05-SM_CON_01X02
+ CON_01X03_CONN-SM03B-1R25-7R00X4R05-SM_CON_01X03
+ CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04
+ CON_01X04_CONN-SM04B-1R25-9R50X4R05-SM_CON_01X04
+ CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05
+ CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06
+ C_C0402_10UF
+ C_C0402_100NF
+ C_C0402_220NF
+ C_C0603_10UF
+ C_C0603_22NF
+ C_C0603_82NF
+ C_C0603_100N
+ C_C0603_100NF
+ C_C0805_100NF
+ C_C0805_NC
+ C_C1206_10U
+ C_POLARIZED_CE500W60D1000_100UF
+ KEY_KEY_SMD_L29_39_30_KEY
+ LED_LED0603_LED
+ L_DISC350X175LS200X100034_10UH
+ NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0
+ NTC_R0402_10K
+ R_C0402_1K
+ R_C0603_1.5K
+ R_C0603_1K
+ R_C0603_3.9K
+ R_C0603_4.7K
+ R_C0603_10K
+ R_C0603_24K
+ R_C0603_27K
+ R_C0603_68K
+ R_C0603_200
+ R_R0402_1K
+ R_R0402_3K
+ R_R0402_150K
+ R_R0603_1R
+ R_R0603_10K
+ R_R0603_10R
+ R_R0805_NC
+ R_R2512_10M
+ SMD_CRYSTAL_2_X4-3225_25M
+ STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C2                  C_C0603_22NF          
+ C3                  C_C0603_22NF          
+ C4                  C_C0603_82NF          
+ C5                  C_C0603_82NF          
+ C6                  C_C0603_82NF          
+ C7                  C_C0805_NC            
+ C8                  C_C0805_NC            
+ C9                  C_C0805_NC            
+ C10                 C_C0805_100NF         
+ C11                 C_C0805_100NF         
+ C12                 C_C0603_100N          
+ C13                 C_C0603_100N          
+ C14                 C_C0805_100NF         
+ C15                 C_C0603_100N          
+ C16                 C_C0805_NC            
+ C17                 C_C0805_NC            
+ C18                 C_C0805_NC            
+ C19                 C_POLARIZED_CE500W60D1000_100UF 
+ C20                 C_POLARIZED_CE500W60D1000_100UF 
+ C21                 C_POLARIZED_CE500W60D1000_100UF 
+ C22                 C_C1206_10U           
+ C23                 C_C1206_10U           
+ C24                 C_C1206_10U           
+ C25                 C_C1206_10U           
+ C26                 C_C1206_10U           
+ C27                 C_C1206_10U           
+ C28                 C_C0402_100NF         
+ C29                 C_C0402_100NF         
+ C30                 C_C0603_100NF         
+ C32                 C_C0402_220NF         
+ C33                 C_C0402_10UF          
+ C34                 C_C0402_220NF         
+ C35                 C_C0402_220NF         
+ C36                 C_C0603_10UF          
+ C37                 C_C0402_100NF         
+ C38                 C_C0603_10UF          
+ C39                 C_C0402_100NF         
+ C40                 C_C0402_10UF          
+ C41                 C_C0603_100NF         
+ C42                 C_C0603_10UF          
+ C43                 C_C0402_100NF         
+ D1                  B5819WSL_SOD123_B5819WSL 
+ D2                  B5819WSL_SOD123_B5819WSL 
+ D3                  B5819WSL_SOD123_B5819WSL 
+ D4                  B5819WSL_SOD123_B5819WSL 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D5                  B5819WSL_SOD123_B5819WSL 
+ D6                  B5819WSL_SOD123_B5819WSL 
+ D7                  B5819WSL_SOD123_B5819WSL 
+ D8                  B5819WSL_SOD123_B5819WSL 
+ D9                  B5819WSL_SOD123_B5819WSL 
+ D10                 B5819WSL_SOD123_B5819WSL 
+ D11                 LED_LED0603_LED       
+ D12                 LED_LED0603_LED       
+ D13                 LED_LED0603_LED       
+ D14                 B5819WSL_SOD123_B5819WSL 
+ J1                  CON_01X02_CONN-SM02B-1R25-5R75X4R05-SM_CON_01X02 
+ J2                  CON_01X03_CONN-SM03B-1R25-7R00X4R05-SM_CON_01X03 
+ J3                  CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05 
+ J4                  CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05 
+ J5                  CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06 
+ J6                  CON_01X04_CONN-SM04B-1R25-9R50X4R05-SM_CON_01X04 
+ J7                  CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04 
+ KEY1                KEY_KEY_SMD_L29_39_30_KEY 
+ KEY2                KEY_KEY_SMD_L29_39_30_KEY 
+ KEY3                KEY_KEY_SMD_L29_39_30_KEY 
+ L1                  L_DISC350X175LS200X100034_10UH 
+ NTC1                NTC_R0402_10K         
+ Q1                  NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0 
+ Q2                  NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0 
+ Q3                  NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0 
+ Q4                  NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0 
+ Q5                  NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0 
+ Q6                  NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0 
+ R1                  R_R0402_150K          
+ R2                  R_R0402_150K          
+ R4                  R_C0603_4.7K          
+ R5                  R_R0402_3K            
+ R6                  R_C0603_24K           
+ R7                  R_C0603_24K           
+ R8                  R_C0603_24K           
+ R9                  R_C0603_1.5K          
+ R10                 R_C0603_1.5K          
+ R11                 R_C0603_1.5K          
+ R12                 R_C0603_24K           
+ R13                 R_C0603_24K           
+ R14                 R_C0603_24K           
+ R15                 R_C0603_1.5K          
+ R16                 R_C0603_1.5K          
+ R17                 R_C0603_1.5K          
+ R18                 R_C0603_24K           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R19                 R_C0603_24K           
+ R20                 R_C0603_24K           
+ R21                 R_C0603_24K           
+ R22                 R_C0603_24K           
+ R23                 R_C0603_24K           
+ R24                 R_C0603_68K           
+ R25                 R_C0603_27K           
+ R26                 R_C0603_68K           
+ R27                 R_C0603_27K           
+ R28                 R_C0603_68K           
+ R29                 R_C0603_27K           
+ R30                 R_C0603_3.9K          
+ R31                 R_C0603_3.9K          
+ R32                 R_C0603_3.9K          
+ R33                 R_R0805_NC            
+ R34                 R_R0603_10R           
+ R35                 R_R0805_NC            
+ R36                 R_R0603_10R           
+ R37                 R_R0805_NC            
+ R38                 R_R0603_10R           
+ R39                 R_R0603_10K           
+ R40                 R_R0603_10K           
+ R41                 R_R0603_10K           
+ R42                 R_R0603_1R            
+ R43                 R_R0603_1R            
+ R44                 R_R0603_1R            
+ R45                 R_R0805_NC            
+ R46                 R_R0805_NC            
+ R47                 R_R0805_NC            
+ R48                 R_R0603_10R           
+ R49                 R_R0603_10R           
+ R50                 R_R0603_10R           
+ R51                 R_R0603_10K           
+ R52                 R_R0603_10K           
+ R53                 R_R0603_10K           
+ R54                 R_R0603_1R            
+ R55                 R_R0603_1R            
+ R56                 R_R0603_1R            
+ R57                 R_R2512_10M           
+ R58                 R_R2512_10M           
+ R59                 R_R2512_10M           
+ R60                 R_C0603_4.7K          
+ R61                 R_C0603_4.7K          
+ R62                 R_C0603_10K           
+ R63                 R_C0603_10K           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R64                 R_C0603_10K           
+ R65                 R_C0603_10K           
+ R66                 R_C0603_10K           
+ R67                 R_C0603_10K           
+ R68                 R_C0603_10K           
+ R69                 R_C0603_200           
+ R70                 R_C0603_200           
+ R71                 R_C0603_200           
+ R72                 R_C0603_10K           
+ R73                 R_C0603_1K            
+ R74                 R_C0603_10K           
+ R75                 R_C0603_1K            
+ R76                 R_C0603_10K           
+ R77                 R_R0402_1K            
+ R78                 R_C0402_1K            
+ U1                  STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4 
+ Y1                  SMD_CRYSTAL_2_X4-3225_25M 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ C17.2                          PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C19.2                          PRIM_FILE      .\pstchip.dat
+ C20.2                          PRIM_FILE      .\pstchip.dat
+ C21.2                          PRIM_FILE      .\pstchip.dat
+ C22.2                          PRIM_FILE      .\pstchip.dat
+ C23.2                          PRIM_FILE      .\pstchip.dat
+ C24.2                          PRIM_FILE      .\pstchip.dat
+ C25.2                          PRIM_FILE      .\pstchip.dat
+ C26.2                          PRIM_FILE      .\pstchip.dat
+ C27.2                          PRIM_FILE      .\pstchip.dat
+ C28.2                          PRIM_FILE      .\pstchip.dat
+ C29.2                          PRIM_FILE      .\pstchip.dat
+ C30.2                          PRIM_FILE      .\pstchip.dat
+ C32.2                          PRIM_FILE      .\pstchip.dat
+ C33.2                          PRIM_FILE      .\pstchip.dat
+ C34.2                          PRIM_FILE      .\pstchip.dat
+ C35.2                          PRIM_FILE      .\pstchip.dat
+ C36.2                          PRIM_FILE      .\pstchip.dat
+ C37.2                          PRIM_FILE      .\pstchip.dat
+ C38.2                          PRIM_FILE      .\pstchip.dat
+ C39.2                          PRIM_FILE      .\pstchip.dat
+ C40.2                          PRIM_FILE      .\pstchip.dat
+ C41.2                          PRIM_FILE      .\pstchip.dat
+ C42.2                          PRIM_FILE      .\pstchip.dat
+ C43.2                          PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D2.2                           PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ D4.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D5.2                           PRIM_FILE      .\pstchip.dat
+ D6.2                           PRIM_FILE      .\pstchip.dat
+ D7.2                           PRIM_FILE      .\pstchip.dat
+ D8.2                           PRIM_FILE      .\pstchip.dat
+ D9.2                           PRIM_FILE      .\pstchip.dat
+ D10.2                          PRIM_FILE      .\pstchip.dat
+ D11.1                          PRIM_FILE      .\pstchip.dat
+ D12.1                          PRIM_FILE      .\pstchip.dat
+ D13.1                          PRIM_FILE      .\pstchip.dat
+ D14.2                          PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.3                           PRIM_FILE      .\pstchip.dat
+ J3.5                           PRIM_FILE      .\pstchip.dat
+ J4.5                           PRIM_FILE      .\pstchip.dat
+ J5.6                           PRIM_FILE      .\pstchip.dat
+ J6.4                           PRIM_FILE      .\pstchip.dat
+ J7.4                           PRIM_FILE      .\pstchip.dat
+ KEY1.2                         PRIM_FILE      .\pstchip.dat
+ KEY2.2                         PRIM_FILE      .\pstchip.dat
+ KEY3.2                         PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ NTC1.2                         PRIM_FILE      .\pstchip.dat
+ Q1.3                           PRIM_FILE      .\pstchip.dat
+ Q2.3                           PRIM_FILE      .\pstchip.dat
+ Q3.3                           PRIM_FILE      .\pstchip.dat
+ Q4.3                           PRIM_FILE      .\pstchip.dat
+ Q5.3                           PRIM_FILE      .\pstchip.dat
+ Q6.3                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ R18.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R19.2                          PRIM_FILE      .\pstchip.dat
+ R20.2                          PRIM_FILE      .\pstchip.dat
+ R21.2                          PRIM_FILE      .\pstchip.dat
+ R22.2                          PRIM_FILE      .\pstchip.dat
+ R23.2                          PRIM_FILE      .\pstchip.dat
+ R24.2                          PRIM_FILE      .\pstchip.dat
+ R25.2                          PRIM_FILE      .\pstchip.dat
+ R26.2                          PRIM_FILE      .\pstchip.dat
+ R27.2                          PRIM_FILE      .\pstchip.dat
+ R28.2                          PRIM_FILE      .\pstchip.dat
+ R29.2                          PRIM_FILE      .\pstchip.dat
+ R30.2                          PRIM_FILE      .\pstchip.dat
+ R31.2                          PRIM_FILE      .\pstchip.dat
+ R32.2                          PRIM_FILE      .\pstchip.dat
+ R33.2                          PRIM_FILE      .\pstchip.dat
+ R34.2                          PRIM_FILE      .\pstchip.dat
+ R35.2                          PRIM_FILE      .\pstchip.dat
+ R36.2                          PRIM_FILE      .\pstchip.dat
+ R37.2                          PRIM_FILE      .\pstchip.dat
+ R38.2                          PRIM_FILE      .\pstchip.dat
+ R39.2                          PRIM_FILE      .\pstchip.dat
+ R40.2                          PRIM_FILE      .\pstchip.dat
+ R41.2                          PRIM_FILE      .\pstchip.dat
+ R42.2                          PRIM_FILE      .\pstchip.dat
+ R43.2                          PRIM_FILE      .\pstchip.dat
+ R44.2                          PRIM_FILE      .\pstchip.dat
+ R45.2                          PRIM_FILE      .\pstchip.dat
+ R46.2                          PRIM_FILE      .\pstchip.dat
+ R47.2                          PRIM_FILE      .\pstchip.dat
+ R48.2                          PRIM_FILE      .\pstchip.dat
+ R49.2                          PRIM_FILE      .\pstchip.dat
+ R50.2                          PRIM_FILE      .\pstchip.dat
+ R51.2                          PRIM_FILE      .\pstchip.dat
+ R52.2                          PRIM_FILE      .\pstchip.dat
+ R53.2                          PRIM_FILE      .\pstchip.dat
+ R54.2                          PRIM_FILE      .\pstchip.dat
+ R55.2                          PRIM_FILE      .\pstchip.dat
+ R56.2                          PRIM_FILE      .\pstchip.dat
+ R57.2                          PRIM_FILE      .\pstchip.dat
+ R58.2                          PRIM_FILE      .\pstchip.dat
+ R59.2                          PRIM_FILE      .\pstchip.dat
+ R60.2                          PRIM_FILE      .\pstchip.dat
+ R61.2                          PRIM_FILE      .\pstchip.dat
+ R62.2                          PRIM_FILE      .\pstchip.dat
+ R63.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Sun Sep 28 11:19:00 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R64.2                          PRIM_FILE      .\pstchip.dat
+ R65.2                          PRIM_FILE      .\pstchip.dat
+ R66.2                          PRIM_FILE      .\pstchip.dat
+ R67.2                          PRIM_FILE      .\pstchip.dat
+ R68.2                          PRIM_FILE      .\pstchip.dat
+ R69.2                          PRIM_FILE      .\pstchip.dat
+ R70.2                          PRIM_FILE      .\pstchip.dat
+ R71.2                          PRIM_FILE      .\pstchip.dat
+ R72.2                          PRIM_FILE      .\pstchip.dat
+ R73.2                          PRIM_FILE      .\pstchip.dat
+ R74.2                          PRIM_FILE      .\pstchip.dat
+ R75.2                          PRIM_FILE      .\pstchip.dat
+ R76.2                          PRIM_FILE      .\pstchip.dat
+ R77.2                          PRIM_FILE      .\pstchip.dat
+ R78.2                          PRIM_FILE      .\pstchip.dat
+ U1.65                          PRIM_FILE      .\pstchip.dat
+ Y1.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :     415                                        |
+|       Comp definitions added:      44                                        |
+|       Components added      :     152                                        |
+|       Slot property added   :     152                                        |
+|                                                                              |
+|   Total ECO changes reported:     763                                        |
+|------------------------------------------------------------------------------|

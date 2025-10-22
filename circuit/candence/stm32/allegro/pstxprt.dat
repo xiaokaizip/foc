@@ -1,0 +1,1420 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.4.0 d001Oct-11-2025 at 19:52:34 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='STSPIN32G4_FOC';
+ POST_TIME='Jan 14 2023 14:52:27';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C10 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16764875@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16764875@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16764875@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16765034@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16765034@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16765034@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_C0402_100N':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85664@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85664@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85664@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C_C0402_100N':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84860@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84860@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84860@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16765123@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16765123@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16765123@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C_C0402_100N':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85116@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85116@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85116@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'C_C0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85056@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85056@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85056@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'C_C0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84800@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84800@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84800@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'C_C0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84760@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84760@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84760@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'C_POLARIZED_CE250W50D630_100UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16770590@FOC_LIB.C_POLARIZED.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16770590@foc_lib.\c_polarized.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16770590@foc_lib.\c_polarized.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'C_C1206_10U':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85256@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85256@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85256@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'C_C1206_10U':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85564@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85564@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85564@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'C_C1206_10U':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84840@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84840@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84840@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'C_C1206_10U':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85076@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85076@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85076@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'C_C1206_10U':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85296@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85296@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85296@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'C_C1206_10U':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85604@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85604@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85604@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16772519@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16772519@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16772519@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16774118@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16774118@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16774118@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_C0402_22NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16766046@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16766046@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16766046@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16773501@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16773501@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16773501@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C32 'C_C0402_220NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS89310@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins89310@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins89310@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C33 'C_C1206_10UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS89183@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins89183@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins89183@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C34 'C_C0402_220NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763157@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763157@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16763157@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'C_C0402_220NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763072@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763072@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16763072@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C36 'C_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90118@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90118@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90118@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C37 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90144@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90144@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90144@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C38 'C_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90356@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90356@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90356@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C39 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90372@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90372@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90372@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_C0402_82NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769269@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769269@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769269@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C40 'C_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90518@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90518@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90518@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C41 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90534@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90534@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90534@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'C_C0603_10UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90695@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90695@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90695@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C43 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS90711@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins90711@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins90711@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C44 'C_POLARIZED_CE250W50D630_100UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16809697@FOC_LIB.C_POLARIZED.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16809697@foc_lib.\c_polarized.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16809697@foc_lib.\c_polarized.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C45 'C_POLARIZED_CE250W50D630_100UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16809853@FOC_LIB.C_POLARIZED.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16809853@foc_lib.\c_polarized.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16809853@foc_lib.\c_polarized.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C46 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16816678@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16816678@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16816678@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C47 'C_C1206_10UF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16817903@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16817903@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16817903@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_R0402_82NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769719@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769719@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769719@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_R0402_82NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16770072@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16770072@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16770072@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_C0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84692@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84692@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84692@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_C0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85436@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85436@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85436@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_C0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85376@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85376@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85376@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16765885@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16765885@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16765885@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85356@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85356@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85356@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 'LED_LED0603_LED':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16775604@LIBRARY1.LED.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16775604@library1.\led.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16775604@library1.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D12 'LED_LED0603_LED':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16772416@LIBRARY1.LED.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16772416@library1.\led.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16772416@library1.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 'LED_LED0603_LED':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16774150@LIBRARY1.LED.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16774150@library1.\led.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16774150@library1.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D14 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS89018@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins89018@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins89018@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769110@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769110@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769110@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769627@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769627@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769627@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769980@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769980@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769980@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85196@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85196@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85196@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84780@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84780@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84780@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85176@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85176@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85176@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85624@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85624@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85624@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'B5819WSL_SOD123_B5819WSL':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84988@FOC_LIB.B5819WSL.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84988@foc_lib.\b5819wsl.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84988@foc_lib.\b5819wsl.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J16 'CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16789119@STSPIN32G4.CON_01X05.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16789119@stspin32g4.\con_01x05.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J17 'CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16789216@STSPIN32G4.CON_01X05.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16789216@stspin32g4.\con_01x05.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J18 'CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16789321@STSPIN32G4.CON_01X06.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16789321@stspin32g4.\con_01x06.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J19 'CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16789761@STSPIN32G4.CON_01X04.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16789761@stspin32g4.\con_01x04.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16789761@stspin32g4.\con_01x04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J20 'CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16789852@STSPIN32G4.CON_01X04.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16789852@stspin32g4.\con_01x04.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16789852@stspin32g4.\con_01x04.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J21 'CON_01X03_MR30PW-F_CON_01X03':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16790042@STSPIN32G4.CON_01X03.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16790042@stspin32g4.\con_01x03.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16790042@stspin32g4.\con_01x03.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J22 'CON_01X02_P1X2-5R0-XT30PW-M_CON_01X02':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16790108@STSPIN32G4.CON_01X02.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16790108@stspin32g4.\con_01x02.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16790108@stspin32g4.\con_01x02.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ KEY1 'KEY_KEY_SMD_L29_39_30_KEY':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16772348@STSPIN32G4.KEY.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16772348@stspin32g4.\key.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16772348@stspin32g4.\key.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ KEY2 'KEY_KEY_SMD_L29_39_30_KEY':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16774032@STSPIN32G4.KEY.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16774032@stspin32g4.\key.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16774032@stspin32g4.\key.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ KEY3 'KEY_KEY_SMD_L29_39_30_KEY':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16773415@STSPIN32G4.KEY.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16773415@stspin32g4.\key.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16773415@stspin32g4.\key.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_SMD_4R2X4R4_10UH':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS89043@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins89043@analog.\l.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins89043@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16792024@STSPIN32G4.NMOSFET SO-8 SINGLE_0.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16792163@STSPIN32G4.NMOSFET SO-8 SINGLE_0.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 'NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16792254@STSPIN32G4.NMOSFET SO-8 SINGLE_0.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16792392@STSPIN32G4.NMOSFET SO-8 SINGLE_0.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q5 'NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16792482@STSPIN32G4.NMOSFET SO-8 SINGLE_0.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q6 'NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16792618@STSPIN32G4.NMOSFET SO-8 SINGLE_0.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_R0402_150K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16766283@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16766283@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16766283@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_R0402_1.5K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767225@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767225@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767225@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_R0402_1.5K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767709@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767709@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767709@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_R0402_24K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767269@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767269@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767269@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_R0402_24K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767753@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767753@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767753@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_R0402_1.5K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767331@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767331@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767331@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_R0402_1.5K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767815@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767815@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767815@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_R0402_24K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767369@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767369@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767369@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_R0402_150K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16765928@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16765928@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16765928@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'R_R0402_24K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767853@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767853@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767853@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_R0402_68K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16768979@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16768979@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16768979@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_R0402_27K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769005@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769005@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769005@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_R0402_68K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769649@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769649@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769649@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'R_R0402_27K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769665@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769665@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769665@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'R_R0402_68K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16770002@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16770002@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16770002@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'R_R0402_27K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16770018@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16770018@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16770018@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'R_R0402_3.9K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769031@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769031@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769031@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'R_R0402_3.9K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16769735@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16769735@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16769735@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'R_R0402_3.9K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16770088@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16770088@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16770088@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'R_R0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85276@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85276@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85276@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'R_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84968@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84968@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84968@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'R_R0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85456@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85456@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85456@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'R_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85544@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85544@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85544@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'R_R0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85236@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85236@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85236@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'R_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85096@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85096@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85096@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763349@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763349@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763349@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763851@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763851@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763851@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763969@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763969@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763969@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'R_R0402_1R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763520@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763520@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763520@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'R_R0402_1R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763867@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763867@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763867@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'R_R0402_1R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763985@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763985@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763985@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 'R_R0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84880@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84880@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84880@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R46 'R_R0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85644@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85644@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85644@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R47 'R_R0805_NC':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85584@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85584@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85584@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R48 'R_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85216@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85216@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85216@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R49 'R_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84820@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84820@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84820@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_R0402_3K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16765954@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16765954@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16765954@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R50 'R_R0402_10R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85336@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85336@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85336@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763607@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763607@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763607@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763735@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763735@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763735@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R53 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16764090@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16764090@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16764090@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R54 'R_R0402_1R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763623@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763623@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763623@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'R_R0402_1R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16763751@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16763751@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16763751@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R56 'R_R0402_1R':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16764106@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16764106@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins16764106@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'R_R2512_10M':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS84948@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins84948@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins84948@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'R_R2512_10M':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85136@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85136@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85136@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R59 'R_R2512_10M':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS85396@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins85396@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page2_ins85396@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R60 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16775564@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16775564@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16775564@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R62 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16776305@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16776305@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16776305@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R63 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16776116@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16776116@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16776116@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R64 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16776142@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16776142@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16776142@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R65 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16776168@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16776168@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16776168@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R66 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16775263@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16775263@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16775263@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R67 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16776754@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16776754@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16776754@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R68 'R_C0603_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16777252@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16777252@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16777252@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R69 'R_R0402_200':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16772468@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16772468@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16772468@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_R0402_24K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767187@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767187@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767187@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R70 'R_R0402_200':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16774052@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16774052@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16774052@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R72 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16772442@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16772442@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16772442@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R73 'R_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16772545@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16772545@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16772545@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R74 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16774102@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16774102@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16774102@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R75 'R_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16774134@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16774134@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16774134@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R76 'R_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16773485@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16773485@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page3_ins16773485@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R77 'R_R0402_1K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS89627@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins89627@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins89627@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R78 'R_C0402_1K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS89643@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins89643@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins89643@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_R0402_24K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16767671@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16767671@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16767671@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS86620@ORCADCAPTUREOLB.STSPIN32G4.NORMAL(SCH_1)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Y1 'SMD_CRYSTAL_2_X4-3225_25M':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16762894@CRGC10_MID_MAINCONTROL_V1_0.SMD_CRYSTAL_2.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16762894@crgc10_mid_maincontrol_v1_0.\smd_crystal_2.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16762894@crgc10_mid_maincontrol_v1_0.\smd_crystal_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

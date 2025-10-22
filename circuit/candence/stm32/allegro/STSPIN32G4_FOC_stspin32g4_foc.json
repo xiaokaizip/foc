@@ -1,0 +1,52 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "GND_SIGNAL",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):gnd_signal",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "R71",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16773435@analog.\\r.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "R71"
+		}
+	],
+	"Net" : [
+		{
+			"Name" : "N16773433",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):n16773433",
+			"Logical" : null,
+			"Physical" : "N16773433"
+		}
+	],
+	"Connection" : [
+		{
+			"Name" : "C30.2",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16773501@analog.\\c.normal\\(chips):\\2\\",
+			"Logical" : "PG10",
+			"Physical" : "N16773433"
+		},
+		{
+			"Name" : "KEY3.1",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16773415@stspin32g4.\\key.normal\\(chips):\\1\\",
+			"Logical" : "PG10",
+			"Physical" : "N16773433"
+		},
+		{
+			"Name" : "R76.1",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16773485@analog.\\r.normal\\(chips):\\1\\",
+			"Logical" : "PG10",
+			"Physical" : "N16773433"
+		}
+	]
+}

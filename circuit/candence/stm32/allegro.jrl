@@ -1,0 +1,199 @@
+\t (00:02:00) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:02:00)     Journal start - Mon Oct 13 09:33:30 2025
+\t (00:02:00)         Host=DESKTOP-4UHN77U User=SXF-Admin Pid=21744 CPUs=20
+\t (00:02:00) CmdLine= D:\Cadence\SPB_17.4\tools\bin\allegro.exe -mpssession SXF-Admin -proj D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.opj D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\stspin32g4_foc.brd
+\t (00:02:00) 
+   (00:02:00) Loading axlcore.cxt 
+\t (00:02:01) Opening existing design...
+\i (00:02:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "stspin32g4_foc"
+\d (00:02:01) Design opened: D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd
+\i (00:02:02) trapsize 5416
+\i (00:02:02) trapsize 5561
+\i (00:02:02) trapsize 6358
+\i (00:02:02) trapsize 6554
+\t (00:02:02) > Sending response DoneOpenBoard
+\i (00:02:02) generaledit 
+\i (00:02:03) zoom out 1 
+\i (00:02:03) setwindow pcb
+\i (00:02:03) zoom out -57.9592 -12.7213
+\i (00:02:03) trapsize 13109
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 12.5664 3.0093
+\i (00:02:05) trapsize 6554
+\i (00:02:05) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 44.8142 -4.7249
+\i (00:02:06) trapsize 13109
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out 48.7468 -4.7250
+\i (00:02:06) trapsize 26218
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in -14.5650 -7.3468
+\i (00:02:06) trapsize 13109
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in -14.5650 -7.3468
+\i (00:02:06) trapsize 6554
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in -13.2541 -6.6913
+\i (00:02:06) trapsize 3277
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out -3.1603 -4.3972
+\i (00:02:09) trapsize 6554
+\i (00:02:11) zoom in 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom in -2.7671 1.6329
+\i (00:02:11) trapsize 3277
+\i (00:02:11) zoom out 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom out -14.7617 1.8296
+\i (00:02:11) trapsize 6554
+\i (00:02:12) zoom out 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom out -25.3799 2.4850
+\i (00:02:12) trapsize 13109
+\i (00:02:14) zoom in 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom in -14.8927 3.0093
+\i (00:02:14) trapsize 6554
+\i (00:02:27) setwindow form.mini
+\i (00:02:27) FORM mini subclass POWER 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) updateport CVPane
+\i (00:02:30) setwindow form.mini
+\i (00:02:30) FORM mini subclass BOTTOM 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) updateport CVPane
+\i (00:02:39) zoom in 1 
+\i (00:02:39) setwindow pcb
+\i (00:02:39) zoom in 26.6624 19.2644
+\i (00:02:39) trapsize 3277
+\i (00:02:39) zoom in 1 
+\i (00:02:39) setwindow pcb
+\i (00:02:39) zoom in 26.6624 19.2644
+\i (00:02:39) trapsize 1639
+\i (00:02:40) zoom out 1 
+\i (00:02:40) setwindow pcb
+\i (00:02:40) zoom out 27.4490 19.3627
+\i (00:02:40) trapsize 3277
+\i (00:02:41) zoom out 1 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom out 37.8050 17.2654
+\i (00:02:41) trapsize 6554
+\i (00:02:51) pick grid 38.3293 3.5010
+\t (00:02:51) last pick:  38.3250 3.5000
+\i (00:02:52) pick grid 37.5428 4.0253
+\t (00:02:52) last pick:  37.5500 4.0250
+\i (00:02:54) move 
+\t (00:02:54) last pick:  36.8250 -1.5750
+\t (00:02:54) Moving J18 / CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06 / CONN-SM06B-1R25-10R75X4R05-SM.
+\t (00:02:54) Pick new location for the element(s).
+\i (00:02:56) prepopup -6.7653 36.7976
+\i (00:02:57) pop mirror 
+\i (00:02:58) prepopup -8.9938 39.4194
+\i (00:03:00) rotate 
+\t (00:03:00) Spin the element(s).
+\i (00:03:02) iangle 270.000
+\t (00:03:02) last angle:  0.000 Degrees
+\i (00:03:02) mouse_pos 36.8250 -1.5750
+\i (00:03:06) zoom in 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom in -10.3047 26.4415
+\i (00:03:06) trapsize 3277
+\i (00:03:29) pick grid -3.4880 26.6382
+\t (00:03:29) last pick:  -3.5000 26.6500
+\i (00:03:29) generaledit 
+\i (00:03:30) pick grid -1.5217 33.7826
+\t (00:03:30) last pick:  -1.5250 33.7750
+\i (00:06:11) zoom out 1 
+\i (00:06:11) setwindow pcb
+\i (00:06:11) zoom out -20.3330 19.2972
+\i (00:06:11) trapsize 6554
+\i (00:06:12) zoom in 1 
+\i (00:06:12) setwindow pcb
+\i (00:06:12) zoom in -4.9955 11.3008
+\i (00:06:12) trapsize 3277
+\i (00:06:12) zoom in 1 
+\i (00:06:12) setwindow pcb
+\i (00:06:12) zoom in -4.9955 11.3008
+\i (00:06:12) trapsize 1639
+\i (00:06:15) zoom out 1 
+\i (00:06:15) setwindow pcb
+\i (00:06:15) zoom out -4.2744 11.1042
+\i (00:06:15) trapsize 3277
+\i (00:06:16) zoom out 1 
+\i (00:06:16) setwindow pcb
+\i (00:06:16) zoom out -2.1771 13.2671
+\i (00:06:16) trapsize 6554
+\i (00:06:17) zoom out 1 
+\i (00:06:17) setwindow pcb
+\i (00:06:17) zoom out -1.7838 13.6604
+\i (00:06:17) trapsize 13109
+\i (00:06:18) zoom in 1 
+\i (00:06:18) setwindow pcb
+\i (00:06:18) zoom in -18.8253 23.0988
+\i (00:06:18) trapsize 6554
+\i (00:06:40) pick grid -5.5853 29.3911
+\t (00:06:40) last pick:  -5.5750 29.4000
+\i (00:06:42) pick grid -5.3231 28.8667
+\t (00:06:42) last pick:  -5.3250 28.8750
+\i (00:06:43) pick grid -5.5853 28.9978
+\t (00:06:43) last pick:  -5.5750 29.0000
+\i (00:06:44) move 
+\t (00:06:44) last pick:  -3.5000 26.6500
+\t (00:06:44) Moving J18 / CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06 / CONN-SM06B-1R25-10R75X4R05-SM.
+\t (00:06:44) Pick new location for the element(s).
+\i (00:06:48) pick grid 49.7343 -1.9392
+\t (00:06:48) last pick:  49.7250 -1.9500
+\i (00:06:48) generaledit 
+\i (00:06:49) zoom out 1 
+\i (00:06:49) setwindow pcb
+\i (00:06:49) zoom out -10.3045 6.5816
+\i (00:06:49) trapsize 13109
+\i (00:06:49) zoom out 1 
+\i (00:06:49) setwindow pcb
+\i (00:06:49) zoom out -11.6153 14.1847
+\i (00:06:49) trapsize 26218
+\i (00:06:50) zoom in 1 
+\i (00:06:50) setwindow pcb
+\i (00:06:50) zoom in -3.0282 -26.7151
+\i (00:06:50) trapsize 13109
+\i (00:06:52) zoom in 1 
+\i (00:06:52) setwindow pcb
+\i (00:06:52) zoom in -10.6314 30.1775
+\i (00:06:52) trapsize 6554
+\i (00:09:00) zoom out 1 
+\i (00:09:01) setwindow pcb
+\i (00:09:01) zoom out 3.9196 3.4354
+\i (00:09:01) trapsize 13109
+\i (00:09:01) pick grid 113.2478 -13.3441
+\t (00:09:01) last pick:  113.2500 -13.3500
+\i (00:09:43) zoom in 1 
+\i (00:09:43) setwindow pcb
+\i (00:09:43) zoom in 23.3207 15.4955
+\i (00:09:43) trapsize 6554
+\i (00:09:43) zoom in 1 
+\i (00:09:43) setwindow pcb
+\i (00:09:43) zoom in 25.1560 14.7090
+\i (00:09:43) trapsize 3277
+\i (00:09:44) zoom out 1 
+\i (00:09:44) setwindow pcb
+\i (00:09:44) zoom out 17.7495 15.7577
+\i (00:09:44) trapsize 6554
+\i (05:32:45) zoom out 1 
+\i (05:32:45) setwindow pcb
+\i (05:32:45) zoom out 57.0762 13.7914
+\i (05:32:45) trapsize 13109
+\i (05:32:46) zoom in 1 
+\i (05:32:46) setwindow pcb
+\i (05:32:46) zoom in 6.4759 6.7126
+\i (05:32:46) trapsize 6554
+\i (11:03:01) exit 
+\e (11:03:01) Do you want to save the changes you made to stspin32g4_foc.brd?
+\i (11:03:03) fillin yes 
+\t (11:03:04)     Journal end - Mon Oct 13 20:34:33 2025

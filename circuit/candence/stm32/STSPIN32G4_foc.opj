@@ -1,0 +1,234 @@
+(ExpressProject "STSPIN32G4_foc"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[10/11/25]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\stspin32g4.olb"
+        (Type "Schematic Library"))
+      (File ".\library\orcadcaptureolb.olb"
+        (Type "Schematic Library"))
+      (File ".\library\stspin32g4.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\stspin32g4_foc.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\stspin32g4_foc.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout"
+    (File ".\stspin32g4_foc.brd"
+      (Type "Board File")
+      (OutputBoard ".\stspin32g4_foc.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\eco.txt"))
+    (File ".\allegro\swp.log"
+      (Type "Log File")
+      (LogFile "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\swp.log"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "d:\project\07_foc\foc\circuit\candence\stm32\allegro\genfeed.log")))
+  (PartMRUSelector
+    ("NMOSFET SO-8 Single_0"
+      (FullPartName "NMOSFET SO-8 Single_0.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (CON_01x02
+      (FullPartName "CON_01x02.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (CON_01x03
+      (FullPartName "CON_01x03.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (CON_01x04
+      (FullPartName "CON_01x04.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (CON_01x06
+      (FullPartName "CON_01x06.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (CON_01x05
+      (FullPartName "CON_01x05.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (MbreakN3
+      (FullPartName "MbreakN3.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (KEY
+      (FullPartName "KEY.Normal")
+      (LibraryName "D:\PROJECT\06_STSPIN32G4\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (NTC
+      (FullPartName "NTC.Normal")
+      (LibraryName "D:\PROJECT\06_STSPIN32G4\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (testpoint
+      (FullPartName "testpoint.Normal")
+      (LibraryName "D:\PROJECT\06_STSPIN32G4\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (STSPIN32G4
+      (FullPartName "STSPIN32G4.Normal")
+      (LibraryName "D:\PROJECT\06_STSPIN32G4\ORCADCAPTUREOLB.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\stspin32g4_foc.dsn")
+      (Path "Design Resources" ".\stspin32g4_foc.dsn" "SCHEMATIC1")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Layout" ".\stspin32g4_foc.brd"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 600"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1360 28 622")
+        (Scroll "28 264")
+        (Zoom "134")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "driver"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1360 28 622")
+        (Scroll "0 294")
+        (Zoom "154")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "input&output"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1360 28 622")
+        (Scroll "316 0")
+        (Zoom "122")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Analog_Sensing"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1360 28 622")
+        (Scroll "-288 -4")
+        (Zoom "77")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU")))
+  (MPSSessionName "SXF-Admin")
+  (ISPCBBASICLICENSE "false"))

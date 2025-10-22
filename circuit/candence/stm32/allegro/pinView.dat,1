@@ -1,0 +1,428 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_CDS_PINID!PIN_TERMINATION!PIN_TERM_IDENT!PIN_NET_SHORT!PIN_XNET_PINS!
+J!D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd!Sat Oct 11 19:50:18 2025!-250.0000!-200.0000!283.4000!231.8000!0.0001!millimeters!STSPIN32G4_FOC!28.800000 mil!4!OUT OF DATE!
+S!VBUS_PA0!C2!1!@stspin32g4_foc.schematic1(sch_1):ins16765605@analog.\c.normal\(chips)!C_C0402_22NF!!!F121!!!!!!
+S!GND_SIGNAL!C2!2!@stspin32g4_foc.schematic1(sch_1):ins16765605@analog.\c.normal\(chips)!C_C0402_22NF!!!F121!!!!!!
+S!PC4!C3!1!@stspin32g4_foc.schematic1(sch_1):ins16766046@analog.\c.normal\(chips)!C_C0402_22NF!!!F120!!!!!!
+S!GND_SIGNAL!C3!2!@stspin32g4_foc.schematic1(sch_1):ins16766046@analog.\c.normal\(chips)!C_C0402_22NF!!!F120!!!!!!
+S!GND_SIGNAL!C47!1!@stspin32g4_foc.schematic1(sch_1):ins16817903@analog.\c.normal\(chips)!C_C1206_10UF!!!F109!!!!!!
+S!VM!C47!2!@stspin32g4_foc.schematic1(sch_1):ins16817903@analog.\c.normal\(chips)!C_C1206_10UF!!!F109!!!!!!
+S!GND_SIGNAL!C33!1!@stspin32g4_foc.schematic1(sch_1):ins89183@analog.\c.normal\(chips)!C_C1206_10UF!!!F110!!!!!!
+S!VCC!C33!2!@stspin32g4_foc.schematic1(sch_1):ins89183@analog.\c.normal\(chips)!C_C1206_10UF!!!F110!!!!!!
+S!GND_SIGNAL!R4!1!@stspin32g4_foc.schematic1(sch_1):ins16765764@analog.\r.normal\(chips)!R_R0402_4.7K!!!F27!!!!!!
+S!VBUS_PA0!R4!2!@stspin32g4_foc.schematic1(sch_1):ins16765764@analog.\r.normal\(chips)!R_R0402_4.7K!!!F27!!!!!!
+S!VM!C44!1!@stspin32g4_foc.schematic1(sch_1):ins16809697@foc_lib.\c_polarized.normal\(chips)!C_POLARIZED_CE250W50D630_100UF!!!F123!!!!!!
+S!SNA!C44!2!@stspin32g4_foc.schematic1(sch_1):ins16809697@foc_lib.\c_polarized.normal\(chips)!C_POLARIZED_CE250W50D630_100UF!!!F123!!!!!!
+S!VM!C45!1!@stspin32g4_foc.schematic1(sch_1):ins16809853@foc_lib.\c_polarized.normal\(chips)!C_POLARIZED_CE250W50D630_100UF!!!F122!!!!!!
+S!SNA!C45!2!@stspin32g4_foc.schematic1(sch_1):ins16809853@foc_lib.\c_polarized.normal\(chips)!C_POLARIZED_CE250W50D630_100UF!!!F122!!!!!!
+S!VM!C19!1!@stspin32g4_foc.schematic1(sch_1):ins16770590@foc_lib.\c_polarized.normal\(chips)!C_POLARIZED_CE250W50D630_100UF!!!F124!!!!!!
+S!SNA!C19!2!@stspin32g4_foc.schematic1(sch_1):ins16770590@foc_lib.\c_polarized.normal\(chips)!C_POLARIZED_CE250W50D630_100UF!!!F124!!!!!!
+S!VOUT2_PC1!C5!1!@stspin32g4_foc.schematic1(sch_1):ins16769719@analog.\c.normal\(chips)!C_R0402_82NF!!!F103!!!!!!
+S!GND_SIGNAL!C5!2!@stspin32g4_foc.schematic1(sch_1):ins16769719@analog.\c.normal\(chips)!C_R0402_82NF!!!F103!!!!!!
+S!VOUT3_PC2!C6!1!@stspin32g4_foc.schematic1(sch_1):ins16770072@analog.\c.normal\(chips)!C_R0402_82NF!!!F102!!!!!!
+S!GND_SIGNAL!C6!2!@stspin32g4_foc.schematic1(sch_1):ins16770072@analog.\c.normal\(chips)!C_R0402_82NF!!!F102!!!!!!
+S!VOUT1_PC0!C4!1!@stspin32g4_foc.schematic1(sch_1):ins16769269@analog.\c.normal\(chips)!C_C0402_82NF!!!F104!!!!!!
+S!GND_SIGNAL!C4!2!@stspin32g4_foc.schematic1(sch_1):ins16769269@analog.\c.normal\(chips)!C_C0402_82NF!!!F104!!!!!!
+S!OPP2_PA7!R10!1!@stspin32g4_foc.schematic1(sch_1):ins16767225@analog.\r.normal\(chips)!R_R0402_1.5K!!!F67!!!!!!
+S!SPC!R10!2!@stspin32g4_foc.schematic1(sch_1):ins16767225@analog.\r.normal\(chips)!R_R0402_1.5K!!!F67!!!!!!
+S!OPP3_PB0!R11!1!@stspin32g4_foc.schematic1(sch_1):ins16767709@analog.\r.normal\(chips)!R_R0402_1.5K!!!F66!!!!!!
+S!SPB!R11!2!@stspin32g4_foc.schematic1(sch_1):ins16767709@analog.\r.normal\(chips)!R_R0402_1.5K!!!F66!!!!!!
+S!OPN2_PC5!R16!1!@stspin32g4_foc.schematic1(sch_1):ins16767331@analog.\r.normal\(chips)!R_R0402_1.5K!!!F65!!!!!!
+S!SNA!R16!2!@stspin32g4_foc.schematic1(sch_1):ins16767331@analog.\r.normal\(chips)!R_R0402_1.5K!!!F65!!!!!!
+S!OPN3_PB2!R17!1!@stspin32g4_foc.schematic1(sch_1):ins16767815@analog.\r.normal\(chips)!R_R0402_1.5K!!!F64!!!!!!
+S!SNA!R17!2!@stspin32g4_foc.schematic1(sch_1):ins16767815@analog.\r.normal\(chips)!R_R0402_1.5K!!!F64!!!!!!
+S!OPP2_PA7!R13!1!@stspin32g4_foc.schematic1(sch_1):ins16767269@analog.\r.normal\(chips)!R_R0402_24K!!!F63!!!!!!
+S!GND_SIGNAL!R13!2!@stspin32g4_foc.schematic1(sch_1):ins16767269@analog.\r.normal\(chips)!R_R0402_24K!!!F63!!!!!!
+S!OPP3_PB0!R14!1!@stspin32g4_foc.schematic1(sch_1):ins16767753@analog.\r.normal\(chips)!R_R0402_24K!!!F62!!!!!!
+S!GND_SIGNAL!R14!2!@stspin32g4_foc.schematic1(sch_1):ins16767753@analog.\r.normal\(chips)!R_R0402_24K!!!F62!!!!!!
+S!OPO2_PA6!R19!1!@stspin32g4_foc.schematic1(sch_1):ins16767369@analog.\r.normal\(chips)!R_R0402_24K!!!F61!!!!!!
+S!OPN2_PC5!R19!2!@stspin32g4_foc.schematic1(sch_1):ins16767369@analog.\r.normal\(chips)!R_R0402_24K!!!F61!!!!!!
+S!OPO3_PB1!R20!1!@stspin32g4_foc.schematic1(sch_1):ins16767853@analog.\r.normal\(chips)!R_R0402_24K!!!F60!!!!!!
+S!OPN3_PB2!R20!2!@stspin32g4_foc.schematic1(sch_1):ins16767853@analog.\r.normal\(chips)!R_R0402_24K!!!F60!!!!!!
+S!VBAT!R7!1!@stspin32g4_foc.schematic1(sch_1):ins16767187@analog.\r.normal\(chips)!R_R0402_24K!!!F59!!!!!!
+S!OPP2_PA7!R7!2!@stspin32g4_foc.schematic1(sch_1):ins16767187@analog.\r.normal\(chips)!R_R0402_24K!!!F59!!!!!!
+S!VBAT!R8!1!@stspin32g4_foc.schematic1(sch_1):ins16767671@analog.\r.normal\(chips)!R_R0402_24K!!!F58!!!!!!
+S!OPP3_PB0!R8!2!@stspin32g4_foc.schematic1(sch_1):ins16767671@analog.\r.normal\(chips)!R_R0402_24K!!!F58!!!!!!
+S!N16769287!R24!1!@stspin32g4_foc.schematic1(sch_1):ins16768979@analog.\r.normal\(chips)!R_R0402_68K!!!F57!!!!!!
+S!OUT1!R24!2!@stspin32g4_foc.schematic1(sch_1):ins16768979@analog.\r.normal\(chips)!R_R0402_68K!!!F57!!!!!!
+S!N16769693!R26!1!@stspin32g4_foc.schematic1(sch_1):ins16769649@analog.\r.normal\(chips)!R_R0402_68K!!!F56!!!!!!
+S!OUT2!R26!2!@stspin32g4_foc.schematic1(sch_1):ins16769649@analog.\r.normal\(chips)!R_R0402_68K!!!F56!!!!!!
+S!N16770046!R28!1!@stspin32g4_foc.schematic1(sch_1):ins16770002@analog.\r.normal\(chips)!R_R0402_68K!!!F55!!!!!!
+S!OUT3!R28!2!@stspin32g4_foc.schematic1(sch_1):ins16770002@analog.\r.normal\(chips)!R_R0402_68K!!!F55!!!!!!
+S!VOUT1_PC0!R25!1!@stspin32g4_foc.schematic1(sch_1):ins16769005@analog.\r.normal\(chips)!R_R0402_27K!!!F54!!!!!!
+S!N16769287!R25!2!@stspin32g4_foc.schematic1(sch_1):ins16769005@analog.\r.normal\(chips)!R_R0402_27K!!!F54!!!!!!
+S!VOUT2_PC1!R27!1!@stspin32g4_foc.schematic1(sch_1):ins16769665@analog.\r.normal\(chips)!R_R0402_27K!!!F53!!!!!!
+S!N16769693!R27!2!@stspin32g4_foc.schematic1(sch_1):ins16769665@analog.\r.normal\(chips)!R_R0402_27K!!!F53!!!!!!
+S!VOUT3_PC2!R29!1!@stspin32g4_foc.schematic1(sch_1):ins16770018@analog.\r.normal\(chips)!R_R0402_27K!!!F52!!!!!!
+S!N16770046!R29!2!@stspin32g4_foc.schematic1(sch_1):ins16770018@analog.\r.normal\(chips)!R_R0402_27K!!!F52!!!!!!
+S!VOUT1_PC0!R30!1!@stspin32g4_foc.schematic1(sch_1):ins16769031@analog.\r.normal\(chips)!R_R0402_3.9K!!!F51!!!!!!
+S!GND_SIGNAL!R30!2!@stspin32g4_foc.schematic1(sch_1):ins16769031@analog.\r.normal\(chips)!R_R0402_3.9K!!!F51!!!!!!
+S!VOUT2_PC1!R31!1!@stspin32g4_foc.schematic1(sch_1):ins16769735@analog.\r.normal\(chips)!R_R0402_3.9K!!!F50!!!!!!
+S!GND_SIGNAL!R31!2!@stspin32g4_foc.schematic1(sch_1):ins16769735@analog.\r.normal\(chips)!R_R0402_3.9K!!!F50!!!!!!
+S!VOUT3_PC2!R32!1!@stspin32g4_foc.schematic1(sch_1):ins16770088@analog.\r.normal\(chips)!R_R0402_3.9K!!!F49!!!!!!
+S!GND_SIGNAL!R32!2!@stspin32g4_foc.schematic1(sch_1):ins16770088@analog.\r.normal\(chips)!R_R0402_3.9K!!!F49!!!!!!
+S!N16772561!R69!1!@stspin32g4_foc.schematic1(sch_1):ins16772468@analog.\r.normal\(chips)!R_R0402_200!!!F8!!!!!!
+S!PC13!R69!2!@stspin32g4_foc.schematic1(sch_1):ins16772468@analog.\r.normal\(chips)!R_R0402_200!!!F8!!!!!!
+S!N16774050!R70!1!@stspin32g4_foc.schematic1(sch_1):ins16774052@analog.\r.normal\(chips)!R_R0402_200!!!F7!!!!!!
+S!PC14!R70!2!@stspin32g4_foc.schematic1(sch_1):ins16774052@analog.\r.normal\(chips)!R_R0402_200!!!F7!!!!!!
+S!N16773433!R71!1!@stspin32g4_foc.schematic1(sch_1):ins16773435@analog.\r.normal\(chips)!R_R0402_200!!!F6!!!!!!
+S!PG10!R71!2!@stspin32g4_foc.schematic1(sch_1):ins16773435@analog.\r.normal\(chips)!R_R0402_200!!!F6!!!!!!
+S!VM!C12!1!@stspin32g4_foc.schematic1(sch_1):ins85664@analog.\c.normal\(chips)!C_C0402_100N!!!F133!!!!!!
+S!SPA!C12!2!@stspin32g4_foc.schematic1(sch_1):ins85664@analog.\c.normal\(chips)!C_C0402_100N!!!F133!!!!!!
+S!VM!C13!1!@stspin32g4_foc.schematic1(sch_1):ins84860@analog.\c.normal\(chips)!C_C0402_100N!!!F132!!!!!!
+S!SPB!C13!2!@stspin32g4_foc.schematic1(sch_1):ins84860@analog.\c.normal\(chips)!C_C0402_100N!!!F132!!!!!!
+S!VM!C15!1!@stspin32g4_foc.schematic1(sch_1):ins85116@analog.\c.normal\(chips)!C_C0402_100N!!!F131!!!!!!
+S!SPC!C15!2!@stspin32g4_foc.schematic1(sch_1):ins85116@analog.\c.normal\(chips)!C_C0402_100N!!!F131!!!!!!
+S!OUT3!J21!1!@stspin32g4_foc.schematic1(sch_1):ins16790042@stspin32g4.\con_01x03.normal\(chips)!CON_01X03_MR30PW-F_CON_01X03!!!F82!!!!!!
+S!OUT2!J21!2!@stspin32g4_foc.schematic1(sch_1):ins16790042@stspin32g4.\con_01x03.normal\(chips)!CON_01X03_MR30PW-F_CON_01X03!!!F82!!!!!!
+S!OUT1!J21!3!@stspin32g4_foc.schematic1(sch_1):ins16790042@stspin32g4.\con_01x03.normal\(chips)!CON_01X03_MR30PW-F_CON_01X03!!!F82!!!!!!
+S!!J21!4!@stspin32g4_foc.schematic1(sch_1):ins16790042@stspin32g4.\con_01x03.normal\(chips)!CON_01X03_MR30PW-F_CON_01X03!!!F82!!!!!!
+S!!J21!5!@stspin32g4_foc.schematic1(sch_1):ins16790042@stspin32g4.\con_01x03.normal\(chips)!CON_01X03_MR30PW-F_CON_01X03!!!F82!!!!!!
+S!GHS1!R34!1!@stspin32g4_foc.schematic1(sch_1):ins84968@analog.\r.normal\(chips)!R_R0402_10R!!!F42!!!!!!
+S!HO1!R34!2!@stspin32g4_foc.schematic1(sch_1):ins84968@analog.\r.normal\(chips)!R_R0402_10R!!!F42!!!!!!
+S!GHS2!R36!1!@stspin32g4_foc.schematic1(sch_1):ins85544@analog.\r.normal\(chips)!R_R0402_10R!!!F41!!!!!!
+S!HO2!R36!2!@stspin32g4_foc.schematic1(sch_1):ins85544@analog.\r.normal\(chips)!R_R0402_10R!!!F41!!!!!!
+S!GHS3!R38!1!@stspin32g4_foc.schematic1(sch_1):ins85096@analog.\r.normal\(chips)!R_R0402_10R!!!F40!!!!!!
+S!HO3!R38!2!@stspin32g4_foc.schematic1(sch_1):ins85096@analog.\r.normal\(chips)!R_R0402_10R!!!F40!!!!!!
+S!GLS1!R48!1!@stspin32g4_foc.schematic1(sch_1):ins85216@analog.\r.normal\(chips)!R_R0402_10R!!!F39!!!!!!
+S!LO1!R48!2!@stspin32g4_foc.schematic1(sch_1):ins85216@analog.\r.normal\(chips)!R_R0402_10R!!!F39!!!!!!
+S!GLS2!R49!1!@stspin32g4_foc.schematic1(sch_1):ins84820@analog.\r.normal\(chips)!R_R0402_10R!!!F38!!!!!!
+S!LO2!R49!2!@stspin32g4_foc.schematic1(sch_1):ins84820@analog.\r.normal\(chips)!R_R0402_10R!!!F38!!!!!!
+S!GLS3!R50!1!@stspin32g4_foc.schematic1(sch_1):ins85336@analog.\r.normal\(chips)!R_R0402_10R!!!F37!!!!!!
+S!LO3!R50!2!@stspin32g4_foc.schematic1(sch_1):ins85336@analog.\r.normal\(chips)!R_R0402_10R!!!F37!!!!!!
+S!SNA!R51!1!@stspin32g4_foc.schematic1(sch_1):ins16763607@analog.\r.normal\(chips)!R_R0402_10K!!!F33!!!!!!
+S!LO1!R51!2!@stspin32g4_foc.schematic1(sch_1):ins16763607@analog.\r.normal\(chips)!R_R0402_10K!!!F33!!!!!!
+S!N16772561!R72!1!@stspin32g4_foc.schematic1(sch_1):ins16772442@analog.\r.normal\(chips)!R_R0402_10K!!!F30!!!!!!
+S!GND_SIGNAL!R72!2!@stspin32g4_foc.schematic1(sch_1):ins16772442@analog.\r.normal\(chips)!R_R0402_10K!!!F30!!!!!!
+S!N16774050!R74!1!@stspin32g4_foc.schematic1(sch_1):ins16774102@analog.\r.normal\(chips)!R_R0402_10K!!!F29!!!!!!
+S!GND_SIGNAL!R74!2!@stspin32g4_foc.schematic1(sch_1):ins16774102@analog.\r.normal\(chips)!R_R0402_10K!!!F29!!!!!!
+S!N16773433!R76!1!@stspin32g4_foc.schematic1(sch_1):ins16773485@analog.\r.normal\(chips)!R_R0402_10K!!!F28!!!!!!
+S!GND_SIGNAL!R76!2!@stspin32g4_foc.schematic1(sch_1):ins16773485@analog.\r.normal\(chips)!R_R0402_10K!!!F28!!!!!!
+S!OUT1!R39!1!@stspin32g4_foc.schematic1(sch_1):ins16763349@analog.\r.normal\(chips)!R_R0402_10K!!!F36!!!!!!
+S!HO1!R39!2!@stspin32g4_foc.schematic1(sch_1):ins16763349@analog.\r.normal\(chips)!R_R0402_10K!!!F36!!!!!!
+S!OUT2!R40!1!@stspin32g4_foc.schematic1(sch_1):ins16763851@analog.\r.normal\(chips)!R_R0402_10K!!!F35!!!!!!
+S!HO2!R40!2!@stspin32g4_foc.schematic1(sch_1):ins16763851@analog.\r.normal\(chips)!R_R0402_10K!!!F35!!!!!!
+S!OUT3!R41!1!@stspin32g4_foc.schematic1(sch_1):ins16763969@analog.\r.normal\(chips)!R_R0402_10K!!!F34!!!!!!
+S!HO3!R41!2!@stspin32g4_foc.schematic1(sch_1):ins16763969@analog.\r.normal\(chips)!R_R0402_10K!!!F34!!!!!!
+S!SNA!R52!1!@stspin32g4_foc.schematic1(sch_1):ins16763735@analog.\r.normal\(chips)!R_R0402_10K!!!F32!!!!!!
+S!LO2!R52!2!@stspin32g4_foc.schematic1(sch_1):ins16763735@analog.\r.normal\(chips)!R_R0402_10K!!!F32!!!!!!
+S!SNA!R53!1!@stspin32g4_foc.schematic1(sch_1):ins16764090@analog.\r.normal\(chips)!R_R0402_10K!!!F31!!!!!!
+S!LO3!R53!2!@stspin32g4_foc.schematic1(sch_1):ins16764090@analog.\r.normal\(chips)!R_R0402_10K!!!F31!!!!!!
+S!GLS1!R54!1!@stspin32g4_foc.schematic1(sch_1):ins16763623@analog.\r.normal\(chips)!R_R0402_1R!!!F23!!!!!!
+S!N16763649!R54!2!@stspin32g4_foc.schematic1(sch_1):ins16763623@analog.\r.normal\(chips)!R_R0402_1R!!!F23!!!!!!
+S!GHS1!R42!1!@stspin32g4_foc.schematic1(sch_1):ins16763520@analog.\r.normal\(chips)!R_R0402_1R!!!F26!!!!!!
+S!N852060!R42!2!@stspin32g4_foc.schematic1(sch_1):ins16763520@analog.\r.normal\(chips)!R_R0402_1R!!!F26!!!!!!
+S!GHS2!R43!1!@stspin32g4_foc.schematic1(sch_1):ins16763867@analog.\r.normal\(chips)!R_R0402_1R!!!F25!!!!!!
+S!N16763895!R43!2!@stspin32g4_foc.schematic1(sch_1):ins16763867@analog.\r.normal\(chips)!R_R0402_1R!!!F25!!!!!!
+S!GHS3!R44!1!@stspin32g4_foc.schematic1(sch_1):ins16763985@analog.\r.normal\(chips)!R_R0402_1R!!!F24!!!!!!
+S!N851860!R44!2!@stspin32g4_foc.schematic1(sch_1):ins16763985@analog.\r.normal\(chips)!R_R0402_1R!!!F24!!!!!!
+S!GLS2!R55!1!@stspin32g4_foc.schematic1(sch_1):ins16763751@analog.\r.normal\(chips)!R_R0402_1R!!!F22!!!!!!
+S!N16763779!R55!2!@stspin32g4_foc.schematic1(sch_1):ins16763751@analog.\r.normal\(chips)!R_R0402_1R!!!F22!!!!!!
+S!GLS3!R56!1!@stspin32g4_foc.schematic1(sch_1):ins16764106@analog.\r.normal\(chips)!R_R0402_1R!!!F21!!!!!!
+S!N16764138!R56!2!@stspin32g4_foc.schematic1(sch_1):ins16764106@analog.\r.normal\(chips)!R_R0402_1R!!!F21!!!!!!
+S!SNA!J22!1!@stspin32g4_foc.schematic1(sch_1):ins16790108@stspin32g4.\con_01x02.normal\(chips)!CON_01X02_P1X2-5R0-XT30PW-M_CON_01X02!!!F81!!!!!!
+S!VM!J22!2!@stspin32g4_foc.schematic1(sch_1):ins16790108@stspin32g4.\con_01x02.normal\(chips)!CON_01X02_P1X2-5R0-XT30PW-M_CON_01X02!!!F81!!!!!!
+S!!J22!3!@stspin32g4_foc.schematic1(sch_1):ins16790108@stspin32g4.\con_01x02.normal\(chips)!CON_01X02_P1X2-5R0-XT30PW-M_CON_01X02!!!F81!!!!!!
+S!!J22!4!@stspin32g4_foc.schematic1(sch_1):ins16790108@stspin32g4.\con_01x02.normal\(chips)!CON_01X02_P1X2-5R0-XT30PW-M_CON_01X02!!!F81!!!!!!
+S!SW!L1!1!@stspin32g4_foc.schematic1(sch_1):ins89043@analog.\l.normal\(chips)!L_SMD_4R2X4R4_10UH!!!F77!!!!!!
+S!VCC!L1!2!@stspin32g4_foc.schematic1(sch_1):ins89043@analog.\l.normal\(chips)!L_SMD_4R2X4R4_10UH!!!F77!!!!!!
+S!VM!Q1!5!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!VM!Q1!6!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!VM!Q1!7!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!VM!Q1!8!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!VM!Q1!9!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!HO1!Q1!4!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!OUT1!Q1!1!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!OUT1!Q1!2!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!OUT1!Q1!3!@stspin32g4_foc.schematic1(sch_1):ins16792024@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F75!!!!!!
+S!OUT1!Q2!5!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!OUT1!Q2!6!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!OUT1!Q2!7!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!OUT1!Q2!8!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!OUT1!Q2!9!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!LO1!Q2!4!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!SPA!Q2!1!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!SPA!Q2!2!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!SPA!Q2!3!@stspin32g4_foc.schematic1(sch_1):ins16792163@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F74!!!!!!
+S!VM!Q3!5!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!VM!Q3!6!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!VM!Q3!7!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!VM!Q3!8!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!VM!Q3!9!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!HO2!Q3!4!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!OUT2!Q3!1!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!OUT2!Q3!2!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!OUT2!Q3!3!@stspin32g4_foc.schematic1(sch_1):ins16792254@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F73!!!!!!
+S!OUT2!Q4!5!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!OUT2!Q4!6!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!OUT2!Q4!7!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!OUT2!Q4!8!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!OUT2!Q4!9!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!LO2!Q4!4!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!SPB!Q4!1!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!SPB!Q4!2!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!SPB!Q4!3!@stspin32g4_foc.schematic1(sch_1):ins16792392@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F72!!!!!!
+S!VM!Q5!5!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!VM!Q5!6!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!VM!Q5!7!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!VM!Q5!8!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!VM!Q5!9!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!HO3!Q5!4!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!OUT3!Q5!1!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!OUT3!Q5!2!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!OUT3!Q5!3!@stspin32g4_foc.schematic1(sch_1):ins16792482@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F71!!!!!!
+S!OUT3!Q6!5!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!OUT3!Q6!6!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!OUT3!Q6!7!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!OUT3!Q6!8!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!OUT3!Q6!9!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!LO3!Q6!4!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!SPC!Q6!1!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!SPC!Q6!2!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!SPC!Q6!3!@stspin32g4_foc.schematic1(sch_1):ins16792618@stspin32g4.\nmosfet so-8 single_0.normal\(chips)!NMOSFET SO-8 SINGLE_0_DNK0008A_SP010N04BGNK!!!F70!!!!!!
+S!VBAT!J16!1!@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F87!!!!!!
+S!SPI_SCK_Z_PB3!J16!2!@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F87!!!!!!
+S!I2C_SDA_B_PB7!J16!3!@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F87!!!!!!
+S!A_PB6!J16!4!@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F87!!!!!!
+S!GND_SIGNAL!J16!5!@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F87!!!!!!
+S!!J16!6!@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F87!!!!!!
+S!!J16!7!@stspin32g4_foc.schematic1(sch_1):ins16789119@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F87!!!!!!
+S!VBAT!J17!1!@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F86!!!!!!
+S!!J17!2!@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F86!!!!!!
+S!I2C_SCL_PB8!J17!3!@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F86!!!!!!
+S!I2C_SDA_B_PB7!J17!4!@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F86!!!!!!
+S!GND_SIGNAL!J17!5!@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F86!!!!!!
+S!!J17!6!@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F86!!!!!!
+S!!J17!7!@stspin32g4_foc.schematic1(sch_1):ins16789216@stspin32g4.\con_01x05.normal\(chips)!CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05!!!F86!!!!!!
+S!VBAT!J18!1!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!SPI_MOSI_PB5!J18!2!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!SPI_MISO_PB4!J18!3!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!SPI_SCK_Z_PB3!J18!4!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!SPI_CS_PD2!J18!5!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!GND_SIGNAL!J18!6!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!!J18!7!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!!J18!8!@stspin32g4_foc.schematic1(sch_1):ins16789321@stspin32g4.\con_01x06.normal\(chips)!CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06!!!F85!!!!!!
+S!VBAT!J19!1!@stspin32g4_foc.schematic1(sch_1):ins16789761@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F84!!!!!!
+S!CLK!J19!2!@stspin32g4_foc.schematic1(sch_1):ins16789761@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F84!!!!!!
+S!DIO!J19!3!@stspin32g4_foc.schematic1(sch_1):ins16789761@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F84!!!!!!
+S!GND_SIGNAL!J19!4!@stspin32g4_foc.schematic1(sch_1):ins16789761@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F84!!!!!!
+S!!J19!5!@stspin32g4_foc.schematic1(sch_1):ins16789761@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F84!!!!!!
+S!!J19!6!@stspin32g4_foc.schematic1(sch_1):ins16789761@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F84!!!!!!
+S!VBAT!J20!1!@stspin32g4_foc.schematic1(sch_1):ins16789852@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F83!!!!!!
+S!UART_RX!J20!2!@stspin32g4_foc.schematic1(sch_1):ins16789852@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F83!!!!!!
+S!UART_TX!J20!3!@stspin32g4_foc.schematic1(sch_1):ins16789852@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F83!!!!!!
+S!GND_SIGNAL!J20!4!@stspin32g4_foc.schematic1(sch_1):ins16789852@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F83!!!!!!
+S!!J20!5!@stspin32g4_foc.schematic1(sch_1):ins16789852@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F83!!!!!!
+S!!J20!6!@stspin32g4_foc.schematic1(sch_1):ins16789852@stspin32g4.\con_01x04.normal\(chips)!CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04!!!F83!!!!!!
+S!N13498!C16!1!@stspin32g4_foc.schematic1(sch_1):ins85056@analog.\c.normal\(chips)!C_C0805_NC!!!F130!!!!!!
+S!SPA!C16!2!@stspin32g4_foc.schematic1(sch_1):ins85056@analog.\c.normal\(chips)!C_C0805_NC!!!F130!!!!!!
+S!N13800!C17!1!@stspin32g4_foc.schematic1(sch_1):ins84800@analog.\c.normal\(chips)!C_C0805_NC!!!F129!!!!!!
+S!SPB!C17!2!@stspin32g4_foc.schematic1(sch_1):ins84800@analog.\c.normal\(chips)!C_C0805_NC!!!F129!!!!!!
+S!N14018!C18!1!@stspin32g4_foc.schematic1(sch_1):ins84760@analog.\c.normal\(chips)!C_C0805_NC!!!F128!!!!!!
+S!SPC!C18!2!@stspin32g4_foc.schematic1(sch_1):ins84760@analog.\c.normal\(chips)!C_C0805_NC!!!F128!!!!!!
+S!N13348!C7!1!@stspin32g4_foc.schematic1(sch_1):ins84692@analog.\c.normal\(chips)!C_C0805_NC!!!F127!!!!!!
+S!OUT1!C7!2!@stspin32g4_foc.schematic1(sch_1):ins84692@analog.\c.normal\(chips)!C_C0805_NC!!!F127!!!!!!
+S!N13792!C8!1!@stspin32g4_foc.schematic1(sch_1):ins85436@analog.\c.normal\(chips)!C_C0805_NC!!!F126!!!!!!
+S!OUT2!C8!2!@stspin32g4_foc.schematic1(sch_1):ins85436@analog.\c.normal\(chips)!C_C0805_NC!!!F126!!!!!!
+S!N13998!C9!1!@stspin32g4_foc.schematic1(sch_1):ins85376@analog.\c.normal\(chips)!C_C0805_NC!!!F125!!!!!!
+S!OUT3!C9!2!@stspin32g4_foc.schematic1(sch_1):ins85376@analog.\c.normal\(chips)!C_C0805_NC!!!F125!!!!!!
+S!VM!C22!1!@stspin32g4_foc.schematic1(sch_1):ins85256@analog.\c.normal\(chips)!C_C1206_10U!!!F119!!!!!!
+S!SNA!C22!2!@stspin32g4_foc.schematic1(sch_1):ins85256@analog.\c.normal\(chips)!C_C1206_10U!!!F119!!!!!!
+S!VM!C23!1!@stspin32g4_foc.schematic1(sch_1):ins85564@analog.\c.normal\(chips)!C_C1206_10U!!!F118!!!!!!
+S!SNA!C23!2!@stspin32g4_foc.schematic1(sch_1):ins85564@analog.\c.normal\(chips)!C_C1206_10U!!!F118!!!!!!
+S!VM!C24!1!@stspin32g4_foc.schematic1(sch_1):ins84840@analog.\c.normal\(chips)!C_C1206_10U!!!F117!!!!!!
+S!SNA!C24!2!@stspin32g4_foc.schematic1(sch_1):ins84840@analog.\c.normal\(chips)!C_C1206_10U!!!F117!!!!!!
+S!VM!C25!1!@stspin32g4_foc.schematic1(sch_1):ins85076@analog.\c.normal\(chips)!C_C1206_10U!!!F116!!!!!!
+S!SNA!C25!2!@stspin32g4_foc.schematic1(sch_1):ins85076@analog.\c.normal\(chips)!C_C1206_10U!!!F116!!!!!!
+S!VM!C26!1!@stspin32g4_foc.schematic1(sch_1):ins85296@analog.\c.normal\(chips)!C_C1206_10U!!!F115!!!!!!
+S!SNA!C26!2!@stspin32g4_foc.schematic1(sch_1):ins85296@analog.\c.normal\(chips)!C_C1206_10U!!!F115!!!!!!
+S!VM!C27!1!@stspin32g4_foc.schematic1(sch_1):ins85604@analog.\c.normal\(chips)!C_C1206_10U!!!F114!!!!!!
+S!SNA!C27!2!@stspin32g4_foc.schematic1(sch_1):ins85604@analog.\c.normal\(chips)!C_C1206_10U!!!F114!!!!!!
+S!GND_SIGNAL!C41!1!@stspin32g4_foc.schematic1(sch_1):ins90534@analog.\c.normal\(chips)!C_C0402_100NF!!!F136!!!!!!
+S!VBAT!C41!2!@stspin32g4_foc.schematic1(sch_1):ins90534@analog.\c.normal\(chips)!C_C0402_100NF!!!F136!!!!!!
+S!GND_SIGNAL!C46!1!@stspin32g4_foc.schematic1(sch_1):ins16816678@analog.\c.normal\(chips)!C_C0402_100NF!!!F134!!!!!!
+S!VCC!C46!2!@stspin32g4_foc.schematic1(sch_1):ins16816678@analog.\c.normal\(chips)!C_C0402_100NF!!!F134!!!!!!
+S!GND_SIGNAL!C30!1!@stspin32g4_foc.schematic1(sch_1):ins16773501@analog.\c.normal\(chips)!C_C0402_100NF!!!F139!!!!!!
+S!N16773433!C30!2!@stspin32g4_foc.schematic1(sch_1):ins16773501@analog.\c.normal\(chips)!C_C0402_100NF!!!F139!!!!!!
+S!BOOT1!C10!1!@stspin32g4_foc.schematic1(sch_1):ins16764875@analog.\c.normal\(chips)!C_C0402_100NF!!!F144!!!!!!
+S!OUT1!C10!2!@stspin32g4_foc.schematic1(sch_1):ins16764875@analog.\c.normal\(chips)!C_C0402_100NF!!!F144!!!!!!
+S!BOOT2!C11!1!@stspin32g4_foc.schematic1(sch_1):ins16765034@analog.\c.normal\(chips)!C_C0402_100NF!!!F143!!!!!!
+S!OUT2!C11!2!@stspin32g4_foc.schematic1(sch_1):ins16765034@analog.\c.normal\(chips)!C_C0402_100NF!!!F143!!!!!!
+S!BOOT3!C14!1!@stspin32g4_foc.schematic1(sch_1):ins16765123@analog.\c.normal\(chips)!C_C0402_100NF!!!F142!!!!!!
+S!OUT3!C14!2!@stspin32g4_foc.schematic1(sch_1):ins16765123@analog.\c.normal\(chips)!C_C0402_100NF!!!F142!!!!!!
+S!GND_SIGNAL!C28!1!@stspin32g4_foc.schematic1(sch_1):ins16772519@analog.\c.normal\(chips)!C_C0402_100NF!!!F141!!!!!!
+S!N16772561!C28!2!@stspin32g4_foc.schematic1(sch_1):ins16772519@analog.\c.normal\(chips)!C_C0402_100NF!!!F141!!!!!!
+S!GND_SIGNAL!C29!1!@stspin32g4_foc.schematic1(sch_1):ins16774118@analog.\c.normal\(chips)!C_C0402_100NF!!!F140!!!!!!
+S!N16774050!C29!2!@stspin32g4_foc.schematic1(sch_1):ins16774118@analog.\c.normal\(chips)!C_C0402_100NF!!!F140!!!!!!
+S!GND_SIGNAL!C37!1!@stspin32g4_foc.schematic1(sch_1):ins90144@analog.\c.normal\(chips)!C_C0402_100NF!!!F138!!!!!!
+S!VBAT!C37!2!@stspin32g4_foc.schematic1(sch_1):ins90144@analog.\c.normal\(chips)!C_C0402_100NF!!!F138!!!!!!
+S!GND_SIGNAL!C39!1!@stspin32g4_foc.schematic1(sch_1):ins90372@analog.\c.normal\(chips)!C_C0402_100NF!!!F137!!!!!!
+S!VBAT!C39!2!@stspin32g4_foc.schematic1(sch_1):ins90372@analog.\c.normal\(chips)!C_C0402_100NF!!!F137!!!!!!
+S!GND_SIGNAL!C43!1!@stspin32g4_foc.schematic1(sch_1):ins90711@analog.\c.normal\(chips)!C_C0402_100NF!!!F135!!!!!!
+S!VBAT!C43!2!@stspin32g4_foc.schematic1(sch_1):ins90711@analog.\c.normal\(chips)!C_C0402_100NF!!!F135!!!!!!
+S!GND_SIGNAL!C32!1!@stspin32g4_foc.schematic1(sch_1):ins89310@analog.\c.normal\(chips)!C_C0402_220NF!!!F113!!!!!!
+S!VM!C32!2!@stspin32g4_foc.schematic1(sch_1):ins89310@analog.\c.normal\(chips)!C_C0402_220NF!!!F113!!!!!!
+S!GND_SIGNAL!C34!1!@stspin32g4_foc.schematic1(sch_1):ins16763157@analog.\c.normal\(chips)!C_C0402_220NF!!!F112!!!!!!
+S!OSCIN_PF0!C34!2!@stspin32g4_foc.schematic1(sch_1):ins16763157@analog.\c.normal\(chips)!C_C0402_220NF!!!F112!!!!!!
+S!OSCOUT_PF1!C35!1!@stspin32g4_foc.schematic1(sch_1):ins16763072@analog.\c.normal\(chips)!C_C0402_220NF!!!F111!!!!!!
+S!GND_SIGNAL!C35!2!@stspin32g4_foc.schematic1(sch_1):ins16763072@analog.\c.normal\(chips)!C_C0402_220NF!!!F111!!!!!!
+S!GND_SIGNAL!C40!1!@stspin32g4_foc.schematic1(sch_1):ins90518@analog.\c.normal\(chips)!C_C0603_10UF!!!F106!!!!!!
+S!VBAT!C40!2!@stspin32g4_foc.schematic1(sch_1):ins90518@analog.\c.normal\(chips)!C_C0603_10UF!!!F106!!!!!!
+S!GND_SIGNAL!C36!1!@stspin32g4_foc.schematic1(sch_1):ins90118@analog.\c.normal\(chips)!C_C0603_10UF!!!F108!!!!!!
+S!VBAT!C36!2!@stspin32g4_foc.schematic1(sch_1):ins90118@analog.\c.normal\(chips)!C_C0603_10UF!!!F108!!!!!!
+S!GND_SIGNAL!C38!1!@stspin32g4_foc.schematic1(sch_1):ins90356@analog.\c.normal\(chips)!C_C0603_10UF!!!F107!!!!!!
+S!VBAT!C38!2!@stspin32g4_foc.schematic1(sch_1):ins90356@analog.\c.normal\(chips)!C_C0603_10UF!!!F107!!!!!!
+S!GND_SIGNAL!C42!1!@stspin32g4_foc.schematic1(sch_1):ins90695@analog.\c.normal\(chips)!C_C0603_10UF!!!F105!!!!!!
+S!VBAT!C42!2!@stspin32g4_foc.schematic1(sch_1):ins90695@analog.\c.normal\(chips)!C_C0603_10UF!!!F105!!!!!!
+S!VM!D1!1!@stspin32g4_foc.schematic1(sch_1):ins16765885@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F101!!!!!!
+S!PC4!D1!2!@stspin32g4_foc.schematic1(sch_1):ins16765885@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F101!!!!!!
+S!N16764138!D10!1!@stspin32g4_foc.schematic1(sch_1):ins85356@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F100!!!!!!
+S!LO3!D10!2!@stspin32g4_foc.schematic1(sch_1):ins85356@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F100!!!!!!
+S!SW!D14!1!@stspin32g4_foc.schematic1(sch_1):ins89018@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F99!!!!!!
+S!GND_SIGNAL!D14!2!@stspin32g4_foc.schematic1(sch_1):ins89018@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F99!!!!!!
+S!VBAT!D2!1!@stspin32g4_foc.schematic1(sch_1):ins16769110@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F98!!!!!!
+S!VOUT1_PC0!D2!2!@stspin32g4_foc.schematic1(sch_1):ins16769110@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F98!!!!!!
+S!VBAT!D3!1!@stspin32g4_foc.schematic1(sch_1):ins16769627@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F97!!!!!!
+S!VOUT2_PC1!D3!2!@stspin32g4_foc.schematic1(sch_1):ins16769627@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F97!!!!!!
+S!VBAT!D4!1!@stspin32g4_foc.schematic1(sch_1):ins16769980@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F96!!!!!!
+S!VOUT3_PC2!D4!2!@stspin32g4_foc.schematic1(sch_1):ins16769980@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F96!!!!!!
+S!N852060!D5!1!@stspin32g4_foc.schematic1(sch_1):ins85196@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F95!!!!!!
+S!HO1!D5!2!@stspin32g4_foc.schematic1(sch_1):ins85196@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F95!!!!!!
+S!N16763895!D6!1!@stspin32g4_foc.schematic1(sch_1):ins84780@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F94!!!!!!
+S!HO2!D6!2!@stspin32g4_foc.schematic1(sch_1):ins84780@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F94!!!!!!
+S!N851860!D7!1!@stspin32g4_foc.schematic1(sch_1):ins85176@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F93!!!!!!
+S!HO3!D7!2!@stspin32g4_foc.schematic1(sch_1):ins85176@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F93!!!!!!
+S!N16763649!D8!1!@stspin32g4_foc.schematic1(sch_1):ins85624@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F92!!!!!!
+S!LO1!D8!2!@stspin32g4_foc.schematic1(sch_1):ins85624@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F92!!!!!!
+S!N16763779!D9!1!@stspin32g4_foc.schematic1(sch_1):ins84988@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F91!!!!!!
+S!LO2!D9!2!@stspin32g4_foc.schematic1(sch_1):ins84988@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!!!F91!!!!!!
+S!N16775582!D11!2!@stspin32g4_foc.schematic1(sch_1):ins16775604@library1.\led.normal\(chips)!LED_LED0603_LED!!!F90!!!!!!
+S!GND_SIGNAL!D11!1!@stspin32g4_foc.schematic1(sch_1):ins16775604@library1.\led.normal\(chips)!LED_LED0603_LED!!!F90!!!!!!
+S!N16772640!D12!2!@stspin32g4_foc.schematic1(sch_1):ins16772416@library1.\led.normal\(chips)!LED_LED0603_LED!!!F89!!!!!!
+S!GND_SIGNAL!D12!1!@stspin32g4_foc.schematic1(sch_1):ins16772416@library1.\led.normal\(chips)!LED_LED0603_LED!!!F89!!!!!!
+S!N16774172!D13!2!@stspin32g4_foc.schematic1(sch_1):ins16774150@library1.\led.normal\(chips)!LED_LED0603_LED!!!F88!!!!!!
+S!GND_SIGNAL!D13!1!@stspin32g4_foc.schematic1(sch_1):ins16774150@library1.\led.normal\(chips)!LED_LED0603_LED!!!F88!!!!!!
+S!N16772561!KEY1!1!@stspin32g4_foc.schematic1(sch_1):ins16772348@stspin32g4.\key.normal\(chips)!KEY_KEY_SMD_L29_39_30_KEY!!!F80!!!!!!
+S!VBAT!KEY1!2!@stspin32g4_foc.schematic1(sch_1):ins16772348@stspin32g4.\key.normal\(chips)!KEY_KEY_SMD_L29_39_30_KEY!!!F80!!!!!!
+S!N16774050!KEY2!1!@stspin32g4_foc.schematic1(sch_1):ins16774032@stspin32g4.\key.normal\(chips)!KEY_KEY_SMD_L29_39_30_KEY!!!F79!!!!!!
+S!VBAT!KEY2!2!@stspin32g4_foc.schematic1(sch_1):ins16774032@stspin32g4.\key.normal\(chips)!KEY_KEY_SMD_L29_39_30_KEY!!!F79!!!!!!
+S!N16773433!KEY3!1!@stspin32g4_foc.schematic1(sch_1):ins16773415@stspin32g4.\key.normal\(chips)!KEY_KEY_SMD_L29_39_30_KEY!!!F78!!!!!!
+S!VBAT!KEY3!2!@stspin32g4_foc.schematic1(sch_1):ins16773415@stspin32g4.\key.normal\(chips)!KEY_KEY_SMD_L29_39_30_KEY!!!F78!!!!!!
+S!VBUS_PA0!NTC1!1!@stspin32g4_foc.schematic1(sch_1):ins16765579@stspin32g4.\ntc.normal\(chips)!NTC_R0402_10K!!!F76!!!!!!
+S!VBAT!NTC1!2!@stspin32g4_foc.schematic1(sch_1):ins16765579@stspin32g4.\ntc.normal\(chips)!NTC_R0402_10K!!!F76!!!!!!
+S!PC4!R1!1!@stspin32g4_foc.schematic1(sch_1):ins16766283@analog.\r.normal\(chips)!R_R0402_150K!!!F69!!!!!!
+S!VM!R1!2!@stspin32g4_foc.schematic1(sch_1):ins16766283@analog.\r.normal\(chips)!R_R0402_150K!!!F69!!!!!!
+S!PC4!R2!1!@stspin32g4_foc.schematic1(sch_1):ins16765928@analog.\r.normal\(chips)!R_R0402_150K!!!F68!!!!!!
+S!VM!R2!2!@stspin32g4_foc.schematic1(sch_1):ins16765928@analog.\r.normal\(chips)!R_R0402_150K!!!F68!!!!!!
+S!N13792!R33!1!@stspin32g4_foc.schematic1(sch_1):ins85276@analog.\r.normal\(chips)!R_R0805_NC!!!F48!!!!!!
+S!VM!R33!2!@stspin32g4_foc.schematic1(sch_1):ins85276@analog.\r.normal\(chips)!R_R0805_NC!!!F48!!!!!!
+S!N13348!R35!1!@stspin32g4_foc.schematic1(sch_1):ins85456@analog.\r.normal\(chips)!R_R0805_NC!!!F47!!!!!!
+S!VM!R35!2!@stspin32g4_foc.schematic1(sch_1):ins85456@analog.\r.normal\(chips)!R_R0805_NC!!!F47!!!!!!
+S!N13998!R37!1!@stspin32g4_foc.schematic1(sch_1):ins85236@analog.\r.normal\(chips)!R_R0805_NC!!!F46!!!!!!
+S!VM!R37!2!@stspin32g4_foc.schematic1(sch_1):ins85236@analog.\r.normal\(chips)!R_R0805_NC!!!F46!!!!!!
+S!N13498!R45!1!@stspin32g4_foc.schematic1(sch_1):ins84880@analog.\r.normal\(chips)!R_R0805_NC!!!F45!!!!!!
+S!OUT1!R45!2!@stspin32g4_foc.schematic1(sch_1):ins84880@analog.\r.normal\(chips)!R_R0805_NC!!!F45!!!!!!
+S!N13800!R46!1!@stspin32g4_foc.schematic1(sch_1):ins85644@analog.\r.normal\(chips)!R_R0805_NC!!!F44!!!!!!
+S!OUT2!R46!2!@stspin32g4_foc.schematic1(sch_1):ins85644@analog.\r.normal\(chips)!R_R0805_NC!!!F44!!!!!!
+S!N14018!R47!1!@stspin32g4_foc.schematic1(sch_1):ins85584@analog.\r.normal\(chips)!R_R0805_NC!!!F43!!!!!!
+S!OUT3!R47!2!@stspin32g4_foc.schematic1(sch_1):ins85584@analog.\r.normal\(chips)!R_R0805_NC!!!F43!!!!!!
+S!GND_SIGNAL!R5!1!@stspin32g4_foc.schematic1(sch_1):ins16765954@analog.\r.normal\(chips)!R_R0402_3K!!!F20!!!!!!
+S!PC4!R5!2!@stspin32g4_foc.schematic1(sch_1):ins16765954@analog.\r.normal\(chips)!R_R0402_3K!!!F20!!!!!!
+S!SNA!R57!1!@stspin32g4_foc.schematic1(sch_1):ins84948@analog.\r.normal\(chips)!R_R2512_10M!!!F19!!!!!!
+S!SPA!R57!2!@stspin32g4_foc.schematic1(sch_1):ins84948@analog.\r.normal\(chips)!R_R2512_10M!!!F19!!!!!!
+S!SNA!R58!1!@stspin32g4_foc.schematic1(sch_1):ins85136@analog.\r.normal\(chips)!R_R2512_10M!!!F18!!!!!!
+S!SPB!R58!2!@stspin32g4_foc.schematic1(sch_1):ins85136@analog.\r.normal\(chips)!R_R2512_10M!!!F18!!!!!!
+S!SNA!R59!1!@stspin32g4_foc.schematic1(sch_1):ins85396@analog.\r.normal\(chips)!R_R2512_10M!!!F17!!!!!!
+S!SPC!R59!2!@stspin32g4_foc.schematic1(sch_1):ins85396@analog.\r.normal\(chips)!R_R2512_10M!!!F17!!!!!!
+S!VM!R60!1!@stspin32g4_foc.schematic1(sch_1):ins16775564@analog.\r.normal\(chips)!R_C0603_10K!!!F16!!!!!!
+S!N16775582!R60!2!@stspin32g4_foc.schematic1(sch_1):ins16775564@analog.\r.normal\(chips)!R_C0603_10K!!!F16!!!!!!
+S!VBAT!R62!1!@stspin32g4_foc.schematic1(sch_1):ins16776305@analog.\r.normal\(chips)!R_C0603_10K!!!F15!!!!!!
+S!SPI_MOSI_PB5!R62!2!@stspin32g4_foc.schematic1(sch_1):ins16776305@analog.\r.normal\(chips)!R_C0603_10K!!!F15!!!!!!
+S!VBAT!R63!1!@stspin32g4_foc.schematic1(sch_1):ins16776116@analog.\r.normal\(chips)!R_C0603_10K!!!F14!!!!!!
+S!SPI_MISO_PB4!R63!2!@stspin32g4_foc.schematic1(sch_1):ins16776116@analog.\r.normal\(chips)!R_C0603_10K!!!F14!!!!!!
+S!VBAT!R64!1!@stspin32g4_foc.schematic1(sch_1):ins16776142@analog.\r.normal\(chips)!R_C0603_10K!!!F13!!!!!!
+S!SPI_SCK_Z_PB3!R64!2!@stspin32g4_foc.schematic1(sch_1):ins16776142@analog.\r.normal\(chips)!R_C0603_10K!!!F13!!!!!!
+S!VBAT!R65!1!@stspin32g4_foc.schematic1(sch_1):ins16776168@analog.\r.normal\(chips)!R_C0603_10K!!!F12!!!!!!
+S!SPI_SCK_Z_PB3!R65!2!@stspin32g4_foc.schematic1(sch_1):ins16776168@analog.\r.normal\(chips)!R_C0603_10K!!!F12!!!!!!
+S!VBAT!R66!1!@stspin32g4_foc.schematic1(sch_1):ins16775263@analog.\r.normal\(chips)!R_C0603_10K!!!F11!!!!!!
+S!A_PB6!R66!2!@stspin32g4_foc.schematic1(sch_1):ins16775263@analog.\r.normal\(chips)!R_C0603_10K!!!F11!!!!!!
+S!VBAT!R67!1!@stspin32g4_foc.schematic1(sch_1):ins16776754@analog.\r.normal\(chips)!R_C0603_10K!!!F10!!!!!!
+S!I2C_SCL_PB8!R67!2!@stspin32g4_foc.schematic1(sch_1):ins16776754@analog.\r.normal\(chips)!R_C0603_10K!!!F10!!!!!!
+S!VBAT!R68!1!@stspin32g4_foc.schematic1(sch_1):ins16777252@analog.\r.normal\(chips)!R_C0603_10K!!!F9!!!!!!
+S!I2C_SDA_B_PB7!R68!2!@stspin32g4_foc.schematic1(sch_1):ins16777252@analog.\r.normal\(chips)!R_C0603_10K!!!F9!!!!!!
+S!N16772561!R73!1!@stspin32g4_foc.schematic1(sch_1):ins16772545@analog.\r.normal\(chips)!R_R0402_1K!!!F5!!!!!!
+S!N16772640!R73!2!@stspin32g4_foc.schematic1(sch_1):ins16772545@analog.\r.normal\(chips)!R_R0402_1K!!!F5!!!!!!
+S!N16774050!R75!1!@stspin32g4_foc.schematic1(sch_1):ins16774134@analog.\r.normal\(chips)!R_R0402_1K!!!F4!!!!!!
+S!N16774172!R75!2!@stspin32g4_foc.schematic1(sch_1):ins16774134@analog.\r.normal\(chips)!R_R0402_1K!!!F4!!!!!!
+S!SCREF!R77!1!@stspin32g4_foc.schematic1(sch_1):ins89627@analog.\r.normal\(chips)!R_R0402_1K!!!F3!!!!!!
+S!VBAT!R77!2!@stspin32g4_foc.schematic1(sch_1):ins89627@analog.\r.normal\(chips)!R_R0402_1K!!!F3!!!!!!
+S!GND_SIGNAL!R78!1!@stspin32g4_foc.schematic1(sch_1):ins89643@analog.\r.normal\(chips)!R_C0402_1K!!!F2!!!!!!
+S!SCREF!R78!2!@stspin32g4_foc.schematic1(sch_1):ins89643@analog.\r.normal\(chips)!R_C0402_1K!!!F2!!!!!!
+S!BOOT1!U1!41!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!BOOT2!U1!38!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!BOOT3!U1!35!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!GHS1!U1!43!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!GHS2!U1!40!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!GHS3!U1!37!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!GLS1!U1!29!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!GLS2!U1!30!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!GLS3!U1!31!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!!U1!33!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!!U1!34!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OUT1!U1!42!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OUT2!U1!39!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OUT3!U1!36!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VBUS_PA0!U1!13!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPP1_PA1!U1!14!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!UART_RX!U1!46!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!CAN_RX!U1!47!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!CAN_TX!U1!48!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!DIO!U1!49!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!CLK!U1!50!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PA15!U1!51!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPO1_PA2!U1!15!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPN1_PA3!U1!16!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!DAC1_PA4!U1!17!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!DAC2_PA5!U1!18!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPO2_PA6!U1!19!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPP2_PA7!U1!20!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PA8!U1!44!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!UART_TX!U1!45!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPP3_PB0!U1!23!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPO3_PB1!U1!24!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!USER2_PB10!U1!28!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPN3_PB2!U1!25!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!SPI_SCK_Z_PB3!U1!54!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!SPI_MISO_PB4!U1!55!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!SPI_MOSI_PB5!U1!56!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!A_PB6!U1!57!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!I2C_SDA_B_PB7!U1!58!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!I2C_SCL_PB8!U1!59!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PB9!U1!60!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VOUT1_PC0!U1!9!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VOUT2_PC1!U1!10!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PC13!U1!3!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PC14!U1!4!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PC15!U1!5!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VOUT3_PC2!U1!11!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PC3!U1!12!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!PC4!U1!21!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OPN2_PC5!U1!22!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!SPI_CS_PD2!U1!53!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OSCIN_PF0!U1!6!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OSCOUT_PF1!U1!7!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!NRST_PG10!U1!8!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!SNA!U1!32!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VBAT!U1!1!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!REGIN!U1!64!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!SCREF!U1!52!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!SW!U1!62!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VBAT!U1!2!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VCC!U1!63!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VBAT!U1!27!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VM!U1!61!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!VBAT!U1!26!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!GND_SIGNAL!U1!65!@stspin32g4_foc.schematic1(sch_1):ins86620@orcadcaptureolb.\stspin32g4.normal\(sch_1)!STSPIN32G4_QFN_IN32G4_STM_STSPIN32G4!!!F1!!!!!!
+S!OSCOUT_PF1!Y1!1!@stspin32g4_foc.schematic1(sch_1):ins16762894@crgc10_mid_maincontrol_v1_0.\smd_crystal_2.normal\(chips)!SMD_CRYSTAL_2_X4-3225_25M!!!F0!!!!!!
+S!OSCIN_PF0!Y1!3!@stspin32g4_foc.schematic1(sch_1):ins16762894@crgc10_mid_maincontrol_v1_0.\smd_crystal_2.normal\(chips)!SMD_CRYSTAL_2_X4-3225_25M!!!F0!!!!!!
+S!GND_SIGNAL!Y1!2!@stspin32g4_foc.schematic1(sch_1):ins16762894@crgc10_mid_maincontrol_v1_0.\smd_crystal_2.normal\(chips)!SMD_CRYSTAL_2_X4-3225_25M!!!F0!!!!!!
+S!GND_SIGNAL!Y1!4!@stspin32g4_foc.schematic1(sch_1):ins16762894@crgc10_mid_maincontrol_v1_0.\smd_crystal_2.normal\(chips)!SMD_CRYSTAL_2_X4-3225_25M!!!F0!!!!!!

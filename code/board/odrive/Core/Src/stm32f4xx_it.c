@@ -58,6 +58,7 @@
 /* External variables --------------------------------------------------------*/
 extern PCD_HandleTypeDef hpcd_USB_OTG_FS;
 extern ADC_HandleTypeDef hadc1;
+extern CAN_HandleTypeDef hcan1;
 extern TIM_HandleTypeDef htim14;
 extern DMA_HandleTypeDef hdma_uart4_rx;
 extern UART_HandleTypeDef huart4;
@@ -181,6 +182,32 @@ void ADC_IRQHandler(void) {
 }
 
 /**
+  * @brief This function handles CAN1 RX0 interrupts.
+  */
+void CAN1_RX0_IRQHandler(void) {
+  /* USER CODE BEGIN CAN1_RX0_IRQn 0 */
+
+  /* USER CODE END CAN1_RX0_IRQn 0 */
+  HAL_CAN_IRQHandler(&hcan1);
+  /* USER CODE BEGIN CAN1_RX0_IRQn 1 */
+
+  /* USER CODE END CAN1_RX0_IRQn 1 */
+}
+
+/**
+  * @brief This function handles CAN1 RX1 interrupt.
+  */
+void CAN1_RX1_IRQHandler(void) {
+  /* USER CODE BEGIN CAN1_RX1_IRQn 0 */
+
+  /* USER CODE END CAN1_RX1_IRQn 0 */
+  HAL_CAN_IRQHandler(&hcan1);
+  /* USER CODE BEGIN CAN1_RX1_IRQn 1 */
+
+  /* USER CODE END CAN1_RX1_IRQn 1 */
+}
+
+/**
   * @brief This function handles TIM8 update interrupt and TIM13 global interrupt.
   */
 void TIM8_UP_TIM13_IRQHandler(void) {
@@ -212,11 +239,11 @@ void TIM8_TRG_COM_TIM14_IRQHandler(void) {
 // void UART4_IRQHandler(void)
 // {
 //   /* USER CODE BEGIN UART4_IRQn 0 */
-//
+// // // //
 //   /* USER CODE END UART4_IRQn 0 */
 //   HAL_UART_IRQHandler(&huart4);
 //   /* USER CODE BEGIN UART4_IRQn 1 */
-//
+// // // //
 //   /* USER CODE END UART4_IRQn 1 */
 // }
 

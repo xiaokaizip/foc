@@ -34,6 +34,7 @@ set(MX_Application_Src
         ../../Core/Src/main.c
         ../../Core/Src/gpio.c
         ../../Core/Src/freertos.c
+        ../../Core/Src/can.c
         ../../Core/Src/adc.c
         ../../Core/Src/dma.c
         ../../Core/Src/spi.c
@@ -54,7 +55,7 @@ set(STM32_Drivers_Src
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
-
+        ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
         ../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c

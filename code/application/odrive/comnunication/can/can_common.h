@@ -1,15 +1,9 @@
 // can_driver.h
 #include <iostream>
 
-namespace CAN {
-    // ==================== 常量定义 ====================
-    constexpr uint16_t CAN_SEND_ID = 0x1;
-    constexpr uint16_t CAN_RECEIVE_ID = 0x11;
-    constexpr uint16_t CAN_BUFFER_SIZE = 128;
 
+namespace CAN {
     // ==================== 类型定义 ====================
-    using hcan_t =
-    CAN_HandleTypeDef; // 前向声明，实际定义在 can.h
 
     struct can_fifo_buffer_t {
         uint8_t *data;
@@ -22,14 +16,14 @@ namespace CAN {
     void can_driver_init();
 
     // ==================== 发送接口 ====================
-    void canx_send_data(hcan_t *hcan, uint16_t id, uint8_t *data, uint32_t len);
+    void canx_send_data(CAN_HandleTypeDef *hcan, uint16_t id, uint8_t *data, uint32_t len);
 
     uint16_t can_serial_write(uint8_t *buffer, uint16_t length);
 
     void can_transmit();
 
     // ==================== 接收接口 ====================
-    uint8_t canx_receive_data(hcan_t *hcan, uint16_t *rec_id, uint8_t *buf);
+    uint8_t canx_receive_data(CAN_HandleTypeDef *hcan, uint16_t *rec_id, uint8_t *buf);
 
     uint16_t can_serial_available();
 

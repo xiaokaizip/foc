@@ -132,9 +132,9 @@ int main(void) {
     char str[48] = "hello world\n";
     while (1) {
         // CDC_Transmit_FS((uint8_t *) str, strlen(str));
-        uint8_t msg[] = {0x7f, 0xff, 0x82, 0xd0, 0x00, 0x00, 0x00, 0x07, 0xff};
-        CAN::can_serial_write(msg, 8);
-        CAN::can_transmit();
+        // uint8_t msg[] = {0x7f, 0xff, 0x82, 0xd0, 0x00, 0x00, 0x00, 0x07, 0xff};
+        // CAN::can_serial_write(msg, 8);
+        // CAN::can_transmit();
         HAL_Delay(1);
         serial_process();
     }

@@ -41,7 +41,7 @@ void send_to_vofa() {
     packet.data[16] = controller.kp;
     packet.data[17] = controller.p_des;
     packet.data[18] = controller.v_des;
-    packet.data[19] = controller.i_d_ref;
+    packet.data[19] = controller.t_ff;
     packet.data[20] = controller.i_q_ref;
     packet.data[21] = controller.v_d;
     packet.data[22] = controller.i_q;

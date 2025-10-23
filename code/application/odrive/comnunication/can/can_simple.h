@@ -6,13 +6,19 @@
 #define CAN_SIMPLE_H
 #include <cstdint>
 
+#include "FastMath.h"
+
+// ==================== 常量定义 ====================
+constexpr uint16_t CAN_SEND_ID = 0x11;
+constexpr uint16_t CAN_RECEIVE_ID = 0x1;
+constexpr uint16_t CAN_BUFFER_SIZE = 128;
+
 
 class CANSimple {
 public:
-    CANSimple();
+    void do_command(unsigned short id, unsigned char *data);
 
-    void do_command(Axis &axis, const can_Message_t &cmd);
+    std::array<unsigned char, 8> packet_data(); // 返回 std::array
+};
 
-private:
-}
 #endif //CAN_SIMPLE_H

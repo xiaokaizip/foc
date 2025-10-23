@@ -106,15 +106,19 @@ void fsm() {
                 controller.kp = 0.1f;
                 controller.kd = 0.001f;
                 controller.t_ff = 0.001f;
+                controller.theta_mech = 0;
+
                 enter_torque_mode();
                 count = 0;
             } else {
+                CAN_TIMEOUT = 1000;
                 if ((controller.timeout > CAN_TIMEOUT) && (CAN_TIMEOUT > 0)) {
                     controller.i_d_ref = 0;
                     controller.i_q_ref = 0;
                     controller.kp = 0;
                     controller.kd = 0;
                     controller.t_ff = 0;
+                    reset_foc(&controller);
                 }
 
                 torque_control(&controller);

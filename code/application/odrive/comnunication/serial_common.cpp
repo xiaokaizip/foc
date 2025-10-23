@@ -207,7 +207,7 @@ extern "C" void UART4_IRQHandler(void) {
 
 // 主循环中调用此函数处理 VoFa+ 发送
 void serial_process() {
-    if (vofa_mode) {
+    if (true) {
         uint32_t now = HAL_GetTick() * 1000 + (HAL_GetTick() % 1000) * 1000; // 近似 us
         if (now - last_vofa_time >= VOFA_INTERVAL_US) {
             last_vofa_time = now;

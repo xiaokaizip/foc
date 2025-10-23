@@ -13,9 +13,12 @@ extern "C" {
 }
 
 #include <cstdint>
-
+#include <array>
 
 #include "can_common.h"
+#include "can_simple.h"
+
+CANSimple CANSimple_;
 
 namespace CAN {
     // ==================== 全局变量 ====================
@@ -38,9 +41,9 @@ namespace CAN {
 
     void can_bsp_init();
 
-    uint8_t canx_bsp_send_data(hcan_t *hcan, uint16_t id, uint8_t *data, uint32_t len);
+    uint8_t canx_bsp_send_data(CAN_HandleTypeDef *hcan, uint16_t id, uint8_t *data, uint32_t len);
 
-    uint8_t canx_bsp_receive(hcan_t *hcan, uint16_t *rec_id, uint8_t *buf);
+    uint8_t canx_bsp_receive(CAN_HandleTypeDef *hcan, uint16_t *rec_id, uint8_t *buf);
 
     void can1_rx_callback();
 
@@ -70,7 +73,7 @@ namespace CAN {
         HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
     }
 
-    uint8_t canx_bsp_send_data(hcan_t *hcan, uint16_t id, uint8_t *data, uint32_t len) {
+    uint8_t canx_bsp_send_data(CAN_HandleTypeDef *hcan, uint16_t id, uint8_t *data, uint32_t len) {
         CAN_TxHeaderTypeDef tx_header{};
         tx_header.StdId = id;
         tx_header.ExtId = 0;
@@ -88,7 +91,7 @@ namespace CAN {
         return 0;
     }
 
-    uint8_t canx_bsp_receive(hcan_t *hcan, uint16_t *rec_id, uint8_t *buf) {
+    uint8_t canx_bsp_receive(CAN_HandleTypeDef *hcan, uint16_t *rec_id, uint8_t *buf) {
         CAN_RxHeaderTypeDef rx_header{};
         if (HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, buf) == HAL_OK) {
             *rec_id = static_cast<uint16_t>(rx_header.StdId);
@@ -113,9 +116,10 @@ namespace CAN {
             uint16_t rec_id;
             uint8_t len = canx_bsp_receive(&hcan1, &rec_id, data);
             //在这里接收数据，做数据解析。
-
+            CANSimple_.do_command(rec_id, data);
             if (len > 0 && rec_id == CAN_RECEIVE_ID) {
-                can_tx_buf(data, len, &can_rx_buffer);
+                std::array<uint8_t, 8> tx_data = CANSimple_.packet_data();
+                canx_bsp_send_data(&hcan1, CAN_SEND_ID, tx_data.data(), tx_data.size());
             }
         }
     }
@@ -127,11 +131,11 @@ namespace CAN {
         can_bsp_init();
     }
 
-    void canx_send_data(hcan_t *hcan, uint16_t id, uint8_t *data, uint32_t len) {
+    void canx_send_data(CAN_HandleTypeDef *hcan, uint16_t id, uint8_t *data, uint32_t len) {
         canx_bsp_send_data(hcan, id, data, len);
     }
 
-    uint8_t canx_receive_data(hcan_t *hcan, uint16_t *rec_id, uint8_t *buf) {
+    uint8_t canx_receive_data(CAN_HandleTypeDef *hcan, uint16_t *rec_id, uint8_t *buf) {
         return canx_bsp_receive(hcan, rec_id, buf);
     }
 

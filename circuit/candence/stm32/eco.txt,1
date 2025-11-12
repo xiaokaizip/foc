@@ -2,18 +2,31 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd             |
-|                                                    Sat Oct 11 19:50:20 2025  |
+|  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Mon Nov 10 10:07:33 2025  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C2                  C_C0402_22NF          -27.075  8.9500
- NTC1                NTC_R0402_10K         -25.950 11.2000
- R4                  R_R0402_4.7K          -30.250 10.7250
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 J1.1             6.3500 -14.125
+                                                                            SNA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Components deleted    :       3                                        |
+|  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Mon Nov 10 10:07:33 2025  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SNA                      VOLTAGE 0
+|------------------------------------------------------------------------------|
+|       Nets changed          :       1                                        |
+|       Net property added    :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

@@ -1,0 +1,183 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : stspin32g4_foc.brd                            )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Sat Nov  8 14:45:36 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.1000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.01600                                  DARK 
+  SQUARE     1.50000                     0.000 NO     DARK 
+  SQUARE     4.08940                     0.000 NO     DARK 
+  RECTANGLE  0.25400     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.25400     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.50000      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
+  RECTANGLE  0.99060     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  1.00330     x 0.45720       0.000 NO     DARK 
+  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.39000     x 0.59000      90.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.19990      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 2.70000       0.000 NO     DARK 
+  RECTANGLE  2.51000     x 2.55000       0.000 NO     DARK 
+  RECTANGLE  2.51000     x 2.55000      90.000 NO     DARK 
+
+     TOP created.
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.01600                                  DARK 
+
+     GND created.
+
+
+================================================================
+     PROCESSING FILM < POWER >
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/POWER.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.01600                                  DARK 
+
+     POWER created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.01600                                  DARK 
+  RECTANGLE  0.50000     x 1.70000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
+  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
+  RECTANGLE  1.20000     x 2.50000       0.000 NO     DARK 
+  RECTANGLE  1.30000     x 1.50000      90.000 NO     DARK 
+  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
+  RECTANGLE  2.10000     x 2.30000       0.000 NO     DARK 
+  OBLONG     0.40000     x 1.20000      90.000 NO     DARK 
+
+     BOTTOM created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created.
+        GND created.
+        POWER created.
+        BOTTOM created.
+
+ ARTWORK finished

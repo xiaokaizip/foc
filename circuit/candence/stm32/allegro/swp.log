@@ -9,5 +9,3 @@ Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro/compview.dat
 Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro/netview.dat
 Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro/pinview.dat
 packaging the design view...
-#53 ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
-      

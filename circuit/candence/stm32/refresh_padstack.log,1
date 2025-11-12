@@ -1,0 +1,100 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : stspin32g4_foc.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Sep 28 16:35:32 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sun Sep 28 16:35:32 2025				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  D:/project/MYLIB/Allegro LIB/dra 
+           D:/project/MYLIB/footprint 
+
+PADPATH =  D:/project/MYLIB/Allegro LIB/pad 
+           D:/project/MYLIB/pad 
+
+
+------ Pad Stack Refresh Messages ------
+
+'R11711810000285A'  pad stack refresh starting.
+
+     'R11711810000285A'  pad stack refreshed successfully.
+     
+'R10340200000202A'  pad stack refresh starting.
+
+     'R10340200000202A'  pad stack refreshed successfully.
+     
+'R140X120'  pad stack refresh starting.
+
+     'R140X120'  pad stack refreshed successfully.
+     
+'SMD13_14'  pad stack refresh starting.
+
+     'SMD13_14'  pad stack refreshed successfully.
+     
+'SMD24_67'  pad stack refresh starting.
+
+     'SMD24_67'  pad stack refreshed successfully.
+     
+'SMD39_106'  pad stack refresh starting.
+
+     'SMD39_106'  pad stack refreshed successfully.
+     
+'RX161Y161D0T'  pad stack refresh starting.
+
+     'RX161Y161D0T'  pad stack refreshed successfully.
+     
+'RX10Y32D0T'  pad stack refresh starting.
+
+     'RX10Y32D0T'  pad stack refreshed successfully.
+     
+'R180_320'  pad stack refresh starting.
+
+     'R180_320'  pad stack refreshed successfully.
+     
+'R79_93'  pad stack refresh starting.
+
+     'R79_93'  pad stack refreshed successfully.
+     
+'R100_80'  pad stack refresh starting.
+
+     'R100_80'  pad stack refreshed successfully.
+     
+'R60_65'  pad stack refresh starting.
+
+     'R60_65'  pad stack refreshed successfully.
+     
+'R160_180'  pad stack refresh starting.
+
+     'R160_180'  pad stack refreshed successfully.
+     
+'S175H100'  pad stack refresh starting.
+
+     'S175H100'  pad stack refreshed successfully.
+     
+'C175H100'  pad stack refresh starting.
+
+     'C175H100'  pad stack refreshed successfully.
+     
+'R110_100'  pad stack refresh starting.
+
+     'R110_100'  pad stack refreshed successfully.
+     
+'R130_150'  pad stack refresh starting.
+
+     'R130_150'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

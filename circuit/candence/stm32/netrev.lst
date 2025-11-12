@@ -3,8 +3,8 @@
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
-(    Software Version : 17.4S035                                      )
-(    Date/Time        : Sat Oct 11 19:52:35 2025                      )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Mon Nov 10 10:10:10 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'd:\project\07_foc\foc\circuit\candence\stm32\allegro'
 Design Directory:            'd:/project/07_foc/foc/circuit/candence/stm32'
-Old design name:             'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
-New design name:             'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
+Old design name:             'd:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd'
+New design name:             'd:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd'
 
-CmdLine: netrev -y 1 -i d:\project\07_foc\foc\circuit\candence\stm32\allegro -q netrev_constraint_report.xml d:/project/07_foc/foc/circuit/candence/stm32/#Taaaabw31100.tmp
+CmdLine: netrev -y 1 -i d:\project\07_foc\foc\circuit\candence\stm32\allegro -q netrev_constraint_report.xml d:/project/07_foc/foc/circuit/candence/stm32/#Taaaaae14096.tmp
 
 ------ Preparing to read pst files ------
 
@@ -40,19 +40,33 @@ Starting to read d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstxnet.da
 MODULEPATH =  . 
            D:/Cadence/SPB_17.4/share/local/pcb/modules 
 
-PSMPATH =  D:/project/MYLIB/Allegro LIB/dra 
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
            D:/project/MYLIB/footprint 
+           D:/project/MYLIB/Allegro LIB/dra 
 
-PADPATH =  D:/project/MYLIB/Allegro LIB/pad 
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_17.4/share/local/pcb/padstacks 
+           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           D:/project/MYLIB/Allegro LIB/pad 
            D:/project/MYLIB/pad 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Oct 11 19:52:35 2025
+netrev run on Nov 10 10:10:10 2025
    DESIGN NAME : 'STSPIN32G4_FOC'
-   PACKAGING ON Jan 14 2023 14:52:27
+   PACKAGING ON Nov  3 2023 23:54:18
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -75,6 +89,6 @@ netrev run on Oct 11 19:52:35 2025
  No oversight detected
  No warning detected
 
-cpu time      0:00:39
+cpu time      0:00:41
 elapsed time  0:00:00
 

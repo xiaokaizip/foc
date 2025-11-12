@@ -3,32 +3,62 @@
 (    Refresh Padstack                                                 )
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
-(    Software Version : 17.4S035                                      )
-(    Date/Time        : Sun Sep 28 16:35:32 2025                      )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Sat Nov  8 11:48:20 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Sun Sep 28 16:35:32 2025				Page     1
+Sat Nov  8 11:48:20 2025				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
+Input design  = 'd:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
 
 ------ Library Paths ------
-PSMPATH =  D:/project/MYLIB/Allegro LIB/dra 
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
            D:/project/MYLIB/footprint 
+           D:/project/MYLIB/Allegro LIB/dra 
 
-PADPATH =  D:/project/MYLIB/Allegro LIB/pad 
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/SPB_17.4/share/local/pcb/padstacks 
+           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           D:/project/MYLIB/Allegro LIB/pad 
            D:/project/MYLIB/pad 
 
 
 ------ Pad Stack Refresh Messages ------
 
+'SMD50_50'  pad stack refresh starting.
+
+     'SMD50_50'  pad stack refreshed successfully.
+     
+'SMD04_05'  pad stack refresh starting.
+
+     'SMD04_05'  pad stack refreshed successfully.
+     
+'SMD21_23'  pad stack refresh starting.
+
+     'SMD21_23'  pad stack refreshed successfully.
+     
+'V40H20'  pad stack refresh starting.
+
+     'V40H20'  pad stack refreshed successfully.
+     
 'R11711810000285A'  pad stack refresh starting.
 
      'R11711810000285A'  pad stack refreshed successfully.
@@ -81,14 +111,6 @@ PADPATH =  D:/project/MYLIB/Allegro LIB/pad
 
      'R160_180'  pad stack refreshed successfully.
      
-'S175H100'  pad stack refresh starting.
-
-     'S175H100'  pad stack refreshed successfully.
-     
-'C175H100'  pad stack refresh starting.
-
-     'C175H100'  pad stack refreshed successfully.
-     
 'R110_100'  pad stack refresh starting.
 
      'R110_100'  pad stack refreshed successfully.
@@ -97,4 +119,105 @@ PADPATH =  D:/project/MYLIB/Allegro LIB/pad
 
      'R130_150'  pad stack refreshed successfully.
      
-Completed refreshing all pad stacks successfully.
+'SR1R5X2R5'  pad stack refresh starting.
+
+     'SR1R5X2R5'  pad stack refreshed successfully.
+     
+'S175H100'  pad stack refresh starting.
+
+     'S175H100'  pad stack refreshed successfully.
+     
+'C175H100'  pad stack refresh starting.
+
+     'C175H100'  pad stack refreshed successfully.
+     
+'C350H200'  pad stack refresh starting.
+
+     'C350H200'  pad stack refreshed successfully.
+     
+'C200H120'  pad stack refresh starting.
+
+     'C200H120'  pad stack refreshed successfully.
+     
+'S350H200'  pad stack refresh starting.
+
+     'S350H200'  pad stack refreshed successfully.
+     Sat Nov  8 11:48:20 2025				Page     2
+
+
+     
+'C280H190'  pad stack refresh starting.
+
+     'C280H190'  pad stack refreshed successfully.
+     
+'C170H110'  pad stack refresh starting.
+
+     'C170H110'  pad stack refreshed successfully.
+     
+'C135H90'  pad stack refresh starting.
+
+     'C135H90'  pad stack refreshed successfully.
+     
+'S135H90'  pad stack refresh starting.
+
+     'S135H90'  pad stack refreshed successfully.
+     
+'V50H28'  pad stack refresh starting.
+
+     'V50H28'  pad stack refreshed successfully.
+     
+'TM_AXIAL_LLB_PAD2'  pad stack refresh starting.
+
+     'TM_AXIAL_LLB_PAD2'  pad stack refreshed successfully.
+     
+'R160_270'  pad stack refresh starting.
+
+     'R160_270'  pad stack refreshed successfully.
+     
+'R10160280000202A'  pad stack refresh starting.
+
+     'R10160280000202A'  pad stack refreshed successfully.
+     
+'R10991000004949A'  pad stack refresh starting.
+
+     'R10991000004949A'  pad stack refreshed successfully.
+     
+'V10200200080000A'  pad stack refresh starting.
+
+     'V10200200080000A'  pad stack refreshed successfully.
+     
+'SMD05_17'  pad stack refresh starting.
+
+     'SMD05_17'  pad stack refreshed successfully.
+     
+'SMD12_25'  pad stack refresh starting.
+
+     'SMD12_25'  pad stack refreshed successfully.
+     
+'C25'  pad stack refresh starting.
+
+     'C25'  pad stack refreshed successfully.
+     
+'SR0R3X0R5'  pad stack refresh starting.
+
+     'SR0R3X0R5'  pad stack refreshed successfully.
+     
+'RX39P5Y18D0T'  pad stack refresh starting.
+
+     'RX39P5Y18D0T'  pad stack refreshed successfully.
+     
+'R139_59'  pad stack refresh starting.
+
+     'R139_59'  pad stack refreshed successfully.
+     
+'O10160470000200A'  pad stack refresh starting.
+
+     'O10160470000200A'  pad stack refreshed successfully.
+     
+'SMD39_32'  pad stack refresh starting.
+
+     'SMD39_32'  pad stack refreshed successfully.
+     
+WARNING(SPMHNI-253): Unable to find pad stack, 'V60H30', in directory search path.
+
+WARNING(SPMHNI-286): Completed refreshing all pad stacks successfully. Warnings detected.

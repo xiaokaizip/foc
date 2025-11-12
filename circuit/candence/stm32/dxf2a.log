@@ -1,0 +1,47 @@
+Reading Layer Conversion File 
+
+
+WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
+
+Reading DXF file...
+ERROR: 3D data has been found in this dxf file.
+  Most 3D data is not supported by dxf2a.
+  For the special case of DXF code 230 = -1.0, ARC, CIRCLE 
+  and SOLID entities will be mirrored about the Y axis.
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 500
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 530
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 560
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 590
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 620
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 716
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 746
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 776
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 806
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 836
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 866
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 896
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 926
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 956
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 986
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1016
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1068
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1098
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1128
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1180
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1232
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1262
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1292
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1322
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on ARC at line 1352
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on CIRCLE at line 1382
+ERROR: 3D data (DXF code 230, value = 1.0000) detected on CIRCLE at line 1406
+done.
+Layer conversion file: D:/project/07_foc/foc/circuit/candence/stm32/DM3510_l.cnv
+DXF file: D:/project/07_foc/foc/circuit/candence/stm32/DM3510.dxf
+BRD file: d:/project/07_foc/foc/circuit/candence/stm32/#Taaaabq32484.tmp
+Update existing design?: YES
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILLIMETERS
+Design precision: 4
+dxf2a complete.

@@ -3,8 +3,8 @@
 (    DRC Update                                                       )
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
-(    Software Version : 17.4S035                                      )
-(    Date/Time        : Sun Sep 28 16:12:52 2025                      )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Fri Nov  7 17:44:06 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,10 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  13
+ ..... Total number of DRC errors  3
+
+
+WARNING: 16 dynamic shape(s) out of date; checking skipped on these elements.
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

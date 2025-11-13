@@ -4,12 +4,12 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Sat Nov  8 14:59:42 2025                      )
+(    Date/Time        : Thu Nov 13 09:33:36 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Begin processing of drill legend template file 'D:/Cadence/SPB_17.4/share/pcb/text/nclegend/default-mm.dlt' ...
+Begin processing of drill legend template file 'd:/cadence/spb_17.4/share/pcb/text/nclegend/default-mm.dlt' ...
 WARNING(SPMHSK-47): Column type 'HoleSize' does not exist.
 WARNING(SPMHSK-47): Column type 'PlateStatus' does not exist.
 End of drill legend template file processing.

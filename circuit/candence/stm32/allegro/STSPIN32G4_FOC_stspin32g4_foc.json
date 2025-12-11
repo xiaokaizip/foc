@@ -3,31 +3,35 @@
 	"Ref Des" : [],
 	"Pin Swap" : [],
 	"Component Property" : [],
-	"Net Property" : [
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
 		{
-			"Name" : "SNA",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):sna",
-			"PropName" : "VOLTAGE",
-			"Logical" : "0",
+			"Name" : "D7",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins89018@foc_lib.\\b5819wsl.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "D7"
+		},
+		{
+			"Name" : "D7",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16883617@stspin32g4.\\b5819wsl.normal\\(chips)",
+			"Logical" : "D7",
 			"Physical" : null
 		}
 	],
-	"Pin Property" : [],
-	"Component" : [],
-	"Net" : [
-		{
-			"Name" : "GND",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):gnd",
-			"Logical" : null,
-			"Physical" : "GND"
-		}
-	],
+	"Net" : [],
 	"Connection" : [
 		{
-			"Name" : "J1.1",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16833954@stspin32g4.\\sh_01x03.normal\\(chips):\\1\\",
+			"Name" : "D7.1",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16883617@stspin32g4.\\b5819wsl.normal\\(chips):\\1\\",
 			"Logical" : "SNA",
-			"Physical" : "GND"
+			"Physical" : null
+		},
+		{
+			"Name" : "D7.2",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16883617@stspin32g4.\\b5819wsl.normal\\(chips):\\2\\",
+			"Logical" : "SW",
+			"Physical" : null
 		}
 	]
 }

@@ -1,9 +1,9 @@
-Fri Nov  7 17:44:05 2025				Page     1
+Thu Dec 11 18:03:24 2025				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Fri Nov  7 17:44:05 2025
+	Thu Dec 11 18:03:24 2025
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Fri Nov  7 17:44:06 2025                      )
+(    Date/Time        : Thu Dec 11 18:03:24 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Fri Nov  7 17:44:06 2025				Page     1
+Thu Dec 11 18:03:24 2025				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -34,7 +34,7 @@ Output design = ''
 
 Update mechanical symbols              = 'NO'
 Update format symbols                  = 'NO'
-Update package symbols                 = 'YES'
+Update package symbols                 = 'NO'
 Update shape/flash symbols             = 'NO'
 Update symbol padstacks                = 'NO'
 Preserve padstacks replaced on pins    = 'NO'
@@ -42,6 +42,7 @@ Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
+Symbol list file                       = 'C:/Users/SXF-Admin/AppData/Local/Temp/#Taaaaaq33600.tmp'
 
 
 ------ Library Paths ------
@@ -68,30 +69,15 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
-'LED0402'  symbol refreshed successfully.
-'SOD_214'  symbol refreshed successfully.
-'R0805'  symbol refreshed successfully.
-'QFN_IN32G4_STM'  symbol refreshed successfully.
-'C0603'  symbol refreshed successfully.
-'C1206'  symbol refreshed successfully.
-'C0402'  symbol refreshed successfully.
-'R0402'  symbol refreshed successfully.
-'R1210'  symbol refreshed successfully.
-'DNH0008A'  symbol refreshed successfully.
-'R0603'  symbol refreshed successfully.
-'SH1_0_3P'  symbol refreshed successfully.
-'SH1_0_8P'  symbol refreshed successfully.
 'SMD-4P'  symbol refreshed successfully.
-'SOT-23-THIN-8_DDF_TEX'  symbol refreshed successfully.
-'SOT23-3'  symbol refreshed successfully.
-'PW0016A_L'  symbol refreshed successfully.
-'SOD_323'  symbol refreshed successfully.
-'X4-3225'  symbol refreshed successfully.
-'4_HOLE'  symbol refreshed successfully.
+
+
+------ Updating padstacks referring to the refreshed shapes and flash symbols.  ------
+
 
 
 ----- Symbol Update Summary ----
 
-Updated symbols: 20 out 20
+Updated symbols: 1 out 1
     Design updated.
 

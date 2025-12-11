@@ -4,12 +4,11 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Sat Nov  8 14:45:35 2025                      )
+(    Date/Time        : Sat Nov  8 15:02:02 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 This database has been marked as a .SAV.
-WARNING Deleted redundant via at (1.4750 -11.1500) on net VM.
 
-1 warnings, 0 errors detected, 0 errors could be fixed.
+0 warnings, 0 errors detected, 0 errors could be fixed.

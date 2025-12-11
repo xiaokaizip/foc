@@ -1,9 +1,9 @@
-Wed Nov  5 15:13:54 2025				Page     1
+Fri Nov  7 17:44:05 2025				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Wed Nov  5 15:13:54 2025
+	Fri Nov  7 17:44:05 2025
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Wed Nov  5 15:13:54 2025                      )
+(    Date/Time        : Fri Nov  7 17:44:06 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Wed Nov  5 15:13:54 2025				Page     1
+Fri Nov  7 17:44:06 2025				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -68,6 +68,8 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
+'LED0402'  symbol refreshed successfully.
+'SOD_214'  symbol refreshed successfully.
 'R0805'  symbol refreshed successfully.
 'QFN_IN32G4_STM'  symbol refreshed successfully.
 'C0603'  symbol refreshed successfully.
@@ -79,17 +81,17 @@ PADPATH =  .
 'R0603'  symbol refreshed successfully.
 'SH1_0_3P'  symbol refreshed successfully.
 'SH1_0_8P'  symbol refreshed successfully.
-'4_HOLE'  symbol refreshed successfully.
 'SMD-4P'  symbol refreshed successfully.
 'SOT-23-THIN-8_DDF_TEX'  symbol refreshed successfully.
 'SOT23-3'  symbol refreshed successfully.
 'PW0016A_L'  symbol refreshed successfully.
 'SOD_323'  symbol refreshed successfully.
 'X4-3225'  symbol refreshed successfully.
+'4_HOLE'  symbol refreshed successfully.
 
 
 ----- Symbol Update Summary ----
 
-Updated symbols: 18 out 18
+Updated symbols: 20 out 20
     Design updated.
 

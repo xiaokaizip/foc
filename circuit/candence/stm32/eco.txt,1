@@ -3,30 +3,140 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
-|                                                    Mon Nov 10 10:07:33 2025  |
+|                                                    Thu Dec 11 18:44:20 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GND          pins MOVED FROM this net (to net name listed on right)
-                                 J1.1             6.3500 -14.125
-                                                                            SNA
+  CANH         pins ADDED TO this existing net (pins not previously on any net)
+                                 L3.3                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CANL         pins ADDED TO this existing net (pins not previously on any net)
+                                 L3.4                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_H        pins ADDED TO this existing net (pins not previously on any net)
+                                 L3.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_L        pins ADDED TO this existing net (pins not previously on any net)
+                                 L3.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCREF        pins ADDED TO this existing net (pins not previously on any net)
+                                 R54.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SNA          pins ADDED TO this existing net (pins not previously on any net)
+                                 R54.1                          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
-|                                                    Mon Nov 10 10:07:33 2025  |
+|                                                    Thu Dec 11 18:44:20 2025  |
 |------------------------------------------------------------------------------|
-| NET PROPERTIES added to design                                               |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|     net  name   |   property   |                    value                    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- SNA                      VOLTAGE 0
+ B5819WSL_SOD123_B5819WSL
+ C_C0402_NC
+ C_C0603_1U
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       1                                        |
-|       Net property added    :       1                                        |
+|  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 18:44:20 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L1                  IND_COM-IND_DLW21HN900SQ2L_0_SMD-4P_DISCRETE_DLW21HN900SQ2L -5.8000 -10.850
+ R45                 R_C0402_2K             8.4500 -5.6250
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 18:44:20 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ L3                  IND_COM-IND_DLW21HN900SQ2L_0_SMD-4P_DISCRETE_DLW21HN900SQ2L 
+ R54                 R_R0402_2K            
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 18:44:20 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_C0402_100NF          9.3000  1.4250 C_C0402_22NF
+ C4                  C_C0402_100NF         11.2584  2.4250 C_C0402_100N
+ C5                  C_C0402_100NF         13.2084  2.4250 C_C0402_100N
+ C6                  C_C0402_100NF         15.1500  1.4250 C_C0402_22NF
+ C23                 C_C0402_NC            -7.1500 -12.950 C_C0402_100NF
+ C26                 C_C0402_NC            -5.8000 -12.525 C_C0402_100NF
+ C27                 C_C0402_NC            -4.4250 -12.950 C_C0402_100NF
+ C29                 C_C0402_100NF          1.5500 -9.2250 C_C0402_220NF
+ C43                 C_C0603_1U            -9.6602  2.7550 C_C0603_10U
+ C44                 C_C0603_1U            -9.6551  0.8151 C_C0603_10U
+ C45                 C_C0603_1U            -9.6500 -1.1250 C_C0603_10U
+ C46                 C_C0603_1U            -9.6449 -3.0650 C_C0603_10U
+ C47                 C_C0603_1U            -9.6398 -5.0049 C_C0603_10U
+ D7                  B5819WSL_SOD123_B5819WSL  1.4000 -14.700 B5819WSL_SOD_323_B5819WSL
+ R24                 R_R0402_24K           -10.650  8.2500 R_R0402_12K
+ R25                 R_R0402_24K           -5.2500  8.2500 R_R0402_12K
+ R26                 R_R0402_24K            0.2500  8.2500 R_R0402_12K
+ R33                 R_R0402_24K           -5.2000 12.0000 R_R0402_12K
+ R34                 R_R0402_24K            0.1750 12.0000 R_R0402_12K
+ R35                 R_R0402_24K            5.6500 12.0000 R_R0402_12K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 18:44:20 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2            9.3000  1.4250 PRIM_FILE      .\pstchip.dat
+ C4.2           11.2584  2.4250 PRIM_FILE      .\pstchip.dat
+ C5.2           13.2084  2.4250 PRIM_FILE      .\pstchip.dat
+ C6.2           15.1500  1.4250 PRIM_FILE      .\pstchip.dat
+ C23.2          -7.1500 -12.950 PRIM_FILE      .\pstchip.dat
+ C26.2          -5.8000 -12.525 PRIM_FILE      .\pstchip.dat
+ C27.2          -4.4250 -12.950 PRIM_FILE      .\pstchip.dat
+ C29.2           1.5500 -9.2250 PRIM_FILE      .\pstchip.dat
+ C43.2          -9.6602  2.7550 PRIM_FILE      .\pstchip.dat
+ C44.2          -9.6551  0.8151 PRIM_FILE      .\pstchip.dat
+ C45.2          -9.6500 -1.1250 PRIM_FILE      .\pstchip.dat
+ C46.2          -9.6449 -3.0650 PRIM_FILE      .\pstchip.dat
+ C47.2          -9.6398 -5.0049 PRIM_FILE      .\pstchip.dat
+ D7.2            1.4000 -14.700 PRIM_FILE      .\pstchip.dat
+ L3.4                           PRIM_FILE      .\pstchip.dat
+ R24.2          -10.650  8.2500 PRIM_FILE      .\pstchip.dat
+ R25.2          -5.2500  8.2500 PRIM_FILE      .\pstchip.dat
+ R26.2           0.2500  8.2500 PRIM_FILE      .\pstchip.dat
+ R33.2          -5.2000 12.0000 PRIM_FILE      .\pstchip.dat
+ R34.2           0.1750 12.0000 PRIM_FILE      .\pstchip.dat
+ R35.2           5.6500 12.0000 PRIM_FILE      .\pstchip.dat
+ R54.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :       6                                        |
+|       Comp definitions added:       3                                        |
+|       Components added      :       2                                        |
+|       Components deleted    :       2                                        |
+|       Components changed    :      20                                        |
+|       Slot property added   :      22                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:      55                                        |
 |------------------------------------------------------------------------------|

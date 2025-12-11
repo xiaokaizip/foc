@@ -1,5 +1,10 @@
 A!NET_NAME!NET_LOGICAL_PATH!NET_CDS_FSP_UID!NET_SHIELD_NET!NET_RELATIVE_PROPAGATION_DELAY!NET_NO_PIN_ESCAPE!NET_NET_SHORT!NET_VOLTAGE_LAYER!NET_VOLTAGE!NET_RATSNEST_SCHEDULE!NET_CLOCK_NET!NET_NET_PHYSICAL_TYPE!NET_MAX_FINAL_SETTLE!NET_NO_TEST!NET_MAX_EXPOSED_LENGTH!NET_ELECTRICAL_CONSTRAINT_SET!NET_CDS_FSP_BUS_INDEX!NET_STUB_LENGTH!NET_SHIELD_TYPE!NET_NO_RAT!NET_PROPAGATION_DELAY!NET_NO_RIPUP!NET_MIN_HOLD!NET_DIFFERENTIAL_PAIR!NET_MIN_SETUP!NET_MIN_NECK_WIDTH!NET_BUS_NAME!NET_MIN_NOISE_MARGIN!NET_MATCHED_DELAY!NET_ECL!NET_DIFFP_LENGTH_TOL!NET_DIFFP_2ND_LENGTH!NET_NET_GROUP_GRP_NAME!NET_SUBNET_NAME!NET_MIN_BOND_LENGTH!NET_MAX_OVERSHOOT!NET_TS_ALLOWED!NET_MAX_VIA_COUNT!NET_EMC_CRITICAL_NET!NET_CDS_FSP_NET!NET_PROBE_NUMBER!NET_NO_ROUTE!NET_MIN_LINE_WIDTH!NET_ECL_TEMP!NET_NO_GLOSS!NET_ROUTE_PRIORITY!NET_NET_SPACING_TYPE!NET_IMPEDANCE_RULE!
-J!d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd!Sat Nov  8 11:46:13 2025!-250.0000!-200.0000!283.4000!231.8000!0.0001!millimeters!STSPIN32G4_FOC!28.800000 mil!4!UP TO DATE!
+J!d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd!Thu Dec 11 18:44:16 2025!-250.0000!-200.0000!283.4000!231.8000!0.0001!millimeters!STSPIN32G4_FOC!28.800000 mil!4!UP TO DATE!
+S!N16863103!@stspin32g4_foc.schematic1(sch_1):n16863103!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N16827842!@stspin32g4_foc.schematic1(sch_1):n16827842!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N16854564!@stspin32g4_foc.schematic1(sch_1):n16854564!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N16851538!@stspin32g4_foc.schematic1(sch_1):n16851538!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!N16851557!@stspin32g4_foc.schematic1(sch_1):n16851557!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N16845675!@stspin32g4_foc.schematic1(sch_1):n16845675!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!N16845655!@stspin32g4_foc.schematic1(sch_1):n16845655!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!VOUT1_PC3!@stspin32g4_foc.schematic1(sch_1):vout1_pc3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -12,7 +17,6 @@ S!N16829717!@stspin32g4_foc.schematic1(sch_1):n16829717!!!!!!!!!!!!!!!!!!!!!!!!!
 S!CANL!@stspin32g4_foc.schematic1(sch_1):canl!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!CAN_H!@stspin32g4_foc.schematic1(sch_1):can_h!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!CAN_L!@stspin32g4_foc.schematic1(sch_1):can_l!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-S!GND!@stspin32g4_foc.schematic1(sch_1):gnd!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!CANH!@stspin32g4_foc.schematic1(sch_1):canh!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!HO1!@stspin32g4_foc.schematic1(sch_1):ho1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!BOOT2!@stspin32g4_foc.schematic1(sch_1):boot2!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -66,7 +70,7 @@ S!CAN_RX!@stspin32g4_foc.schematic1(sch_1):can_rx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!SPI_MOSI_PB5!@stspin32g4_foc.schematic1(sch_1):spi_mosi_pb5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!UART_RX!@stspin32g4_foc.schematic1(sch_1):uart_rx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!UART_TX!@stspin32g4_foc.schematic1(sch_1):uart_tx!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-S!SNA!@stspin32g4_foc.schematic1(sch_1):sna!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+S!SNA!@stspin32g4_foc.schematic1(sch_1):sna!!!!!!!0!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!PA8!@stspin32g4_foc.schematic1(sch_1):pa8!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!GHS1!@stspin32g4_foc.schematic1(sch_1):ghs1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 S!SPB!@stspin32g4_foc.schematic1(sch_1):spb!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

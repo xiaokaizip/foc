@@ -13,6 +13,8 @@ SUPPRESS-EQUAL         NO
 TOOL-SELECT            NO
 OPTIMIZE_DRILLING      NO
 ENHANCED_EXCELLON      YES
+TAPE-FILE              D:/project/07_foc/foc/circuit/candence/stm32/gerbar/stspin32g4_foc.drl
+ROUTE-FILE             D:/project/07_foc/foc/circuit/candence/stm32/gerbar/stspin32g4_foc.rou
 HEADER                 none
 LEADER                 12
 CODE                   ASCII

@@ -1,6 +1,6 @@
 (ExpressProject "STSPIN32G4_foc"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[11/10/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/11/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -49,7 +49,21 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "VHDL_flow")
+    (BOM_Scope "0")
+    (BOM_Mode "1")
+    (BOM_Report_File
+       "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB footprint}\t{JLC}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tfootprint\tJLC")
+    (BOM_Include_File
+       "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
   (Folder "Layout"
     (File ".\stspin32g4_foc.brd"
       (Type "Board File")
@@ -65,7 +79,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\stspin32g4_foc.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -95,6 +111,30 @@
       (LogFile
          "d:\project\07_foc\foc\circuit\candence\stm32\allegro\genfeed.log")))
   (PartMRUSelector
+    (B5819WSL
+      (FullPartName "B5819WSL.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (IND_COM-IND_DLW21HN900SQ2L_0
+      (FullPartName "IND_COM-IND_DLW21HN900SQ2L_0.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (fulse
+      (FullPartName "fulse.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
+    (test_point
+      (FullPartName "test_point.Normal")
+      (LibraryName
+         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
+      (DeviceIndex "0"))
     (CON_01x01
       (FullPartName "CON_01x01.Normal")
       (LibraryName
@@ -117,11 +157,6 @@
       (DeviceIndex "0"))
     (MT6825
       (FullPartName "MT6825.Normal")
-      (LibraryName
-         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
-      (DeviceIndex "0"))
-    (IND_COM-IND_DLW21HN900SQ2L_0
-      (FullPartName "IND_COM-IND_DLW21HN900SQ2L_0.Normal")
       (LibraryName
          "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\LIBRARY\STSPIN32G4.OLB")
       (DeviceIndex "0"))
@@ -197,23 +232,6 @@
     (KEY
       (FullPartName "KEY.Normal")
       (LibraryName "D:\PROJECT\06_STSPIN32G4\STSPIN32G4.OLB")
-      (DeviceIndex "0"))
-    (testpoint
-      (FullPartName "testpoint.Normal")
-      (LibraryName "D:\PROJECT\06_STSPIN32G4\STSPIN32G4.OLB")
-      (DeviceIndex "0"))
-    (POT
-      (FullPartName "POT.Normal")
-      (LibraryName
-         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -224,31 +242,28 @@
          "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn"
          "SCHEMATIC1")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\project\07_foc\foc\circuit\candence\stm32\library\orcadcaptureolb.olb")
+      (Path "Design Resources" "Library"
+         "d:\project\07_foc\foc\circuit\candence\stm32\library\stspin32g4.olb")
       (Path "Layout")
       (Path "Outputs")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources"
+         "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn"
+         "SCHEMATIC1" "driver"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 444 0 600"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 472 0 701"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1116 28 622")
-        (Scroll "0 226")
-        (Zoom "154")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "input&output"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1116 28 622")
-        (Scroll "718 1319")
-        (Zoom "268")
+        (Placement "44 0 1 -1 -1 5 28 5 1088 28 723")
+        (Scroll "-40 4")
+        (Zoom "83")
         (Occurrence "/"))
       (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
       (Schematic "SCHEMATIC1")
@@ -256,22 +271,32 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1116 28 622")
-        (Scroll "-166 -4")
-        (Zoom "77")
+        (Placement "44 0 1 -1 -1 5 28 5 1088 28 723")
+        (Scroll "310 152")
+        (Zoom "136")
         (Occurrence "/"))
       (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MCU"))
+      (Page "Analog_Sensing"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1116 28 622")
-        (Scroll "194 0")
-        (Zoom "114")
+        (Placement "44 0 1 -1 -1 5 28 5 1088 28 723")
+        (Scroll "-40 14")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "Analog_Sensing")))
+      (Page "input&output"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1088 28 723")
+        (Scroll "0 318")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU")))
   (MPSSessionName "SXF-Admin")
   (ISPCBBASICLICENSE "false"))

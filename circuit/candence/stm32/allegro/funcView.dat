@@ -1,5 +1,6 @@
 A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_TERM_IDENT!FUNC_CDS_FSP_INSTANCE_ID!FUNC_CDS_FSP_IS_FPGA!FUNC_CDS_FSP_UID!
-J!d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd!Thu Dec 11 18:55:25 2025!-250.0000!-200.0000!283.4000!231.8000!0.0001!millimeters!STSPIN32G4_FOC!28.800000 mil!4!OUT OF DATE!
+J!D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd!Thu Dec 11 20:57:22 2025!-250.0000!-200.0000!283.4000!231.8000!0.0001!millimeters!STSPIN32G4_FOC!28.800000 mil!4!UP TO DATE!
+S!@stspin32g4_foc.schematic1(sch_1):ins16886229@stspin32g4.\ind_com-ind_dlw21hn900sq2l_0.normal\(chips)!IND_COM-IND_DLW21HN900SQ2L_0_SMD_4P_L20-W13_BL_DLW21_DISCRETE_DLW21HN900SQ2L!L3!.\chipsView.dat!!!!!!F61!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16829780@analog.\c.normal\(chips)!C_C0402_NC!C23!.\chipsView.dat!!!!!!F90!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16829655@analog.\c.normal\(chips)!C_C0402_NC!C26!.\chipsView.dat!!!!!!F89!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16829761@analog.\c.normal\(chips)!C_C0402_NC!C27!.\chipsView.dat!!!!!!F88!!!!!!!
@@ -8,7 +9,7 @@ S!@stspin32g4_foc.schematic1(sch_1):ins16856982@analog.\c.normal\(chips)!C_C0603
 S!@stspin32g4_foc.schematic1(sch_1):ins16856990@analog.\c.normal\(chips)!C_C0603_1U!C45!.\chipsView.dat!!!!!!F77!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16856998@analog.\c.normal\(chips)!C_C0603_1U!C46!.\chipsView.dat!!!!!!F76!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16857860@analog.\c.normal\(chips)!C_C0603_1U!C47!.\chipsView.dat!!!!!!F75!!!!!!!
-S!@stspin32g4_foc.schematic1(sch_1):ins89018@foc_lib.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!D7!.\chipsView.dat!!!!!!F72!!!!!!!
+S!@stspin32g4_foc.schematic1(sch_1):ins16883617@stspin32g4.\b5819wsl.normal\(chips)!B5819WSL_SOD123_B5819WSL!D7!.\chipsView.dat!!!!!!F72!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16763349@analog.\r.normal\(chips)!R_R0402_24K!R24!.\chipsView.dat!!!!!!F51!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16763851@analog.\r.normal\(chips)!R_R0402_24K!R25!.\chipsView.dat!!!!!!F50!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16763969@analog.\r.normal\(chips)!R_R0402_24K!R26!.\chipsView.dat!!!!!!F49!!!!!!!
@@ -70,7 +71,6 @@ S!@stspin32g4_foc.schematic1(sch_1):ins16763072@analog.\c.normal\(chips)!C_C0402
 S!@stspin32g4_foc.schematic1(sch_1):ins16833954@stspin32g4.\sh_01x03.normal\(chips)!SH_01X03_SH1_0_3P_SH_01X03!J1!.\chipsView.dat!!!!!!F68!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16851508@stspin32g4.\sh_01x08.normal\(chips)!SH_01X08_SH1_0_8P_SH_01X08!J2!.\chipsView.dat!!!!!!F67!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16828000@stspin32g4.\hole_01x04.normal\(chips)!HOLE_01X04_4_HOLE_HOLE_01X04!J3!.\chipsView.dat!!!!!!F66!!!!!!!
-S!@stspin32g4_foc.schematic1(sch_1):ins16882352@stspin32g4.\ind_com-ind_dlw21hn900sq2l_0.normal\(chips)!IND_COM-IND_DLW21HN900SQ2L_0_SMD-4P_DISCRETE_DLW21HN900SQ2L!L3!.\chipsView.dat!!!!!!F61!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16827804@stspin32g4.\ntc.normal\(chips)!NTC_R0603_10K!NTC1!.\chipsView.dat!!!!!!F60!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16823556@stspin32g4.\ntc.normal\(chips)!NTC_R0603_10K!NTC2!.\chipsView.dat!!!!!!F59!!!!!!!
 S!@stspin32g4_foc.schematic1(sch_1):ins16829453@stspin32g4.\tcan3403.normal\(chips)!TCAN3403_SOT-23-THIN-8_DDF_TEX_TCAN3403!U7!.\chipsView.dat!!!!!!F3!!!!!!!

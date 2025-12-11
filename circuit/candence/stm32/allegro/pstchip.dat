@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Dec-11-2025 at 18:55:26}
+{ Using PSTWRITER 17.4.0 d001Dec-11-2025 at 20:57:23}
 primitive 'C_C0402_100NF';
   pin
     '1':
@@ -291,16 +291,16 @@ primitive 'L_R1210_10UH';
     VALUE='10uH';
   end_body;
 end_primitive;
-primitive 'IND_COM-IND_DLW21HN900SQ2L_0_SMD-4P_DISCRETE_DLW21HN900SQ2L';
+primitive 'IND_COM-IND_DLW21HN900SQ2L_0_SMD_4P_L20-W13_BL_DLW21_DISCRETE_DLW21HN900SQ2L';
   pin
-    '4':
-      PIN_NUMBER='(4)';
+    '2':
+      PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
     '1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
+    '4':
+      PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
     '3':
       PIN_NUMBER='(3)';
@@ -308,7 +308,7 @@ primitive 'IND_COM-IND_DLW21HN900SQ2L_0_SMD-4P_DISCRETE_DLW21HN900SQ2L';
   end_pin;
   body
     PART_NAME='IND_COM-IND_DLW21HN900SQ2L_0';
-    JEDEC_TYPE='SMD-4P';
+    JEDEC_TYPE='SMD_4P_L20-W13_BL_DLW21';
     CLASS='DISCRETE';
     VALUE='DLW21HN900SQ2L';
   end_body;
@@ -772,7 +772,7 @@ primitive 'TCAN3403_SOT-23-THIN-8_DDF_TEX_TCAN3403';
     VALUE='TCAN3403';
   end_body;
 end_primitive;
-primitive 'ESD2CAN_SOT23-3_ESD2CAN';
+primitive 'ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN';
   pin
     'IO1':
       PIN_NUMBER='(1)';
@@ -786,7 +786,7 @@ primitive 'ESD2CAN_SOT23-3_ESD2CAN';
   end_pin;
   body
     PART_NAME='ESD2CAN';
-    JEDEC_TYPE='sot23-3';
+    JEDEC_TYPE='SC-70-3_L20-W13-P065-LS21-BL';
     VALUE='ESD2CAN';
   end_body;
 end_primitive;

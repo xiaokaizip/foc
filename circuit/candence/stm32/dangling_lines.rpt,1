@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Sat Nov  8 14:18:37 2025                      )
+(    Date/Time        : Mon Nov 10 09:26:49 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,12 +22,11 @@ Report methodology:
   - To suppress items in dangle report add the OK_DANGLE property to the via
     or connect line.
 
-
-
-<< Dangling Vias >>
-  Net                  Padstack               Location            Layers
-  ---------------------------------------------------------------------------
-  Dummy Net            V60H30               (-3.5750 -15.6000) TOP/BOTTOM 
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  SNA                  BOTTOM                4.9932      (10.2603 8.7897) to *(6.2750 11.2230)
+  SNA                  BOTTOM                0.8770      (6.2750 12.1000) to *(6.2750 11.2230)
 
 
 << Antenna Vias >>
@@ -38,11 +37,64 @@ Report methodology:
   VBAT                 V60H30               (-3.4250 -6.9500) TOP/BOTTOM 
   VBAT                 V60H30               (15.9500 5.9750) TOP/BOTTOM 
   VBAT                 V60H30               (10.5000 5.9750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4250 7.0000) TOP/BOTTOM 
+  VM                   V60H30               (-15.2250 7.0000) TOP/BOTTOM 
+  VM                   V60H30               (-14.4250 6.2000) TOP/BOTTOM 
+  VM                   V60H30               (-15.2250 6.2000) TOP/BOTTOM 
+  VM                   V60H30               (-14.4250 5.4000) TOP/BOTTOM 
+  VM                   V60H30               (-15.2250 5.4000) TOP/BOTTOM 
+  VM                   V60H30               (-14.4250 4.6000) TOP/BOTTOM 
+  VM                   V60H30               (-15.2250 4.6000) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 4.1250) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 4.1250) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 4.1250) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 3.3250) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 3.3250) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 3.3250) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 2.5250) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 2.5250) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 2.5250) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 1.7250) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 1.7250) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 1.7250) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 0.9250) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 0.9250) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 0.9250) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 0.1250) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 0.1250) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 0.1250) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 -0.6750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 -0.6750) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 -0.6750) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 -1.4750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 -1.4750) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 -1.4750) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 -2.2750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 -2.2750) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 -2.2750) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 -3.0750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 -3.0750) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 -3.0750) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 -3.8750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 -3.8750) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 -3.8750) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 -4.6750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 -4.6750) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 -4.6750) TOP/BOTTOM 
+  VM                   V60H30               (-13.6000 -5.4750) TOP/BOTTOM 
+  VM                   V60H30               (-14.4000 -5.4750) TOP/BOTTOM 
+  VM                   V60H30               (-15.2000 -5.4750) TOP/BOTTOM 
+  VM                   V60H30               (-8.5250 -0.4000) TOP/BOTTOM 
+  VM                   V60H30               (-9.4250 0.3500) TOP/BOTTOM 
+  VM                   V60H30               (-9.4750 1.1250) TOP/BOTTOM 
+  VM                   V60H30               (-9.4000 2.6250) TOP/BOTTOM 
+  VM                   V60H30               (-9.4000 3.3750) TOP/BOTTOM 
   VM                   V60H30               (-9.0000 2.0250) TOP/BOTTOM 
-  VM                   V60H30               (-15.4500 4.6500) TOP/BOTTOM 
   VM                   V60H30               (4.8250 13.9500) TOP/BOTTOM 
   VM                   V60H30               (9.7917 3.4500)  TOP/BOTTOM 
   VM                   V60H30               (16.5750 1.8750) TOP/BOTTOM 
+  SNA                  V60H30               (-0.8250 -10.5250) TOP/BOTTOM 
+  SNA                  V60H30               (-0.8250 -11.3250) TOP/BOTTOM 
   SNA                  V60H30               (-4.0250 -7.9500) TOP/BOTTOM 
   SNA                  V60H30               (-1.7000 1.8750) TOP/BOTTOM 
   SNA                  V60H30               (-2.4250 3.1250) TOP/BOTTOM 
@@ -51,6 +103,6 @@ Report methodology:
   SNA                  V60H30               (-4.5500 2.0500) TOP/BOTTOM 
 
 << Summary >>
-  Total dangling lines:       0
-  Total dangling vias:        1
-  Total antenna vias:        16
+  Total dangling lines:       2
+  Total dangling vias:        0
+  Total antenna vias:        69

@@ -2,22 +2,42 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  d:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd             |
-|                                                    Thu Dec 11 18:55:27 2025  |
+|  D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 20:57:23 2025  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  SNA          pins MOVED FROM this net (to net name listed on right)
-                                 D7.2             1.4000 -13.075
-                                                                             SW
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SW           pins MOVED FROM this net (to net name listed on right)
-                                 D7.1             1.4000 -16.325
-                                                                            SNA
+ ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
+|  D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 20:57:23 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U8                  ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN -5.8000 -15.500 ESD2CAN_SOT23-3_ESD2CAN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 20:57:23 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U8.2           -5.8000 -15.500 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Thu Dec 11 18:55:27 2025                      )
+(    Date/Time        : Thu Dec 11 20:57:23 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'd:\project\07_foc\foc\circuit\candence\stm32\allegro'
 Design Directory:            'd:/project/07_foc/foc/circuit/candence/stm32'
-Old design name:             'd:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd'
-New design name:             'd:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd'
+Old design name:             'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
+New design name:             'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
 
-CmdLine: netrev -y 1 -i d:\project\07_foc\foc\circuit\candence\stm32\allegro -q netrev_constraint_report.xml d:/project/07_foc/foc/circuit/candence/stm32/#Taaaacj12200.tmp
+CmdLine: netrev -y 1 -i d:\project\07_foc\foc\circuit\candence\stm32\allegro -q netrev_constraint_report.xml d:/project/07_foc/foc/circuit/candence/stm32/#Taaaace20232.tmp
 
 ------ Preparing to read pst files ------
 
@@ -38,15 +38,15 @@ Starting to read d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstxnet.da
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           D:/Cadence/SPB_17.4/share/local/pcb/modules 
+           d:/cadence/spb_17.4/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           D:/Cadence/SPB_17.4/share/local/pcb/symbols 
-           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           d:/cadence/spb_17.4/share/local/pcb/symbols 
+           d:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
            D:/project/MYLIB/footprint 
            D:/project/MYLIB/Allegro LIB/dra 
 
@@ -54,9 +54,9 @@ PADPATH =  .
            symbols 
            .. 
            ../symbols 
-           D:/Cadence/SPB_17.4/share/local/pcb/padstacks 
-           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           d:/cadence/spb_17.4/share/local/pcb/padstacks 
+           d:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           d:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
            D:/project/MYLIB/Allegro LIB/pad 
            D:/project/MYLIB/pad 
 
@@ -64,7 +64,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Dec 11 18:55:27 2025
+netrev run on Dec 11 20:57:23 2025
    DESIGN NAME : 'STSPIN32G4_FOC'
    PACKAGING ON Nov  3 2023 23:54:18
 

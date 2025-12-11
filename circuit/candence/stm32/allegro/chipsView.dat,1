@@ -1,5 +1,50 @@
 FILE_TYPE=LIBRARY_PARTS;
-primitive 'C_C0402_100N';
+primitive 'IND_COM-IND_DLW21HN900SQ2L_0_SMD_4P_L20-W13_BL_DLW21_DISCRETE_DLW21HN900SQ2L';
+  pin
+	 '4':
+	   PIN_NUMBER='(4)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 '3':
+	   PIN_NUMBER='(3)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 '2':
+	   PIN_NUMBER='(2)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 '1':
+	   PIN_NUMBER='(1)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+	 PART_NAME='IND_COM-IND_DLW21HN900SQ2L_0';
+	 VALUE='DLW21HN900SQ2L';
+	 BODY_NAME='IND_COM-IND_DLW21HN900SQ2L_0_SMD_4P_L20-W13_BL_DLW21_DISCRETE_DLW21HN900SQ2L';
+	 JEDEC_TYPE='SMD_4P_L20-W13_BL_DLW21';
+	 PHYS_DES_PREFIX='L';
+	 CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+primitive 'C_C0402_NC';
   pin
 	 '2':
 	   PIN_NUMBER='(2)';
@@ -20,10 +65,68 @@ primitive 'C_C0402_100N';
   end_pin;
   body
 	 PART_NAME='C';
-	 VALUE='100n';
-	 BODY_NAME='C_C0402_100N';
+	 VALUE='NC';
+	 BODY_NAME='C_C0402_NC';
 	 JEDEC_TYPE='C0402';
 	 PHYS_DES_PREFIX='C';
+	 CLASS='IC';
+  end_body;
+end_primitive;
+
+primitive 'C_C0603_1U';
+  pin
+	 '2':
+	   PIN_NUMBER='(2)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 '1':
+	   PIN_NUMBER='(1)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+	 PART_NAME='C';
+	 VALUE='1u';
+	 BODY_NAME='C_C0603_1U';
+	 JEDEC_TYPE='C0603';
+	 PHYS_DES_PREFIX='C';
+	 CLASS='IC';
+  end_body;
+end_primitive;
+
+primitive 'B5819WSL_SOD123_B5819WSL';
+  pin
+	 '2':
+	   PIN_NUMBER='(2)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 '1':
+	   PIN_NUMBER='(1)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+	 PART_NAME='B5819WSL';
+	 VALUE='B5819WSL';
+	 BODY_NAME='B5819WSL_SOD123_B5819WSL';
+	 JEDEC_TYPE='SOD123';
+	 PHYS_DES_PREFIX='D';
 	 CLASS='IC';
   end_body;
 end_primitive;
@@ -53,64 +156,6 @@ primitive 'R_R0402_24K';
 	 BODY_NAME='R_R0402_24K';
 	 JEDEC_TYPE='R0402';
 	 PHYS_DES_PREFIX='R';
-	 CLASS='IC';
-  end_body;
-end_primitive;
-
-primitive 'R_C0402_2K';
-  pin
-	 '2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='R';
-	 VALUE='2k';
-	 BODY_NAME='R_C0402_2K';
-	 JEDEC_TYPE='C0402';
-	 PHYS_DES_PREFIX='R';
-	 CLASS='IC';
-  end_body;
-end_primitive;
-
-primitive 'C_C0603_10U';
-  pin
-	 '2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='C';
-	 VALUE='10u';
-	 BODY_NAME='C_C0603_10U';
-	 JEDEC_TYPE='C0603';
-	 PHYS_DES_PREFIX='C';
 	 CLASS='IC';
   end_body;
 end_primitive;
@@ -368,35 +413,6 @@ primitive 'R_R0805_50M';
   end_body;
 end_primitive;
 
-primitive 'B5819WSL_SOD_323_B5819WSL';
-  pin
-	 '2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='B5819WSL';
-	 VALUE='B5819WSL';
-	 BODY_NAME='B5819WSL_SOD_323_B5819WSL';
-	 JEDEC_TYPE='SOD_323';
-	 PHYS_DES_PREFIX='D';
-	 CLASS='IC';
-  end_body;
-end_primitive;
-
 primitive 'C_C0402_22PF';
   pin
 	 '2':
@@ -614,51 +630,6 @@ primitive 'HOLE_01X04_4_HOLE_HOLE_01X04';
 	 JEDEC_TYPE='4_HOLE';
 	 PHYS_DES_PREFIX='J';
 	 CLASS='IC';
-  end_body;
-end_primitive;
-
-primitive 'IND_COM-IND_DLW21HN900SQ2L_0_SMD-4P_DISCRETE_DLW21HN900SQ2L';
-  pin
-	 '4':
-	   PIN_NUMBER='(4)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '3':
-	   PIN_NUMBER='(3)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='IND_COM-IND_DLW21HN900SQ2L_0';
-	 VALUE='DLW21HN900SQ2L';
-	 BODY_NAME='IND_COM-IND_DLW21HN900SQ2L_0_SMD-4P_DISCRETE_DLW21HN900SQ2L';
-	 JEDEC_TYPE='SMD-4P';
-	 PHYS_DES_PREFIX='L';
-	 CLASS='DISCRETE';
   end_body;
 end_primitive;
 
@@ -1033,35 +1004,6 @@ primitive 'R_R0402_2K';
   end_body;
 end_primitive;
 
-primitive 'R_R0402_12K';
-  pin
-	 '2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='R';
-	 VALUE='12k';
-	 BODY_NAME='R_R0402_12K';
-	 JEDEC_TYPE='R0402';
-	 PHYS_DES_PREFIX='R';
-	 CLASS='IC';
-  end_body;
-end_primitive;
-
 primitive 'CSD18543Q3A_DNH0008A_CSD18543Q3ADNH';
   pin
 	 'S_3':
@@ -1147,35 +1089,6 @@ primitive 'CSD18543Q3A_DNH0008A_CSD18543Q3ADNH';
   end_body;
 end_primitive;
 
-primitive 'C_C0402_22NF';
-  pin
-	 '2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='C';
-	 VALUE='22nF';
-	 BODY_NAME='C_C0402_22NF';
-	 JEDEC_TYPE='C0402';
-	 PHYS_DES_PREFIX='C';
-	 CLASS='IC';
-  end_body;
-end_primitive;
-
 primitive 'R_R0402_10R';
   pin
 	 '2':
@@ -1228,35 +1141,6 @@ primitive 'C_C0402_100NF';
 	 PART_NAME='C';
 	 VALUE='100nF';
 	 BODY_NAME='C_C0402_100NF';
-	 JEDEC_TYPE='C0402';
-	 PHYS_DES_PREFIX='C';
-	 CLASS='IC';
-  end_body;
-end_primitive;
-
-primitive 'C_C0402_220NF';
-  pin
-	 '2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 '1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='C';
-	 VALUE='220nF';
-	 BODY_NAME='C_C0402_220NF';
 	 JEDEC_TYPE='C0402';
 	 PHYS_DES_PREFIX='C';
 	 CLASS='IC';

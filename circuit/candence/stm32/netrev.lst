@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Thu Dec 11 20:57:23 2025                      )
+(    Date/Time        : Mon Dec 29 23:06:58 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,54 +17,56 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'd:\project\07_foc\foc\circuit\candence\stm32\allegro'
-Design Directory:            'd:/project/07_foc/foc/circuit/candence/stm32'
-Old design name:             'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
-New design name:             'D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
+Schematic directory:         'D:\project\foc\circuit\candence\stm32\allegro'
+Design Directory:            'D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32'
+Old design name:             'D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
+New design name:             'D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd'
 
-CmdLine: netrev -y 1 -i d:\project\07_foc\foc\circuit\candence\stm32\allegro -q netrev_constraint_report.xml d:/project/07_foc/foc/circuit/candence/stm32/#Taaaace20232.tmp
+CmdLine: netrev -y 1 -i D:\project\foc\circuit\candence\stm32\allegro -q netrev_constraint_report.xml D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/#Taaaaaf06428.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstchip.dat 
-   Finished reading d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstchip.dat (00:00:00.01)
-Starting to read d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstxprt.dat 
-   Finished reading d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstxprt.dat (00:00:00.00)
-Starting to read d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstxnet.dat 
-   Finished reading d:/project/07_foc/foc/circuit/candence/stm32/allegro/pstxnet.dat (00:00:00.00)
+Starting to read D:/project/foc/circuit/candence/stm32/allegro/pstchip.dat 
+   Finished reading D:/project/foc/circuit/candence/stm32/allegro/pstchip.dat (00:00:00.03)
+Starting to read D:/project/foc/circuit/candence/stm32/allegro/pstxprt.dat 
+   Finished reading D:/project/foc/circuit/candence/stm32/allegro/pstxprt.dat (00:00:00.00)
+Starting to read D:/project/foc/circuit/candence/stm32/allegro/pstxnet.dat 
+   Finished reading D:/project/foc/circuit/candence/stm32/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           d:/cadence/spb_17.4/share/local/pcb/modules 
+           D:/Cadence/SPB_17.4/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           d:/cadence/spb_17.4/share/local/pcb/symbols 
-           d:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           d:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
-           D:/project/MYLIB/footprint 
-           D:/project/MYLIB/Allegro LIB/dra 
+           D:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           D:/project/RK3566/circuit/candence/rk3566_library 
+           D:/project/RK3566/circuit/candence/dra 
+           D:/project/RK3566/circuit/candence/rk3568 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           d:/cadence/spb_17.4/share/local/pcb/padstacks 
-           d:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
-           d:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
-           D:/project/MYLIB/Allegro LIB/pad 
-           D:/project/MYLIB/pad 
+           D:/Cadence/SPB_17.4/share/local/pcb/padstacks 
+           D:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           D:/project/RK3566/circuit/candence/rk3566_library 
+           D:/project/RK3566/circuit/candence/pad 
+           D:/project/RK3566/circuit/candence/rk3568 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Dec 11 20:57:23 2025
+netrev run on Dec 29 23:06:58 2025
    DESIGN NAME : 'STSPIN32G4_FOC'
    PACKAGING ON Nov  3 2023 23:54:18
 
@@ -89,6 +91,6 @@ netrev run on Dec 11 20:57:23 2025
  No oversight detected
  No warning detected
 
-cpu time      0:00:43
+cpu time      0:01:56
 elapsed time  0:00:00
 

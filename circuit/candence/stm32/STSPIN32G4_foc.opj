@@ -1,6 +1,6 @@
 (ExpressProject "STSPIN32G4_foc"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/11/25]")
+  (SoftwareVersion "17.4-2019 S039 (4153571)  [11/4/2023]-[12/29/25]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -49,11 +49,10 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Board_sim_option "VHDL_flow")
     (BOM_Scope "0")
     (BOM_Mode "1")
     (BOM_Report_File
-       "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.BOM")
+       "D:\project\foc\circuit\candence\stm32\STSTP32_FOC\STSPIN32G4_FOC.BOM")
     (BOM_Merge_Include "FALSE")
     (BOM_Property_Combine_7.0
        "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB footprint}\t{JLC}")
@@ -63,7 +62,8 @@
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "FALSE")
     (Open_BOM_in_Excel "TRUE")
-    (BOM_View_Output "FALSE"))
+    (BOM_View_Output "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout"
     (File ".\stspin32g4_foc.brd"
       (Type "Board File")
@@ -81,6 +81,8 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\stspin32g4_foc.bom"
+      (Type "Report"))
+    (File ".\ststp32_foc\stspin32g4_foc.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -94,22 +96,19 @@
   (Folder "Logs"
     (File ".\allegro\netlist.log"
       (Type "Log File")
-      (LogFile
-         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\netlist.log"))
+      (LogFile "D:\project\foc\circuit\candence\stm32\allegro\netlist.log"))
     (File ".\allegro\netrev.lst"
       (Type "Log File")
-      (LogFile
-         "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\netrev.lst"))
+      (LogFile "D:\project\foc\circuit\candence\stm32\allegro\netrev.lst"))
     (File ".\allegro\eco.txt"
       (Type "Log File")
-      (LogFile "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\eco.txt"))
+      (LogFile "D:\project\foc\circuit\candence\stm32\allegro\eco.txt"))
     (File ".\allegro\swp.log"
       (Type "Log File")
       (LogFile "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro\swp.log"))
     (File ".\allegro\genfeed.log"
       (Type "Log File")
-      (LogFile
-         "d:\project\07_foc\foc\circuit\candence\stm32\allegro\genfeed.log")))
+      (LogFile "D:\project\foc\circuit\candence\stm32\allegro\genfeed.log")))
   (PartMRUSelector
     (IND_COM-IND_DLW21HN900SQ2L_0
       (FullPartName "IND_COM-IND_DLW21HN900SQ2L_0.Normal")
@@ -236,60 +235,66 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\stspin32g4_foc.dsn")
-      (Path "Design Resources" ".\stspin32g4_foc.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "D:\project\foc\circuit\candence\stm32\stspin32g4_foc.dsn")
+      (Path "Design Resources"
+         "D:\project\foc\circuit\candence\stm32\stspin32g4_foc.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library\orcadcaptureolb.olb")
-      (Path "Design Resources" "Library" ".\library\stspin32g4.olb")
+      (Path "Design Resources" "Library"
+         "D:\project\foc\circuit\candence\stm32\library\orcadcaptureolb.olb")
+      (Path "Design Resources" "Library"
+         "D:\project\foc\circuit\candence\stm32\library\stspin32g4.olb")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\stspin32g4_foc.dsn" "Design Cache"))
+      (Select "Design Resources"
+         "D:\project\foc\circuit\candence\stm32\stspin32g4_foc.dsn" "SCHEMATIC1"
+         "Analog_Sensing"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 338 0 701"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 576"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1222 28 723")
-        (Scroll "-107 0")
-        (Zoom "83")
+        (Placement "44 0 1 -1 -1 5 28 5 1131 28 598")
+        (Scroll "-62 136")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "driver"))
+      (Page "MCU"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1222 28 723")
-        (Scroll "216 362")
-        (Zoom "136")
+        (Placement "44 0 1 -1 -1 5 28 5 1131 28 598")
+        (Scroll "0 244")
+        (Zoom "110")
         (Occurrence "/"))
-      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Analog_Sensing"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1222 28 723")
-        (Scroll "-107 47")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1131 28 598")
+        (Scroll "-62 102")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
       (Schematic "SCHEMATIC1")
       (Page "input&output"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1222 28 723")
-        (Scroll "262 412")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1131 28 598")
+        (Scroll "0 240")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
+      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MCU")))
-  (MPSSessionName "SXF-Admin")
+      (Page "driver")))
+  (MPSSessionName "86136")
   (ISPCBBASICLICENSE "false"))

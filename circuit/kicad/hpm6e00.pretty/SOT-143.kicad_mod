@@ -1,0 +1,393 @@
+(footprint "SOT-143"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-143 https://www.nxp.com/docs/en/package-information/SOT143B.pdf")
+	(tags "SOT-143")
+	(property "Reference" "REF**"
+		(at -2.1 -0.25 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7727ab1f-5ae1-497a-8d18-447e094eb8cf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PRTR5V0U2X"
+		(at -0.28 2.48 0)
+		(layer "F.Fab")
+		(uuid "fb06b85c-ee96-4df1-a612-6211428d4427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ff148ef-3557-4bcb-b9d2-85d3b47394db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "静电放电(ESD)保护器件"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4379347e-6b6c-44dd-af82-07a363f7721f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALTIUM_VALUE" "PRTR5V0U2X"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ed91772-ffc1-48c0-b2ab-66c3c8d81f66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ASSY_OPT" ""
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8576e80a-b72e-4c0f-92a9-3f892b4087c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1DESCRIPTION" "ErpDataInfo"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e757cc7-b9e2-450b-aa0f-528cbeb4c5d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1URL" "http://erp.zlgmcu.com/ErpExt/ErpData/ListMateriel.aspx?pkey=1.05.10.0153"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5254bf3-0f17-4b42-acca-b595aaccd8e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Company" "TECH PUBLIC(台舟)"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ca49729-4a8d-4518-a889-dabd30c106c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Model" "PRTR5V0U2X"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "679e37e6-261d-4287-85b4-3db094a3903c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ROHS" "RoHS"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "074898b4-fd61-4eec-a91b-b4850bec6138")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "厂商" "NXP"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7610c64-59a8-4021-bb4c-f8c1f0018e37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "名称" "集成电路"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffd51903-0885-45e8-b036-a362e992fd9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "器件优选方案" "量产物料,优先选用"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc050013-27ec-4216-b642-40d57e6f39ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "型号" "PRTR5V0U2X"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4be7dd01-6085-4905-a5e2-792c072783e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "封装" "SOT-143B"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e46d35c1-770a-40ad-8731-94c49bf7cb1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "物料代码" "1.05.10.0153"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "535041ac-67ba-452e-bd56-9e12613db303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "设备封装名称" "SOT-143B_PRTR5V0U2X"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bb09b63-0ac7-472b-9eb2-7077b382f3e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "贴片和直插" "SMT"
+		(at 344.35 -67.25 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e636d195-ecb1-4dfa-bac8-96f45bf137e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 1.56)
+		(end 0.65 1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35070361-a1a1-493b-9b72-d310106c696a")
+	)
+	(fp_line
+		(start 0.65 -1.56)
+		(end -1.35 -1.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "919f2c86-53f9-4730-9473-2ab132b36b9e")
+	)
+	(fp_line
+		(start -1.6 1.7)
+		(end -1.6 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e56ffd1d-6bcc-448c-9685-9379bcb019cf")
+	)
+	(fp_line
+		(start -1.6 1.7)
+		(end 1.6 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d89130f1-268c-42e9-8bab-90a92808828b")
+	)
+	(fp_line
+		(start 1.6 -1.7)
+		(end -1.6 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbcca8bd-5339-4374-8142-de1efab4d588")
+	)
+	(fp_line
+		(start 1.6 -1.7)
+		(end 1.6 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85eb9e3d-dc23-4d70-a8d8-5de1ff2916be")
+	)
+	(fp_line
+		(start -0.65 -0.95)
+		(end -0.15 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9252608e-a53a-45d0-9cbc-bd7f2e1848a8")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e67681f5-4e81-497a-87fb-05389f944254")
+	)
+	(fp_line
+		(start -0.15 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b37f229f-2b08-4229-9e23-cef6a73df405")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9363797f-08a8-49b0-bf3c-d49804984b08")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22129100-0d3b-4b4f-add9-9c1e44afac8b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "1216c8b9-1bf8-409a-8caa-5c3b3b48b3e0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -0.75)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "37142840-99c7-4b40-9bc9-cd61ff9976ab")
+	)
+	(pad "2" smd rect
+		(at -1 0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43f326e2-1801-4596-bb97-6dc9f8c232c7")
+	)
+	(pad "3" smd rect
+		(at 1 0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf128a7d-08fd-4b47-a5af-0b2517db5068")
+	)
+	(pad "4" smd rect
+		(at 1 -0.95)
+		(size 0.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55b8ddbb-c6c1-4df7-86a0-3bb9992fb889")
+	)
+	(embedded_fonts no)
+	(model "${HPM_KICAD_3D}/Sot/SOT-143.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

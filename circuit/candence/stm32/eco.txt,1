@@ -3,29 +3,41 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd             |
-|                                                    Thu Dec 11 20:41:26 2025  |
+|                                                    Thu Dec 11 20:57:23 2025  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CANH         pins MOVED FROM this net (to net name listed on right)
-                                 L3.3            -15.150 -14.075
-                                                                           CANL
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CANL         pins MOVED FROM this net (to net name listed on right)
-                                 L3.4            -13.450 -14.075
-                                                                          CAN_L
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CAN_H        pins MOVED FROM this net (to net name listed on right)
-                                 L3.2            -15.150 -13.275
-                                                                           CANH
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  CAN_L        pins MOVED FROM this net (to net name listed on right)
-                                 L3.1            -13.450 -13.275
-                                                                          CAN_H
+ ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
+|  D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 20:57:23 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U8                  ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN -5.8000 -15.500 ESD2CAN_SOT23-3_ESD2CAN
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd             |
+|                                                    Thu Dec 11 20:57:23 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U8.2           -5.8000 -15.500 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       4                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

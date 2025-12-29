@@ -1,12 +1,12 @@
-{ Using PSTWRITER 17.4.0 d001Dec-11-2025 at 20:57:23 }
+{ Using PSTWRITER 17.4.0 d001Dec-29-2025 at 23:06:57 }
 
 INFO(ORCAP-36080): Scanning netlist files ...
 
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro\pstchip.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro\pstchip.dat
 
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro\pstchip.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro\pstchip.dat
 
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro\pstxprt.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro\pstxprt.dat
 
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro\pstxnet.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro\pstxnet.dat
 packaging the design view...

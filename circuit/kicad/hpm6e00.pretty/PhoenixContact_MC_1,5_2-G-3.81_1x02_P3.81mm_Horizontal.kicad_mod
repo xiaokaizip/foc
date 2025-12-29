@@ -1,0 +1,333 @@
+(footprint "PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "Generic Phoenix Contact connector footprint for: MC_1,5/2-G-3.81; number of pins: 02; pin pitch: 3.81mm; Angled || order number: 1803277 8A 160V")
+	(tags "phoenix_contact connector MC_01x02_G_3.81mm")
+	(property "Reference" "REF**"
+		(at -2.0817 -2.1082 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f0e62088-4a7e-4e44-93a0-7fc4889647d4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KF2EDGR_3.81_2P"
+		(at 1.9 9.2 180)
+		(layer "F.Fab")
+		(uuid "b209c1b2-6502-4e86-a423-1c440b5f7e01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "166052f0-6c1e-48ee-a64d-4285d70879dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "插拔式接线端子,弯针"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3c7806b-c4a5-4c73-87f5-234001608633")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ASSY_OPT" ""
+		(at 272.387 117.7248 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "755d7927-a7a3-4899-88d1-ba9d7d45436b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Company" "BOOMELE(博穆精密)"
+		(at 272.387 117.7248 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "303cd712-c3d8-44df-bced-ce69021bb03f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Model" "3.81绿端子"
+		(at 272.387 117.7248 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b1649a2-d4e5-4eef-b994-9ba6c7d824a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.71 -1.31)
+		(end -2.71 8.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b3b987c-20d1-4652-88d8-305edc4742a0")
+	)
+	(fp_line
+		(start -2.71 -1.31)
+		(end -1.05 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c89c0b0-f0fc-4e9f-bcb9-40c90b0c8792")
+	)
+	(fp_line
+		(start -2.71 4.8)
+		(end 6.52 4.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e5e4731-8187-4d8e-a94b-2aa3ed6de815")
+	)
+	(fp_line
+		(start -2.71 8.11)
+		(end 6.52 8.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abf015d4-4138-4ec6-bc0f-6e4c48496c01")
+	)
+	(fp_line
+		(start -0.3 -2.6)
+		(end 0.3 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68766fb9-8168-46d9-b07b-25babfef80f0")
+	)
+	(fp_line
+		(start 0 -2)
+		(end -0.3 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ed5d707-3c65-43bd-b68a-cd6d7a442fc1")
+	)
+	(fp_line
+		(start 0.3 -2.6)
+		(end 0 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfdb8a25-e8a2-4eeb-ba0f-ea8791e15b14")
+	)
+	(fp_line
+		(start 1.05 -1.31)
+		(end 2.76 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79084430-2bb2-49a1-b827-6d3038b87b5f")
+	)
+	(fp_line
+		(start 6.52 -1.31)
+		(end 4.86 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "beeb90d7-29b0-4f8c-a4a0-3db9718e4b4a")
+	)
+	(fp_line
+		(start 6.52 8.11)
+		(end 6.52 -1.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1aff8c1f-a04c-4ee1-81aa-e6b7da9fbba7")
+	)
+	(fp_line
+		(start -3.21 -2.3)
+		(end -3.21 8.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "149b9243-b078-433e-b850-c5c54683fced")
+	)
+	(fp_line
+		(start -3.21 8.5)
+		(end 6.91 8.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "429bb025-5238-42cd-9716-61c6b07c3873")
+	)
+	(fp_line
+		(start 6.91 -2.3)
+		(end -3.21 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8a6bbe8-9d59-47a6-af37-989c51dfeb7c")
+	)
+	(fp_line
+		(start 6.91 8.5)
+		(end 6.91 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e730927a-a63a-4b60-8ba0-d3c50152ca36")
+	)
+	(fp_line
+		(start -2.6 -1.2)
+		(end -2.6 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a6d31b7-6773-4f37-9ec3-b0c0aa9fb177")
+	)
+	(fp_line
+		(start -2.6 8)
+		(end 6.41 8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a21e0bf8-8ea1-495e-b626-d73fc1c73aef")
+	)
+	(fp_line
+		(start 0 0)
+		(end -0.8 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f2ae56e-58bd-45ae-86a5-14eda44a9209")
+	)
+	(fp_line
+		(start 0.8 -1.2)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "618db379-a9ec-4593-8b5b-614cc6e77e7a")
+	)
+	(fp_line
+		(start 6.41 -1.2)
+		(end -2.6 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06d5a52f-692f-4f93-b5cf-0d2f4ee59de9")
+	)
+	(fp_line
+		(start 6.41 8)
+		(end 6.41 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33b830e0-a9c6-484b-867f-26df06523436")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.9 -0.5 180)
+		(layer "F.Fab")
+		(uuid "31b2d4e7-58ff-419a-8d01-09267647fa98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.8 3.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.138889)
+		(uuid "330800b4-122b-441d-8827-fb25b31324d6")
+	)
+	(pad "2" thru_hole oval
+		(at 3.81 0)
+		(size 1.8 3.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2ab1fdd-a569-4648-8026-0d9a28bdc139")
+	)
+	(embedded_fonts no)
+	(model "${HPM_KICAD_3D}/Connector/KF2EDGB/PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

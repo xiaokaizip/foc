@@ -1,11 +1,11 @@
 Loading netlist files ...
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro\pstchip.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro\pstchip.dat
 
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro\pstxprt.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro\pstxprt.dat
 
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro\pstxnet.dat
-packaging the design view...Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro/funcview.dat
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro/compview.dat
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro/netview.dat
-Loading... d:\project\07_foc\foc\circuit\candence\stm32\allegro/pinview.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro\pstxnet.dat
+packaging the design view...Loading... D:\project\foc\circuit\candence\stm32\allegro/funcview.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro/compview.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro/netview.dat
+Loading... D:\project\foc\circuit\candence\stm32\allegro/pinview.dat
 packaging the design view...

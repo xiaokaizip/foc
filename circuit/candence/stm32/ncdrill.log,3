@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Thu Nov 20 09:50:10 2025                      )
+(    Date/Time        : Mon Dec 29 23:32:34 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -37,19 +37,19 @@
 
 
 
- Drill files being output to directory 'D:/project/07_foc/foc/circuit/candence/stm32/gerbar' ...
+ Drill files being output to directory 'D:/project/foc/circuit/candence/stm32/STSTP32_FOC' ...
 
 
 
-     'stspin32g4_foc-1-4.drl' created for holes connecting TOP and BOTTOM
-     --------------------------------------------------------------------
+     'stspin32g4_foc-1-4-1-4.drl' created for holes connecting TOP and BOTTOM
+     ------------------------------------------------------------------------
 
            Num     Size      +/- Tolerance     Plating   Quantity
 
-            1.   0.3000    0.0000/  0.0000      PLATED        388
+            1.   0.3000    0.0000/  0.0000      PLATED        373
             2.   0.5080    0.0000/  0.0000      PLATED          4
 
-     ---- Total holes:                                        392
+     ---- Total holes:                                        377
 
-     ---- Total head travel:              4.01 feet (1.22 meters)
+     ---- Total head travel:              4.09 feet (1.25 meters)
 

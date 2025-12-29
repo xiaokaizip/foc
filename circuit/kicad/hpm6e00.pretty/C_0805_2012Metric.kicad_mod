@@ -1,0 +1,217 @@
+(footprint "C_0805_2012Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at -2.4 0 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e6d0e597-17ce-4b49-99d3-efe2625afcbe")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "22uF,16V"
+		(at 0 1.68 180)
+		(layer "F.Fab")
+		(uuid "6b4c9edc-00fc-44cd-a3a6-f19fe9a72c1d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a80ce7df-5215-431f-b340-a2e990a84455")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0805"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f39b466-e517-4b2d-a176-ffc8b2429ba9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ASSY_OPT" ""
+		(at 226.8044 180.6468 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce361de3-231b-41f1-8c24-7f7605ce1d8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Company" " SAMSUNG(三星)"
+		(at 226.8044 180.6468 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b83613e3-a7dc-4a04-8dfe-ceab8fd7dfe1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Model" " CL21A226MOQNNNE"
+		(at 226.8044 180.6468 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b9115f5-c1b1-4148-b956-03ba80e7fbe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.261252 -0.735)
+		(end 0.261252 -0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f88bebe-97e3-42f4-b6de-f7c3840616cf")
+	)
+	(fp_line
+		(start -0.261252 0.735)
+		(end 0.261252 0.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c2dab87-52d2-40fd-ae0e-2502fa6c3bb9")
+	)
+	(fp_line
+		(start -1.7 -0.98)
+		(end 1.7 -0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "042721ee-3079-4ed0-aa16-fa5d9a112f93")
+	)
+	(fp_line
+		(start -1.7 0.98)
+		(end -1.7 -0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e33c3889-7bc0-40ce-b51b-e3c002f2b05c")
+	)
+	(fp_line
+		(start 1.7 -0.98)
+		(end 1.7 0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2847fc36-55b8-4c21-bca0-d2f6b572f866")
+	)
+	(fp_line
+		(start 1.7 0.98)
+		(end -1.7 0.98)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b258793-3418-4192-aebc-e6111f014f36")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0082daa2-9229-4cf0-918e-fdafb2a3e852")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0058247-a68f-4715-9d58-074ef01d41d1")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0fa0e649-59e7-4143-87f7-186fa3adc48d")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d16435b2-3300-4f6a-a421-25200e071eb9")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fc610790-7c4c-4fde-9372-55d5617cd689")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e170e31b-1f09-47b3-acd0-fa4a8e3c815d")
+	)
+	(embedded_fonts no)
+	(model "${HPM_KICAD_3D}/Capacitance/C_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

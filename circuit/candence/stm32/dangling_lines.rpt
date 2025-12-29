@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Thu Dec 11 21:14:32 2025                      )
+(    Date/Time        : Mon Dec 29 23:36:54 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -40,6 +40,7 @@ Report methodology:
   PC4                  V60H30               (9.6750 10.6000) TOP/BOTTOM 
   SCREF                V60H30               (7.8736 -7.8002) TOP/BOTTOM 
   SCREF                V60H30               (0.9750 -5.5250) TOP/BOTTOM 
+  VBAT                 V60H30               (13.9500 -3.6000) TOP/BOTTOM 
   VBAT                 V60H30               (15.9750 5.0750) TOP/BOTTOM 
   VBAT                 V60H30               (-3.4250 -6.9500) TOP/BOTTOM 
   VBAT                 V60H30               (10.5000 5.9750) TOP/BOTTOM 
@@ -118,4 +119,4 @@ Report methodology:
 << Summary >>
   Total dangling lines:       2
   Total dangling vias:        0
-  Total antenna vias:        82
+  Total antenna vias:        83

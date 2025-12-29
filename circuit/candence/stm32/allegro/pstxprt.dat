@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.4.0 d001Dec-11-2025 at 20:57:23 }
+{ Using PSTWRITER 17.4.0 d001Dec-29-2025 at 23:06:57 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='STSPIN32G4_FOC';
@@ -544,6 +544,16 @@ SECTION_NUMBER 1
  '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16770072@ANALOG.C.NORMAL(CHIPS)':
  C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16770072@analog.\c.normal\(chips)',
  P_PATH='@stspin32g4_foc.schematic1(sch_1):page1_ins16770072@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C60 'C_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16887363@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16887363@analog.\c.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16887363@analog.\c.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1154,6 +1164,16 @@ SECTION_NUMBER 1
  '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16866864@ANALOG.R.NORMAL(CHIPS)':
  C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16866864@analog.\r.normal\(chips)',
  P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16866864@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'R_R0402_12K':;
+
+SECTION_NUMBER 1
+ '@STSPIN32G4_FOC.SCHEMATIC1(SCH_1):INS16887418@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@stspin32g4_foc.schematic1(sch_1):ins16887418@analog.\r.normal\(chips)',
+ P_PATH='@stspin32g4_foc.schematic1(sch_1):page4_ins16887418@analog.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

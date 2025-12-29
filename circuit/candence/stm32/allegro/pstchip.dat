@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.4.0 d001Dec-11-2025 at 20:57:23}
+{ Using PSTWRITER 17.4.0 d001Dec-29-2025 at 23:06:57}
 primitive 'C_C0402_100NF';
   pin
     '1':
@@ -401,6 +401,21 @@ primitive 'R_R0402_60';
     PART_NAME='R';
     JEDEC_TYPE='R0402';
     VALUE='60';
+  end_body;
+end_primitive;
+primitive 'R_R0402_12K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='R0402';
+    VALUE='12k';
   end_body;
 end_primitive;
 primitive 'CSD18543Q3A_DNH0008A_CSD18543Q3ADNH';

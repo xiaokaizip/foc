@@ -1,0 +1,231 @@
+(footprint "L_1210_3225Metric"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 1.2 2.2 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d529d96c-ce65-43f8-aaa0-884bc5cc79d5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "4.7uH_2A"
+		(at 0.11 4.84 0)
+		(layer "F.Fab")
+		(uuid "91cde3f3-f4d2-4782-bdc5-cb67d7a229a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "0f8af5ca-b84a-49a4-8c5d-65244cfffcce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "DFE322520FD-4R7M=P2"
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f8415fec-464b-4525-831e-d6524e40b170")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "ASSY_OPT" ""
+		(at 279.6 -210 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e447ed55-928b-4c44-aed9-214a18d9c8ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Company" "muRata(村田)"
+		(at 279.6 -210 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28cfd361-c9c2-4ec6-93aa-80ead6c19709")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Model" "DFE322520FD-4R7M=P2"
+		(at 279.6 -210 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "431b319d-e9d6-49b3-8bf8-8c256fae50b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.602064 1.36)
+		(end 0.602064 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8cda241-1bde-4ccf-a13d-2b84019c1678")
+	)
+	(fp_line
+		(start -0.602064 -1.36)
+		(end 0.602064 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0abac8e9-8fdf-464e-a82a-70069a8cc2fe")
+	)
+	(fp_line
+		(start 2.28 1.58)
+		(end -2.28 1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "308e4982-fe79-4b55-9b27-688c704650a6")
+	)
+	(fp_line
+		(start 2.28 -1.58)
+		(end 2.28 1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3aa04e99-6905-4c89-ac55-4f7cbe7606a9")
+	)
+	(fp_line
+		(start -2.28 1.58)
+		(end -2.28 -1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58e50a9d-7ac8-4cb0-afcc-ee76a3cea17e")
+	)
+	(fp_line
+		(start -2.28 -1.58)
+		(end 2.28 -1.58)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e491538-e0ba-4af2-83a8-5a30cee04e7c")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c559ef8-cacc-45f7-9b32-01884c763a01")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a049ac4-5f80-4669-bcf7-250e7b4059ff")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1a22075-9b0d-41cc-87ed-002ba637252b")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01ba7880-86d2-4236-bf0e-9f21941b7a65")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.11 3.22 0)
+		(layer "F.Fab")
+		(uuid "5d45be07-7dc0-4a2b-a6bc-e8410f8f823a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0 180)
+		(size 1.25 2.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "0fc035c4-bd7e-4448-9d89-246a2bae83e7")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0 180)
+		(size 1.25 2.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "f6091447-c25a-44e8-bc1f-18f9fa45245d")
+	)
+	(embedded_fonts no)
+	(model "${HPM_KICAD_3D}/inductance/L_1210_3225Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

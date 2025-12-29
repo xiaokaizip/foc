@@ -4,37 +4,52 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Thu Nov 13 09:34:32 2025                      )
+(    Date/Time        : Thu Dec 11 19:06:32 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
 
 
-Results from parameter file ...
-    DEVICE-TYPE           GERBER_RS274X
-    OUTPUT-UNITS          MM
-    FILM-SIZE             2400000 1600000
-    FORMAT                5.5
-    ABORT-ON-ERROR        NO
-    SCALE                 1
-    SUPPRESS-LEAD-ZEROES  YES
-    SUPPRESS-TRAIL-ZEROES NO
-    SUPPRESS-EQUAL        YES
-    UNDEF-APT-CONT        NO
+
+ Can't open parameter file ... using default values:
+     DEVICE-TYPE        GERBER6X00
+     G-CODES            NO
+     STATIONS-PER-WHEEL 24
+     FILM-SIZE          24000 16000
+     COORDINATES        ABSOLUTE
+     OUTPUT-UNITS       INCHES
+     FORMAT             5.3
+     ABORT-ON-ERROR     abort film & continue
+     SUPPRESS-LEAD-ZEROES     YES
+     SUPPRESS-TRAIL-ZEROES    NO
+     OPTIMIZE           YES
+     SUPPRESS-EQUAL     YES
+     SCALE              1.0
+
+
+
+ WARNING: Generating english output data from a metric database
+ may cause slight roundoff error of coordinates in output file.
+
 
 
 
 ================================================================
      PROCESSING FILM < all >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/all.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/all.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -44,117 +59,166 @@ Results from parameter file ...
   Draw holes only                     NO
 
     WARNING: more than one pin class in film record
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-13.9750 -1.9000).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-13.9750 -4.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-13.9750 3.2500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-13.9750 0.6750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-15.0250 6.1750).
-    WARNING: Null REGULAR-PAD specified for padstack SMD21_23 at (-8.2750 -10.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-8.7750 -10.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6000 -4.8250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 -4.8250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.5941 -4.8225).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.6941 -4.8275).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6000 -2.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 -2.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6000 -0.2750).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 -0.2750).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6059 -0.2725).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7059 -0.2775).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6000 -2.5475).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 -2.5525).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6000 2.0000).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 2.0000).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6000 4.2750).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 4.2750).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6179 4.2775).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7179 4.2725).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6119 2.0025).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7119 1.9975).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6000 6.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 6.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6238 6.5525).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7238 6.5475).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-9.4000 -12.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-9.4000 -11.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-8.5000 -12.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-8.5000 -11.9750).
+    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -8.9500).
+    WARNING: Null REGULAR-PAD specified for padstack SMD21_23 at (-10.1750 -6.6750).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-8.7898 -5.0027).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-10.4898 -5.0071).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-10.1250 -8.0000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-10.1250 -7.0000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-10.1000 -10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-10.1000 -9.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-8.7750 -9.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-8.2750 -4.4500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-9.8250 -1.9000).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-11.1750 -1.9000).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-11.1750 -4.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-8.4000 3.5000).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-11.2000 3.5000).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-8.3750 0.7500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-11.1750 0.7500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-11.1750 3.2500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-11.1750 0.6750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-12.2250 6.1750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-10.6500 7.7500).
+    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -8.3000).
+    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -7.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -7.0000).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-8.7000 -3.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-10.6000 -3.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-8.7949 -3.0628).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-10.4949 -3.0672).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-8.8000 -1.1228).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-10.5000 -1.1272).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-8.8051 0.8173).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-10.5051 0.8129).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-8.7000 -1.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-10.6000 -1.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-8.7000 1.1000).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-10.6000 1.1000).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-8.8102 2.7572).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (-10.5102 2.7528).
     WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (-8.2500 6.0146).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-8.5750 5.1250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2250 5.1250).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2250 8.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-8.7000 3.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-10.6000 3.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-8.7000 5.5975).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-10.6000 5.6025).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-10.6500 8.7500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-10.6500 7.7500).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2250 8.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-8.5750 8.2250).
     WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (-8.3604 10.5250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2500 9.5500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2500 10.2000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2500 10.8500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2500 11.5000).
+    WARNING: Null REGULAR-PAD specified for padstack SMD50_50 at (-8.0250 13.7750).
     WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-5.4750 -18.1750).
     WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-6.5250 -18.1750).
     WARNING: Null REGULAR-PAD specified for padstack SMD12_25 at (-7.3750 -17.5250).
-    WARNING: Null REGULAR-PAD specified for padstack R139_59 at (-6.7500 -16.6650).
-    WARNING: Null REGULAR-PAD specified for padstack R139_59 at (-4.8500 -16.6650).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-7.8000 -12.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-6.8000 -12.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.8000 -13.0000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.8000 -12.0000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.8000 -12.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-6.8000 -12.0000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-7.8000 -12.0000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.8000 -12.0000).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.8000 -13.0250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-6.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-5.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-4.2750 -14.1250).
-    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-6.4000 -11.1250).
-    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-5.2000 -11.1250).
+    WARNING: Null REGULAR-PAD specified for padstack R139_59 at (-6.7500 -16.6650).
+    WARNING: Null REGULAR-PAD specified for padstack R139_59 at (-4.8500 -16.6650).
     WARNING: Null REGULAR-PAD specified for padstack R139_59 at (-5.8000 -14.3350).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-5.4000 -7.0500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-8.2000 -7.0500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-7.6500 -12.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-6.6500 -12.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.8000 -12.0250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.9250 -12.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.9250 -12.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-6.6500 -12.0250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-7.6500 -12.0250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.9250 -12.0250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.9250 -12.0250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.6000 -9.1987).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.6250 -10.4737).
+    WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (-7.2267 -11.3604).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-8.2041 -12.2474).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.5541 -12.2491).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.9041 -12.2508).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.2541 -12.2525).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.2459 -9.1526).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.8959 -9.1509).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.5459 -9.1492).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-8.1959 -9.1475).
+    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-5.7979 -8.9500).
+    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-5.5250 -11.3250).
+    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-6.0750 -11.3250).
+    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-6.0750 -10.1250).
+    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-5.5250 -10.1250).
+    WARNING: Null REGULAR-PAD specified for padstack SMD21_23 at (-4.9750 -6.6750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -4.1250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -4.1250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0500 -7.9500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0500 -6.9500).
-    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-6.4000 -10.5750).
-    WARNING: Null REGULAR-PAD specified for padstack SR0R3X0R5 at (-5.2000 -10.5750).
-    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -8.9500).
-    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -8.3000).
-    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -7.6500).
-    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -7.0000).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -5.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -5.3500).
     WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-5.7979 -7.0000).
     WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-5.7979 -7.6500).
     WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-5.7979 -8.3000).
-    WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-5.7979 -8.9500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-5.4750 -4.4500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-7.0250 -1.9000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0500 -1.2750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0500 -2.2750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -1.6000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -1.6000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -4.1250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -4.1250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -2.8500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -2.8500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -5.3500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -5.3500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 0.9000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 0.9000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -0.3500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -0.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 -2.8500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 -2.8500).
+    WARNING: Null REGULAR-PAD specified for padstack R100_80 at (-5.7293 -2.2750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-4.0250 0.9000).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.0250 0.9000).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.2750 5.1250).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.9250 5.1250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-4.1500 3.8250).
+    WARNING: Null REGULAR-PAD specified for padstack R100_80 at (-5.7207 0.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.2500 8.7500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.2500 7.7500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.9000 5.7000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.9000 6.7000).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.2750 5.1250).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.9250 5.1250).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-8.5750 5.1250).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-8.5750 8.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (-2.9854 10.5250).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 9.5500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.9250 8.2250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-7.2750 8.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 9.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-4.1500 5.7250).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-4.6250 12.1000).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-4.6250 10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.2500 8.7500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.2000 12.5000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-5.2000 11.5000).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 10.2000).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 10.8500).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 10.8500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 9.5500).
-    WARNING: Null REGULAR-PAD specified for padstack SMD50_50 at (-8.0250 13.7750).
     WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-3.8000 -18.1750).
     WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-2.7500 -18.1750).
-    WARNING: Null REGULAR-PAD specified for padstack SMD21_23 at (-3.0750 -10.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-1.3250 -11.1500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.8000 -12.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.8000 -12.0000).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-3.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-2.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-1.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-0.2750 -14.1250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.6000 -9.2013).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.6250 -10.4763).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-0.8750 -11.1500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (1.0250 -11.1500).
+    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-1.7250 -10.7463).
+    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (1.0750 -10.7537).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (0.2244 -7.4200).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-0.2757 -7.4200).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-0.7758 -7.4200).
@@ -170,62 +234,63 @@ Results from parameter file ...
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 -2.7249).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 -2.2248).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 -1.7247).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -1.6250).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -2.2750).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 -1.2246).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 -0.7244).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 -0.2243).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 0.2758).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 0.3250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -0.3250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -0.9750).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -1.6250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -2.2750).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.9700 0.7759).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-1.2759 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-0.7758 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (-0.2757 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (0.2244 1.4700).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 2.2750).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 1.6250).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 0.9750).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 0.3250).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -0.3250).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 -0.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (0.2500 7.7500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-0.4750 5.7000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-0.4750 6.7000).
     WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (-2.8750 6.0146).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-1.9000 5.1250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-2.5500 5.1250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.2000 5.1250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8500 5.1250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 2.2750).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 1.6250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (-2.8500 0.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-1.9750 3.8250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (0.9725 3.8250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (0.2500 8.7500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (0.2500 7.7500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-0.4750 5.7000).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-0.4750 6.7000).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-0.7750 9.5500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8500 8.2250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.2000 8.2250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-2.5500 8.2250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-1.9000 8.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-1.9750 5.7250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (0.9775 5.7250).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (0.8000 12.1000).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (0.8000 10.2000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (0.1750 12.5000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (0.1750 11.5000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (0.2500 8.7500).
-    WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (-2.9854 10.5250).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 9.5500).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 10.8500).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-3.8750 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-0.7750 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-0.7750 10.8500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-0.7750 10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-0.7750 9.5500).
     WARNING: Null REGULAR-PAD specified for padstack SMD50_50 at (-2.7750 13.7750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (4.1000 -17.3750).
     WARNING: Null REGULAR-PAD specified for padstack SMD12_25 at (3.2500 -17.5250).
     WARNING: Null REGULAR-PAD specified for padstack SMD12_25 at (1.8250 -17.5250).
-    WARNING: Null REGULAR-PAD specified for padstack SMD39_32 at (1.4000 -15.9499).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (4.0500 -14.6500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (1.4750 -11.1500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_270 at (4.0250 -11.3000).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (4.3500 -14.1250).
-    WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (5.3500 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (0.7250 -14.1250).
-    WARNING: Null REGULAR-PAD specified for padstack SMD39_32 at (1.4000 -13.4501).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (5.2257 -7.4200).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (4.8500 -16.7500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (4.8500 -14.4750).
+    WARNING: Null REGULAR-PAD specified for padstack R100_80 at (1.4000 -13.0750).
+    WARNING: Null REGULAR-PAD specified for padstack R100_80 at (1.4000 -16.3250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (1.0500 -9.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (2.0500 -9.2250).
+    WARNING: Null REGULAR-PAD specified for padstack R160_270 at (4.0250 -11.3000).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (2.2000 -8.1975).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (4.1000 -8.2025).
+    WARNING: Null REGULAR-PAD specified for padstack RX161Y161D0T at (2.4750 -2.9750).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (4.7256 -7.4200).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (4.2254 -7.4200).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (3.7253 -7.4200).
@@ -235,16 +300,14 @@ Results from parameter file ...
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (1.7248 -7.4200).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (1.2247 -7.4200).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (0.7246 -7.4200).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (1.0500 -9.2250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (2.0500 -9.2250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (1.8000 -7.5000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (2.8000 -7.5000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (3.9250 -7.5000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (4.9250 -7.5000).
-    WARNING: Null REGULAR-PAD specified for padstack RX161Y161D0T at (2.4750 -2.9750).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (5.5000 -2.1000).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.1000 0.1750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.1000 -0.7750).
     WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 -2.2750).
     WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 -1.6250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 -0.9750).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 -0.3250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 0.3250).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (0.7246 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (1.2247 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (1.7248 1.4700).
@@ -254,204 +317,220 @@ Results from parameter file ...
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (3.7253 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (4.2254 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (4.7256 1.4700).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (5.2257 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (5.5000 1.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.1000 0.1750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.1000 -0.7750).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 -0.9750).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 -0.3250).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 0.3250).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 0.9750).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 1.6250).
-    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 2.2750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (4.9250 5.7000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (4.9250 6.7000).
     WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (2.5750 6.0646).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (3.5500 5.1750).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (2.9000 5.1750).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (2.2500 5.1750).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (1.6000 5.1750).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 0.9750).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 1.6250).
+    WARNING: Null REGULAR-PAD specified for padstack O10160470000200A at (2.8500 2.2750).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (3.1475 3.8250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (4.9250 5.7000).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (4.9250 6.7000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (1.6000 8.2750).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (2.2500 8.2750).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (2.9000 8.2750).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (3.5500 8.2750).
     WARNING: Null REGULAR-PAD specified for padstack R10991000004949A at (2.4396 10.5250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (1.5500 9.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (4.6500 9.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (3.1525 5.7250).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (1.5500 10.2000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (1.5500 10.8500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (1.5500 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (4.6500 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (4.6500 10.8500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (4.6500 10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (4.6500 9.5500).
     WARNING: Null REGULAR-PAD specified for padstack SMD50_50 at (2.4750 13.7750).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (6.9000 -17.3750).
     WARNING: Null REGULAR-PAD specified for padstack SMD12_25 at (7.4500 -17.5250).
-    WARNING: Null REGULAR-PAD specified for padstack R160_180 at (6.8500 -14.6500).
-    WARNING: Null REGULAR-PAD specified for padstack R160_270 at (6.8250 -11.3000).
+    WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (5.3500 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (6.3500 -14.1250).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (6.7500 -16.7500).
+    WARNING: Null REGULAR-PAD specified for padstack R130_150 at (6.7500 -14.4750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.5750 -8.7250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.5750 -8.7250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.6500 -8.5250).
+    WARNING: Null REGULAR-PAD specified for padstack R160_270 at (6.8250 -11.3000).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.2259 -7.4200).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (5.7258 -7.4200).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (5.2257 -7.4200).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -4.2253).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -4.7254).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -5.2256).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -5.7257).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -6.2258).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -6.7259).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (8.9250 -8.1500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.5750 -8.7250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.5750 -8.7250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.6500 -7.6000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.6500 -8.5250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.9500 -6.8500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.9500 -6.8500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.9500 -5.5763).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.9500 -5.5737).
+    WARNING: Null REGULAR-PAD specified for padstack R140X120 at (9.8250 -5.0750).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 0.2758).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -0.2243).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -0.7244).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -1.2246).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -1.7247).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -2.2248).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -2.7249).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -3.2251).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -3.7252).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -4.2253).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -4.7254).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -5.2256).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -5.7257).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (7.2000 -2.1000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.8250 -1.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R140X120 at (9.8250 -5.0750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.1000 0.1750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.1000 -0.7750).
     WARNING: Null REGULAR-PAD specified for padstack R140X120 at (9.8250 -2.8750).
+    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (5.2257 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (5.7258 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.2259 1.4700).
     WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 0.7759).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 0.2758).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -0.2243).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -0.7244).
-    WARNING: Null REGULAR-PAD specified for padstack RX10Y32D0T at (6.9200 -1.2246).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (7.2000 1.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.1000 0.1750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.8000 1.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.8000 1.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.1000 -0.7750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.7917 3.4500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.7917 3.4500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.8084 2.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.8084 2.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.5000 5.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.5250 5.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.5250 6.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.8250 5.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.8250 6.9500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (9.5000 6.9250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.4750 5.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (6.4750 6.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.5500 5.9500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.5500 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.9250 5.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.9250 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.6250 5.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.6250 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.7250 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.7250 5.9500).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (6.2750 12.1000).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (6.2750 10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.9750 11.5500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.9750 11.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.9750 10.0013).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.9750 9.9987).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.6500 12.5000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (5.6500 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.9750 12.4750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.9750 12.4750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (7.9750 11.2487).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (8.9750 11.2513).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (7.4750 13.9500).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (5.7750 13.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.6500 -8.5250).
     WARNING: Null REGULAR-PAD specified for padstack R110_100 at (10.6250 -8.1500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.6500 -7.6000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.6500 -8.5250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.5250 -6.5000).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.5250 -6.5000).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.3750 -2.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.8250 -1.4750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.3750 -1.5500).
-    WARNING: Null REGULAR-PAD specified for padstack R140X120 at (11.5250 -2.8750).
     WARNING: Null REGULAR-PAD specified for padstack R140X120 at (11.5250 -5.0750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.3750 -1.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.8250 -1.4750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.3750 -2.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.3750 -3.5013).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (13.3250 0.0250).
+    WARNING: Null REGULAR-PAD specified for padstack R140X120 at (11.5250 -2.8750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.7584 2.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.7584 2.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.6584 2.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.7000 1.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.7000 1.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.6417 3.4500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.6917 3.4500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.6917 3.4500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.6500 1.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.7084 2.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.7084 2.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.7000 1.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.7000 1.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.6917 3.4500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.6917 3.4500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.7500 1.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.7500 1.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.7417 3.4500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.7417 3.4500).
-    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (13.3250 0.0250).
-    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (15.0250 0.0250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.5000 5.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.1250 5.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.2500 5.9500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.2500 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.1750 5.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (13.1750 6.9500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (10.5000 6.9250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.1250 6.9250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.4000 5.9500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.4000 6.9500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.3250 5.9500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.3250 6.9500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.3750 -2.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.3750 5.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (11.3750 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.2750 5.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (12.2750 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.0750 6.9500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.0750 5.9500).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.3750 -1.5500).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.6584 2.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.6417 3.4500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.3750 -2.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.3750 -3.4987).
+    WARNING: Null REGULAR-PAD specified for padstack R110_100 at (15.0250 0.0250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.6500 1.4250).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.1250 5.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.1250 6.9250).
-    WARNING: 0 width line found at (-16.2009 -0.0634)
-           ... using undefined line width of 0.1524
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.6500 1.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.6584 2.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.6584 2.4250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.6417 3.4500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.6417 3.4500).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.9750 5.8750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.9750 5.8750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (14.9750 6.9250).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (15.9750 6.9250).
+    WARNING: 0 width line found at (-16.2009 -0.0634) in MM
+           ... using undefined line width of 0.1524 MM
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.1524
+           ... using undefined line width of 0.1524 MM
 
-    WARNING: text composed 0 width line found at (-5.5439 -11.1852)
-           ... using undefined line width of 0.1524
-
-    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 0.1524
+    WARNING: text composed 0 width line found at (7.5250 -7.2250) in MM
+           ... using undefined line width of 0.1524 MM
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.05000                                  DARK 
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.12000                                  DARK 
-  CIRCLE     0.15000                                  DARK 
-  CIRCLE     0.15010                                  DARK 
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     1.01600                                  DARK 
-  SQUARE     1.50000                     0.000 NO     DARK 
-  SQUARE     4.08940                     0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280       0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.50000      90.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.70000       0.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.70000      90.000 NO     DARK 
-  RECTANGLE  0.50000     x 1.70000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  0.99060     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  1.00330     x 0.45720       0.000 NO     DARK 
-  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
-  RECTANGLE  1.20000     x 2.50000       0.000 NO     DARK 
-  RECTANGLE  1.30000     x 1.50000      90.000 NO     DARK 
-  RECTANGLE  1.39000     x 0.59000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.19990      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  1.60000     x 2.70000       0.000 NO     DARK 
-  RECTANGLE  2.10000     x 2.30000       0.000 NO     DARK 
-  RECTANGLE  2.51000     x 2.55000       0.000 NO     DARK 
-  RECTANGLE  2.51000     x 2.55000      90.000 NO     DARK 
-  OBLONG     0.40000     x 1.20000      90.000 NO     DARK 
+  CIRCLE     0.00197                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00472                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  SQUARE     0.16100                     0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200      90.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756     179.850 NO     DARK 
+  RECTANGLE  0.01969     x 0.06693       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.150 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559     179.850 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      89.850 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.03950     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.150 NO     DARK 
+  RECTANGLE  0.04724     x 0.09843       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      89.850 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906     179.850 NO     DARK 
+  RECTANGLE  0.05472     x 0.02323      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087     179.850 NO     DARK 
+  RECTANGLE  0.06299     x 0.10630       0.000 NO     DARK 
+  RECTANGLE  0.08268     x 0.09055       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039      89.850 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039      90.000 NO     DARK 
+  OBLONG     0.01575     x 0.04724      90.000 NO     DARK 
 
      all created with warnings
 
 
 ================================================================
      PROCESSING FILM < adt >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/adt.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/adt.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -460,46 +539,51 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.1524 MM
 
 
-  APERTURES USED:
+
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     1.01600                                  DARK 
-  SQUARE     1.50000                     0.000 NO     DARK 
-  SQUARE     4.08940                     0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280       0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.50000      90.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.70000       0.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.70000      90.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  0.99060     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  1.00330     x 0.45720       0.000 NO     DARK 
-  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
-  RECTANGLE  1.39000     x 0.59000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.19990      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  1.60000     x 2.70000       0.000 NO     DARK 
-  RECTANGLE  2.51000     x 2.55000       0.000 NO     DARK 
-  RECTANGLE  2.51000     x 2.55000      90.000 NO     DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  SQUARE     0.16100                     0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200      90.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.150 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.03950     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.150 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.05472     x 0.02323      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.10630       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039      90.000 NO     DARK 
 
-     adt created.
+     adt created with warnings
 
 
 ================================================================
      PROCESSING FILM < adb >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/adb.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/adb.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -510,36 +594,44 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     1.01600                                  DARK 
-  RECTANGLE  0.50000     x 1.70000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
-  RECTANGLE  1.20000     x 2.50000       0.000 NO     DARK 
-  RECTANGLE  1.30000     x 1.50000      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  2.10000     x 2.30000       0.000 NO     DARK 
-  OBLONG     0.40000     x 1.20000      90.000 NO     DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  RECTANGLE  0.01575     x 0.02756     179.850 NO     DARK 
+  RECTANGLE  0.01969     x 0.06693       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559     179.850 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      89.850 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.09843       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      89.850 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906     179.850 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087     179.850 NO     DARK 
+  RECTANGLE  0.08268     x 0.09055       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039      89.850 NO     DARK 
+  OBLONG     0.01575     x 0.04724      90.000 NO     DARK 
 
-     adb created.
+     adb created with warnings
 
 
 ================================================================
      PROCESSING FILM < top >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/top.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/top.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -548,47 +640,74 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Segment with same start and end points at
+	(8.2242 -8.2294) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.0517 -8.0015) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.0119 -1.1146) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(14.5207 4.0369) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(13.7001 4.0125) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(9.1842 1.8453) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
 
 
-  APERTURES USED:
+
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.30000                                  DARK 
-  CIRCLE     0.60000                                  DARK 
-  CIRCLE     1.01600                                  DARK 
-  SQUARE     1.50000                     0.000 NO     DARK 
-  SQUARE     4.08940                     0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280       0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.50000      90.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.50000       0.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.70000       0.000 NO     DARK 
-  RECTANGLE  0.40000     x 0.70000      90.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  0.99060     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  1.00330     x 0.45720       0.000 NO     DARK 
-  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
-  RECTANGLE  1.39000     x 0.59000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.19990      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  1.60000     x 2.70000       0.000 NO     DARK 
-  RECTANGLE  2.51000     x 2.55000       0.000 NO     DARK 
-  RECTANGLE  2.51000     x 2.55000      90.000 NO     DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.01969                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  SQUARE     0.05906                     0.000 NO     DARK 
+  SQUARE     0.16100                     0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200      90.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756       0.000 NO     DARK 
+  RECTANGLE  0.01575     x 0.02756      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.150 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.03950     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.150 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.05472     x 0.02323      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.10630       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039      90.000 NO     DARK 
 
-     top created.
+     top created with warnings
 
 
 ================================================================
      PROCESSING FILM < gnd2 >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/gnd2.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/gnd2.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -602,24 +721,24 @@ Results from parameter file ...
            associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.60000                                  DARK 
-  CIRCLE     1.01600                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.04000                                  DARK 
 
      gnd2 created with warnings
 
 
 ================================================================
      PROCESSING FILM < power3 >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/power3.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/power3.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -628,28 +747,47 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (1).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+    WARNING: Segment with same start and end points at
+	(-5.3583 4.8561) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(2.0318 -14.3095) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-3.1042 -18.0748) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-16.7120 7.9159) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
 
 
-  APERTURES USED:
+
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.30000                                  DARK 
-  CIRCLE     0.60000                                  DARK 
-  CIRCLE     1.01600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.04000                                  DARK 
 
-     power3 created.
+     power3 created with warnings
 
 
 ================================================================
      PROCESSING FILM < bottom >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/bottom.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/bottom.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -658,37 +796,83 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (1).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+    WARNING: Segment with same start and end points at
+	(-7.9685 9.2822) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6.4848 -8.6813) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-4.2958 -15.4501) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-4.2962 -15.4305) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(3.4710 -0.7336) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(4.2615 -0.8428) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-0.3791 -4.1121) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-5.9000 4.4188) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-13.6655 10.0854) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
 
 
-  APERTURES USED:
+
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.30000                                  DARK 
-  CIRCLE     0.60000                                  DARK 
-  CIRCLE     1.01600                                  DARK 
-  RECTANGLE  0.50000     x 1.70000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
-  RECTANGLE  1.20000     x 2.50000       0.000 NO     DARK 
-  RECTANGLE  1.30000     x 1.50000      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  2.10000     x 2.30000       0.000 NO     DARK 
-  OBLONG     0.40000     x 1.20000      90.000 NO     DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01181                                  DARK 
+  CIRCLE     0.02362                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  RECTANGLE  0.01575     x 0.02756     179.850 NO     DARK 
+  RECTANGLE  0.01969     x 0.06693       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559     179.850 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      89.850 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.09843       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      89.850 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906     179.850 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087     179.850 NO     DARK 
+  RECTANGLE  0.08268     x 0.09055       0.000 NO     DARK 
+  RECTANGLE  0.09882     x 0.10039      89.850 NO     DARK 
+  OBLONG     0.01575     x 0.04724      90.000 NO     DARK 
 
-     bottom created.
+     bottom created with warnings
 
 
 ================================================================
      PROCESSING FILM < silktop >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/silktop.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/silktop.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -699,30 +883,29 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.05000                                  DARK 
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.12000                                  DARK 
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     0.15000                                  DARK 
-  CIRCLE     0.15010                                  DARK 
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.00197                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00472                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01000                                  DARK 
 
-     silktop created.
+     silktop created with warnings
 
 
 ================================================================
      PROCESSING FILM < silkbot >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/silkbot.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/silkbot.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -733,26 +916,27 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.10000                                  DARK 
-  CIRCLE     0.12700                                  DARK 
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.00787                                  DARK 
+  CIRCLE     0.01000                                  DARK 
 
-     silkbot created.
+     silkbot created with warnings
 
 
 ================================================================
      PROCESSING FILM < soldtop >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/soldtop.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/soldtop.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -763,42 +947,44 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     1.01600                                  DARK 
-  SQUARE     0.02540                     0.000 NO     DARK 
-  SQUARE     1.60000                     0.000 NO     DARK 
-  SQUARE     4.08940                     0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280       0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.60000       0.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.60000      90.000 NO     DARK 
-  RECTANGLE  0.45000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  0.50000     x 0.60000       0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.75000       0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.75000      90.000 NO     DARK 
-  RECTANGLE  1.00330     x 0.45720       0.000 NO     DARK 
-  RECTANGLE  1.14300     x 0.96520      90.000 NO     DARK 
-  RECTANGLE  1.20000     x 1.10000       0.000 NO     DARK 
-  RECTANGLE  1.49000     x 0.69000      90.000 NO     DARK 
-  RECTANGLE  1.50010     x 1.30000      90.000 NO     DARK 
-  RECTANGLE  1.70000     x 1.90000       0.000 NO     DARK 
-  RECTANGLE  1.70000     x 2.80000       0.000 NO     DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  SQUARE     0.00100                     0.000 NO     DARK 
+  SQUARE     0.06299                     0.000 NO     DARK 
+  SQUARE     0.16100                     0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200      90.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.01772     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02953       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02953       0.150 NO     DARK 
+  RECTANGLE  0.02756     x 0.02953      90.000 NO     DARK 
+  RECTANGLE  0.03950     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03543      90.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.04331       0.150 NO     DARK 
+  RECTANGLE  0.05512     x 0.06299       0.000 NO     DARK 
+  RECTANGLE  0.05866     x 0.02717      90.000 NO     DARK 
+  RECTANGLE  0.05906     x 0.05118      90.000 NO     DARK 
+  RECTANGLE  0.06693     x 0.11024       0.000 NO     DARK 
 
-     soldtop created.
+     soldtop created with warnings
 
 
 ================================================================
      PROCESSING FILM < soldbot >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/soldbot.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/soldbot.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -809,33 +995,40 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.15240                                  DARK 
-  CIRCLE     1.01600                                  DARK 
-  RECTANGLE  0.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.75000       0.000 NO     DARK 
-  RECTANGLE  0.70000     x 0.75000      90.000 NO     DARK 
-  RECTANGLE  1.20000     x 1.10000       0.000 NO     DARK 
-  RECTANGLE  1.20000     x 2.50000       0.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.60000      90.000 NO     DARK 
-  RECTANGLE  1.70000     x 1.90000       0.000 NO     DARK 
-  RECTANGLE  2.20000     x 2.40000       0.000 NO     DARK 
-  OBLONG     0.50160     x 1.30160      90.000 NO     DARK 
+  CIRCLE     0.00600                                  DARK 
+  CIRCLE     0.04000                                  DARK 
+  SQUARE     0.00100                    89.850 NO     DARK 
+  RECTANGLE  0.01181     x 0.02362     179.850 NO     DARK 
+  RECTANGLE  0.02362     x 0.07087       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02953       0.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02953      90.000 NO     DARK 
+  RECTANGLE  0.02756     x 0.02953     179.850 NO     DARK 
+  RECTANGLE  0.04331     x 0.03543      89.850 NO     DARK 
+  RECTANGLE  0.04724     x 0.04331       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.09843       0.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.06299       0.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.06299      89.850 NO     DARK 
+  RECTANGLE  0.05512     x 0.06299      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.06299     179.850 NO     DARK 
+  RECTANGLE  0.06693     x 0.07480     179.850 NO     DARK 
+  RECTANGLE  0.08661     x 0.09449       0.000 NO     DARK 
+  OBLONG     0.01975     x 0.05124      90.000 NO     DARK 
 
-     soldbot created.
+     soldbot created with warnings
 
 
 ================================================================
      PROCESSING FILM < pasttop >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/pasttop.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/pasttop.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -846,40 +1039,42 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.15240                                  DARK 
-  SQUARE     0.02540                     0.000 NO     DARK 
-  SQUARE     1.60000                     0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280       0.000 NO     DARK 
-  RECTANGLE  0.25400     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.50000      90.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.60000       0.000 NO     DARK 
-  RECTANGLE  0.30000     x 0.60000      90.000 NO     DARK 
-  RECTANGLE  0.50000     x 0.60000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  0.99060     x 0.81280      90.000 NO     DARK 
-  RECTANGLE  1.00330     x 0.45720       0.000 NO     DARK 
-  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
-  RECTANGLE  1.39000     x 0.59000      90.000 NO     DARK 
-  RECTANGLE  1.40000     x 1.19990      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  1.60000     x 2.70000       0.000 NO     DARK 
+  CIRCLE     0.00600                                  DARK 
+  SQUARE     0.00100                     0.000 NO     DARK 
+  SQUARE     0.06299                     0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200       0.000 NO     DARK 
+  RECTANGLE  0.01000     x 0.03200      90.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.01969       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.01181     x 0.02362      90.000 NO     DARK 
+  RECTANGLE  0.01969     x 0.02362       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.150 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      90.000 NO     DARK 
+  RECTANGLE  0.03950     x 0.01800       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.150 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.05472     x 0.02323      90.000 NO     DARK 
+  RECTANGLE  0.05512     x 0.04724      90.000 NO     DARK 
+  RECTANGLE  0.06299     x 0.10630       0.000 NO     DARK 
 
-     pasttop created.
+     pasttop created with warnings
 
 
 ================================================================
      PROCESSING FILM < pastbot >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/pastbot.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/pastbot.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.0000
@@ -890,32 +1085,39 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.15240                                  DARK 
-  RECTANGLE  0.60000     x 0.65000       0.000 NO     DARK 
-  RECTANGLE  0.60000     x 0.65000      90.000 NO     DARK 
-  RECTANGLE  0.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  1.10000     x 1.00000       0.000 NO     DARK 
-  RECTANGLE  1.20000     x 2.50000       0.000 NO     DARK 
-  RECTANGLE  1.30000     x 1.50000      90.000 NO     DARK 
-  RECTANGLE  1.60000     x 1.80000       0.000 NO     DARK 
-  RECTANGLE  2.20000     x 2.40000       0.000 NO     DARK 
-  OBLONG     0.40000     x 1.20000      90.000 NO     DARK 
+  CIRCLE     0.00600                                  DARK 
+  SQUARE     0.00100                    89.850 NO     DARK 
+  RECTANGLE  0.01181     x 0.02362     179.850 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559       0.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559      90.000 NO     DARK 
+  RECTANGLE  0.02362     x 0.02559     179.850 NO     DARK 
+  RECTANGLE  0.02362     x 0.07087       0.000 NO     DARK 
+  RECTANGLE  0.03937     x 0.03150      89.850 NO     DARK 
+  RECTANGLE  0.04331     x 0.03937       0.000 NO     DARK 
+  RECTANGLE  0.04724     x 0.09843       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906       0.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      89.850 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906      90.000 NO     DARK 
+  RECTANGLE  0.05118     x 0.05906     179.850 NO     DARK 
+  RECTANGLE  0.06299     x 0.07087     179.850 NO     DARK 
+  RECTANGLE  0.08661     x 0.09449       0.000 NO     DARK 
+  OBLONG     0.01575     x 0.04724      90.000 NO     DARK 
 
-     pastbot created.
+     pastbot created with warnings
 
 
 ================================================================
      PROCESSING FILM < drill >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/drill.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/drill.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Suppress shape fill on neg film     NO
   Mirror code                         NONE
   Rotate angle                        NONE
@@ -927,23 +1129,23 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.15240                                  DARK 
+  CIRCLE     0.00600                                  DARK 
 
-     drill created.
+     drill created with warnings
 
 
 ================================================================
      PROCESSING FILM < outline >
-     TO FILE < D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/outline.art > ...
+     TO FILE < d:/project/07_foc/foc/circuit/candence/stm32/outline.art > ...
 ================================================================
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                0.1524
+  Undefined line width                0.1524 MM
   Suppress shape fill on neg film     NO
   Mirror code                         NONE
   Rotate angle                        NONE
@@ -955,31 +1157,31 @@ Results from parameter file ...
 
 
 
-  APERTURES USED:
+  APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.15240                                  DARK 
+  CIRCLE     0.00600                                  DARK 
 
-     outline created.
+     outline created with warnings
 
 
 ------------------------------------------------------
  SUMMARY:
         all created with warnings
-        adt created.
-        adb created.
-        top created.
+        adt created with warnings
+        adb created with warnings
+        top created with warnings
         gnd2 created with warnings
-        power3 created.
-        bottom created.
-        silktop created.
-        silkbot created.
-        soldtop created.
-        soldbot created.
-        pasttop created.
-        pastbot created.
-        drill created.
-        outline created.
+        power3 created with warnings
+        bottom created with warnings
+        silktop created with warnings
+        silkbot created with warnings
+        soldtop created with warnings
+        soldbot created with warnings
+        pasttop created with warnings
+        pastbot created with warnings
+        drill created with warnings
+        outline created with warnings
 
  ARTWORK had warnings

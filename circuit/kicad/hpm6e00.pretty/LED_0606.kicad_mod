@@ -1,0 +1,228 @@
+(footprint "LED_0606"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.1 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17303410-46c1-4b1f-9490-0dc95ee2c3a4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RGB"
+		(at -1.85 2 0)
+		(layer "F.Fab")
+		(uuid "146157bd-63a0-4b72-91fe-5fd8713c021e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "049b0029-4f42-4b7f-847f-5638187cafe6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0606"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "953e5eb5-824b-4036-8375-db0664991e5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ASSY_OPT" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6efb14d-ddc4-4cd6-ad09-6e2d21056d03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Company" "TOGIALED(统佳)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4bb8e4f-f5e6-46a0-940f-69fdbac14c57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Model" "TJ-S1615SW6TGLCCYRGB-A5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f55ee95-0ea1-40e4-ae28-ab00e4c8ad40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -0.508)
+		(end 0 0.508)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffe031f1-4bcb-433b-9a63-1cdd2644f250")
+	)
+	(fp_line
+		(start 0.225 0)
+		(end 0.468 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff0b78b1-8b26-4d6b-9592-5b104aee99a5")
+	)
+	(fp_line
+		(start 0.381 0)
+		(end 0 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62557c5a-c94a-4c3a-8ba8-7982e9d6a4e1")
+	)
+	(fp_line
+		(start 0.876 -0.826)
+		(end -0.876 -0.826)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46528f1a-b707-4ddd-8a3c-39bc570b2052")
+	)
+	(fp_line
+		(start 0.876 0.826)
+		(end -0.876 0.826)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c7fc03e-233f-4cc0-90c4-f1a8dd97e33b")
+	)
+	(fp_circle
+		(center 1.15 -0.95)
+		(end 1.25 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a523d0a7-e8c9-445d-8806-70236b5caffd")
+	)
+	(fp_line
+		(start -0.8 -0.75)
+		(end 0.8 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49c2c521-86b5-497d-aac2-a99abfb3e30c")
+	)
+	(fp_line
+		(start -0.8 0.75)
+		(end -0.8 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50d01054-82d7-4cce-a6e4-d71adbcfd617")
+	)
+	(fp_line
+		(start 0.8 -0.75)
+		(end 0.8 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba103e60-edcd-4be1-a50b-32d2392f5e7c")
+	)
+	(fp_line
+		(start 0.8 0.75)
+		(end -0.8 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51b1b406-e661-46ce-a630-eec1ee0ca19b")
+	)
+	(pad "1" smd oval
+		(at 0.836 -0.425 90)
+		(size 0.476 0.823)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ff7db08-d8fd-4351-a5e3-c0fd595419a6")
+	)
+	(pad "2" smd oval
+		(at -0.836 -0.425 90)
+		(size 0.476 0.823)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5a85a8bc-5bd5-4f27-ac4e-bcfeb3e9a009")
+	)
+	(pad "3" smd oval
+		(at -0.836 0.425 90)
+		(size 0.476 0.823)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7bf9048e-1638-4ae4-9ae8-dc2abf41c5d6")
+	)
+	(pad "4" smd oval
+		(at 0.836 0.425 90)
+		(size 0.476 0.823)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0de2e176-a88c-40c7-a26d-8039a0ed79c8")
+	)
+	(embedded_fonts no)
+	(model "${HPM_KICAD_3D}/LED_KEY_TEST/LED--0606RGB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

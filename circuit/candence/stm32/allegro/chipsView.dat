@@ -1,4 +1,33 @@
 FILE_TYPE=LIBRARY_PARTS;
+primitive 'R_R0402_12K';
+  pin
+	 '2':
+	   PIN_NUMBER='(2)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 '1':
+	   PIN_NUMBER='(1)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+	 PART_NAME='R';
+	 VALUE='12k';
+	 BODY_NAME='R_R0402_12K';
+	 JEDEC_TYPE='R0402';
+	 PHYS_DES_PREFIX='R';
+	 CLASS='IC';
+  end_body;
+end_primitive;
+
 primitive 'ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN';
   pin
 	 'IO2':

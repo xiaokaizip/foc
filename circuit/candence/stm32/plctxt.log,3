@@ -4,12 +4,12 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Thu Dec 11 19:10:07 2025                      )
+(    Date/Time        : Tue Jan  6 21:46:17 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
- Create a placement by text file: D:/project/07_foc/foc/circuit/candence/stm32/STSTP32_FOC/place_txt.txt
+ Create a placement by text file: place_txt.txt
 
- Successfully processed 131 placed components
+ Successfully processed 132 placed components

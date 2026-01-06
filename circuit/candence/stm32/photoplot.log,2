@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Mon Dec 29 23:32:01 2025                      )
+(    Date/Time        : Tue Dec 30 00:20:55 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -644,14 +644,6 @@
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(14.5207 4.0369) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(13.7001 4.0125) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(9.1842 1.8453) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -711,7 +703,11 @@
            In the design editor view this film and enable visibility for the
            associated DRC layer. Verify the DRCs are approved exceptions to your rules.
     WARNING: Segment with same start and end points at
-	(17.6907 5.4300) will be ignored. Increasing output
+	(11.3748 5.7772) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.5002 5.4208) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 
@@ -786,26 +782,6 @@
   Plot negative                       NO
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
-
-    WARNING: Segment with same start and end points at
-	(-6.4854 -9.6233) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(4.6340 0.7856) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(-0.3791 -4.1121) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(-1.2839 0.0107) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(-5.9000 4.4188) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
 
 
 

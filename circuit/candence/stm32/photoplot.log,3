@@ -4,10 +4,15 @@
 (                                                                     )
 (    Drawing          : stspin32g4_foc.brd                            )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Mon Dec 29 23:38:52 2025                      )
+(    Date/Time        : Tue Jan  6 00:51:08 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -39,7 +44,7 @@
 
 ================================================================
      PROCESSING FILM < all >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/all.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/all.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -78,8 +83,6 @@
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7000 6.5500).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-14.6238 6.5525).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-12.7238 6.5475).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-9.4000 -12.9750).
-    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-9.4000 -11.9750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-8.5000 -12.9750).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-8.5000 -11.9750).
     WARNING: Null REGULAR-PAD specified for padstack RX39P5Y18D0T at (-8.4521 -8.9500).
@@ -122,8 +125,8 @@
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2500 10.8500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-9.2500 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack SMD50_50 at (-8.0250 13.7750).
-    WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-5.4750 -18.1750).
-    WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-6.5250 -18.1750).
+    WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-7.0500 -18.0750).
+    WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-6.0000 -18.0750).
     WARNING: Null REGULAR-PAD specified for padstack SMD12_25 at (-7.3750 -17.5250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-7.6250 -13.4250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-6.6250 -13.4250).
@@ -202,14 +205,14 @@
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 11.5000).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 10.8500).
     WARNING: Null REGULAR-PAD specified for padstack R10160280000202A at (-6.1500 10.2000).
-    WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-3.8000 -18.1750).
-    WARNING: Null REGULAR-PAD specified for padstack SMD04_05 at (-2.7500 -18.1750).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-3.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-2.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-1.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack SMD05_17 at (-0.2750 -14.1250).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.6000 -9.2013).
     WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-3.6250 -10.4763).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-0.9750 -8.9750).
+    WARNING: Null REGULAR-PAD specified for padstack R60_65 at (-1.9750 -8.9750).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (-0.8750 -11.1500).
     WARNING: Null REGULAR-PAD specified for padstack R130_150 at (1.0250 -11.1500).
     WARNING: Null REGULAR-PAD specified for padstack R160_180 at (-1.7250 -10.7463).
@@ -522,7 +525,7 @@
 
 ================================================================
      PROCESSING FILM < adt >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/adt.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/adt.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -545,6 +548,7 @@
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
   CIRCLE     0.00600                                  DARK 
   CIRCLE     0.04000                                  DARK 
   SQUARE     0.05906                     0.000 NO     DARK 
@@ -574,7 +578,7 @@
 
 ================================================================
      PROCESSING FILM < adb >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/adb.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/adb.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -621,7 +625,7 @@
 
 ================================================================
      PROCESSING FILM < top >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/top.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/top.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -636,6 +640,22 @@
   Draw holes only                     NO
 
     WARNING: Segment with same start and end points at
+	(-6.4057 -15.8758) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-6.3471 -15.6277) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-7.2233 -13.0236) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-7.2233 -12.9015) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
 	(8.2242 -8.2294) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
@@ -644,15 +664,27 @@
 	accuracy may allow segment to be generated.
 
     WARNING: Segment with same start and end points at
-	(14.5207 4.0369) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
-	(13.7001 4.0125) will be ignored. Increasing output
-	accuracy may allow segment to be generated.
-
-    WARNING: Segment with same start and end points at
 	(9.1842 1.8453) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-3.4983 -12.9014) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-3.4983 -13.0235) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-5.1717 -15.8870) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-4.3017 -13.0236) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(-4.3017 -12.9015) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 
@@ -693,7 +725,7 @@
 
 ================================================================
      PROCESSING FILM < gnd2 >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/gnd2.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/gnd2.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -711,7 +743,11 @@
            In the design editor view this film and enable visibility for the
            associated DRC layer. Verify the DRCs are approved exceptions to your rules.
     WARNING: Segment with same start and end points at
-	(17.6880 5.4385) will be ignored. Increasing output
+	(11.3748 5.7772) will be ignored. Increasing output
+	accuracy may allow segment to be generated.
+
+    WARNING: Segment with same start and end points at
+	(10.5002 5.4208) will be ignored. Increasing output
 	accuracy may allow segment to be generated.
 
 
@@ -728,7 +764,7 @@
 
 ================================================================
      PROCESSING FILM < power3 >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/power3.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/power3.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -773,7 +809,7 @@
 
 ================================================================
      PROCESSING FILM < bottom >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/bottom.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/bottom.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -819,7 +855,7 @@
 
 ================================================================
      PROCESSING FILM < silktop >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/silktop.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/silktop.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -840,6 +876,7 @@
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00394                                  DARK 
+  CIRCLE     0.00500                                  DARK 
   CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00787                                  DARK 
   CIRCLE     0.01000                                  DARK 
@@ -849,7 +886,7 @@
 
 ================================================================
      PROCESSING FILM < silkbot >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/silkbot.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/silkbot.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -879,7 +916,7 @@
 
 ================================================================
      PROCESSING FILM < soldtop >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/soldtop.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/soldtop.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -927,7 +964,7 @@
 
 ================================================================
      PROCESSING FILM < soldbot >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/soldbot.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/soldbot.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -971,7 +1008,7 @@
 
 ================================================================
      PROCESSING FILM < pasttop >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/pasttop.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/pasttop.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -1017,7 +1054,7 @@
 
 ================================================================
      PROCESSING FILM < pastbot >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/pastbot.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/pastbot.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -1060,7 +1097,7 @@
 
 ================================================================
      PROCESSING FILM < drill >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/drill.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/drill.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -1088,7 +1125,7 @@
 
 ================================================================
      PROCESSING FILM < outline >
-     TO FILE < D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/outline.art > ...
+     TO FILE < d:/project/foc/circuit/candence/stm32/outline.art > ...
 ================================================================
 
   FILM PARAMETERS :

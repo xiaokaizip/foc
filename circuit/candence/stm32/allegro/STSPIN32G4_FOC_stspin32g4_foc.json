@@ -7,43 +7,25 @@
 	"Pin Property" : [],
 	"Component" : [
 		{
-			"Name" : "C60",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16887363@analog.\\c.normal\\(chips)",
-			"Logical" : "C60",
-			"Physical" : null
+			"Name" : "D2",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16845533@library1.\\led.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "D2"
 		},
 		{
-			"Name" : "R55",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16887418@analog.\\r.normal\\(chips)",
-			"Logical" : "R55",
-			"Physical" : null
+			"Name" : "R47",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16845592@analog.\\r.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "R47"
 		}
 	],
-	"Net" : [],
-	"Connection" : [
+	"Net" : [
 		{
-			"Name" : "C60.1",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16887363@analog.\\c.normal\\(chips):\\1\\",
-			"Logical" : "SNA",
-			"Physical" : null
-		},
-		{
-			"Name" : "C60.2",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16887363@analog.\\c.normal\\(chips):\\2\\",
-			"Logical" : "NRST_PG10",
-			"Physical" : null
-		},
-		{
-			"Name" : "R55.1",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16887418@analog.\\r.normal\\(chips):\\1\\",
-			"Logical" : "NRST_PG10",
-			"Physical" : null
-		},
-		{
-			"Name" : "R55.2",
-			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16887418@analog.\\r.normal\\(chips):\\2\\",
-			"Logical" : "VBAT",
-			"Physical" : null
+			"Name" : "N16845675",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):n16845675",
+			"Logical" : null,
+			"Physical" : "N16845675"
 		}
-	]
+	],
+	"Connection" : []
 }

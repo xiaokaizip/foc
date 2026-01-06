@@ -2,65 +2,17 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd                    |
-|                                                    Mon Dec 29 23:06:58 2025  |
+|  d:/project/foc/circuit/candence/stm32/stspin32g4_foc.brd                    |
+|                                                    Tue Jan  6 00:27:36 2026  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  NRST_PG10    pins ADDED TO this existing net (pins not previously on any net)
-                                 C60.2                          
-                                 R55.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SNA          pins ADDED TO this existing net (pins not previously on any net)
-                                 C60.1                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VBAT         pins ADDED TO this existing net (pins not previously on any net)
-                                 R55.2                          
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+ D2                  LED_LED0402_LED       -6.0000 -18.175
+ R47                 R_R0402_2K            -9.4000 -12.475
 |------------------------------------------------------------------------------|
-|  D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd                    |
-|                                                    Mon Dec 29 23:06:58 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R_R0402_12K
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd                    |
-|                                                    Mon Dec 29 23:06:58 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C60                 C_C0402_100NF         
- R55                 R_R0402_12K           
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
-|------------------------------------------------------------------------------|
-|  D:/PROJECT/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd                    |
-|                                                    Mon Dec 29 23:06:58 2025  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C60.2                          PRIM_FILE      .\pstchip.dat
- R55.2                          PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|       Nets changed          :       4                                        |
-|       Comp definitions added:       1                                        |
-|       Components added      :       2                                        |
-|       Slot property added   :       2                                        |
+|       Components deleted    :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       9                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

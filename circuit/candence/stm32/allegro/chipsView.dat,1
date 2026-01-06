@@ -1,4 +1,70 @@
 FILE_TYPE=LIBRARY_PARTS;
+primitive 'R_R0402_12K';
+  pin
+	 '2':
+	   PIN_NUMBER='(2)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 '1':
+	   PIN_NUMBER='(1)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+	 PART_NAME='R';
+	 VALUE='12k';
+	 BODY_NAME='R_R0402_12K';
+	 JEDEC_TYPE='R0402';
+	 PHYS_DES_PREFIX='R';
+	 CLASS='IC';
+  end_body;
+end_primitive;
+
+primitive 'ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN';
+  pin
+	 'IO2':
+	   PIN_NUMBER='(2)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 'IO1':
+	   PIN_NUMBER='(1)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+	 'GND':
+	   PIN_NUMBER='(3)';
+	   PINUSE='UNSPEC';
+	   NO_LOAD_CHECK='Both';
+	   NO_IO_CHECK='Both';
+	   NO_ASSERT_CHECK='TRUE';
+	   NO_DIR_CHECK='TRUE';
+	   ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+	 PART_NAME='ESD2CAN';
+	 VALUE='ESD2CAN';
+	 BODY_NAME='ESD2CAN_SC-70-3_L20-W13-P065-LS21-BL_ESD2CAN';
+	 JEDEC_TYPE='SC-70-3_L20-W13-P065-LS21-BL';
+	 PHYS_DES_PREFIX='U';
+	 CLASS='IC';
+  end_body;
+end_primitive;
+
 primitive 'IND_COM-IND_DLW21HN900SQ2L_0_SMD_4P_L20-W13_BL_DLW21_DISCRETE_DLW21HN900SQ2L';
   pin
 	 '4':
@@ -734,43 +800,6 @@ primitive 'TCAN3403_SOT-23-THIN-8_DDF_TEX_TCAN3403';
 	 VALUE='TCAN3403';
 	 BODY_NAME='TCAN3403_SOT-23-THIN-8_DDF_TEX_TCAN3403';
 	 JEDEC_TYPE='SOT-23-THIN-8_DDF_TEX';
-	 PHYS_DES_PREFIX='U';
-	 CLASS='IC';
-  end_body;
-end_primitive;
-
-primitive 'ESD2CAN_SOT23-3_ESD2CAN';
-  pin
-	 'IO2':
-	   PIN_NUMBER='(2)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 'IO1':
-	   PIN_NUMBER='(1)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-	 'GND':
-	   PIN_NUMBER='(3)';
-	   PINUSE='UNSPEC';
-	   NO_LOAD_CHECK='Both';
-	   NO_IO_CHECK='Both';
-	   NO_ASSERT_CHECK='TRUE';
-	   NO_DIR_CHECK='TRUE';
-	   ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-	 PART_NAME='ESD2CAN';
-	 VALUE='ESD2CAN';
-	 BODY_NAME='ESD2CAN_SOT23-3_ESD2CAN';
-	 JEDEC_TYPE='SOT23-3';
 	 PHYS_DES_PREFIX='U';
 	 CLASS='IC';
   end_body;

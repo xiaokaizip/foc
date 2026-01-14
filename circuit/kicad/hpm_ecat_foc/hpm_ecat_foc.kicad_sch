@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "931ec32d-8ff7-4b73-8071-45fb369c8110")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 184.15 62.23)
+		(size 31.75 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ef1e8a1-9dbb-49a2-9777-7b1986249ddc")
+		(property "Sheetname" "FOC_DRIVER"
+			(at 184.15 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FOC_DRIVER.kicad_sch"
+			(at 184.15 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hpm_ecat_foc"
+				(path "/931ec32d-8ff7-4b73-8071-45fb369c8110"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 69.85)
+		(size 53.34 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28522807-c363-471e-8734-682ccd325f92")
+		(property "Sheetname" "ETHERCAT_A"
+			(at 22.86 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHERCAT_A.kicad_sch"
+			(at 22.86 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hpm_ecat_foc"
+				(path "/931ec32d-8ff7-4b73-8071-45fb369c8110"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 26.67)
+		(size 35.56 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e89a645-4d00-4143-b88f-5f6a5de2fffe")
+		(property "Sheetname" "MCU_POWER"
+			(at 34.29 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_POWER.kicad_sch"
+			(at 34.29 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hpm_ecat_foc"
+				(path "/931ec32d-8ff7-4b73-8071-45fb369c8110"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 36.83)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57d4e6a3-49c4-44d5-9ebc-a1c3687db156")
+		(property "Sheetname" "POWER"
+			(at 92.71 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 92.71 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hpm_ecat_foc"
+				(path "/931ec32d-8ff7-4b73-8071-45fb369c8110"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 114.3)
+		(size 53.34 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d19f2cbe-fda0-40ae-8a60-64fb19597a4a")
+		(property "Sheetname" "ETHERCAT_B"
+			(at 22.86 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHERCAT_B.kicad_sch"
+			(at 22.86 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hpm_ecat_foc"
+				(path "/931ec32d-8ff7-4b73-8071-45fb369c8110"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 149.86)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e54194c0-c8d4-4301-8429-40c3035bc8db")
+		(property "Sheetname" "ETH_RGMII"
+			(at 24.13 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETH_RGMII.kicad_sch"
+			(at 24.13 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hpm_ecat_foc"
+				(path "/931ec32d-8ff7-4b73-8071-45fb369c8110"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,149 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : stspin32g4_foc.brd                            )
+(    Software Version : 17.4S035                                      )
+(    Date/Time        : Sun Sep 28 11:19:00 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro'
+Design Directory:            'D:/project/07_foc/foc/circuit/candence/stm32'
+Old design name:             'D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd'
+New design name:             'D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd'
+
+CmdLine: netrev.exe -y 1 -n -i D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\allegro D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd
+
+------ Preparing to read pst files ------
+
+Starting to read D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/allegro/pstchip.dat 
+   Finished reading D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/allegro/pstchip.dat (00:00:00.01)
+Starting to read D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/allegro/pstxprt.dat 
+   Finished reading D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/allegro/pstxprt.dat (00:00:00.00)
+Starting to read D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/allegro/pstxnet.dat 
+   Finished reading D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CONN-SM02B-1R25-5R75X4R05-SM' used by RefDes J1 for device 'CON_01X02_CONN-SM02B-1R25-5R75X4R05-SM_CON_01X02' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not se
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CONN-SM03B-1R25-7R00X4R05-SM' used by RefDes J2 for device 'CON_01X03_CONN-SM03B-1R25-7R00X4R05-SM_CON_01X03' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not se
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CONN-SM05B-1R25-9R50X4R05-SM' used by RefDes J3 for device 'CON_01X05_CONN-SM05B-1R25-9R50X4R05-SM_CON_01X05' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not se
+
+#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CONN-SM06B-1R25-10R75X4R05-SM' used by RefDes J5 for device 'CON_01X06_CONN-SM06B-1R25-10R75X4R05-SM_CON_01X06' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not 
+
+#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CONN-SM04B-1R25-9R50X4R05-SM' used by RefDes J6 for device 'CON_01X04_CONN-SM04B-1R25-9R50X4R05-SM_CON_01X04' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not se
+
+#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CONN-SM04B-1R25-8R25X4R05-SM' used by RefDes J7 for device 'CON_01X04_CONN-SM04B-1R25-8R25X4R05-SM_CON_01X04' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not se
+
+#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'KEY_SMD_L29_39_30' used by RefDes KEY1 for device 'KEY_KEY_SMD_L29_39_30_KEY' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old
+
+#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'DISC350X175LS200X100034' used by RefDes L1 for device 'L_DISC350X175LS200X100034_10UH' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mi
+
+#9   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SOP8' used by RefDes Q1 for device 'NMOSFET SO-8 SINGLE_0_SOP8_NMOSFET SO-8 SINGLE_0' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to mig
+
+#10  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'X4-3225' used by RefDes Y1 for device 'SMD_CRYSTAL_2_X4-3225_25M' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           d:/cadence/spb_17.4/share/local/pcb/modules 
+
+PSMPATH =  D:/project/MYLIB/Allegro LIB/dra 
+
+PADPATH =  D:/project/MYLIB/Allegro LIB/pad 
+           D:/project/MYLIB/pad 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Sep 28 11:19:00 2025
+   DESIGN NAME : 'STSPIN32G4_FOC'
+   PACKAGING ON Jan 14 2023 14:52:27
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ 10 warnings detected
+
+cpu time      0:00:45
+elapsed time  0:00:00
+

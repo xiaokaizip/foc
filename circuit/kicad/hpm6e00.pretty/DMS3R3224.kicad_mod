@@ -1,0 +1,282 @@
+(footprint "DMS3R3224"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.105215 2.8 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1ec65767-f2a5-4093-866b-ab66ee0c277a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "超级电容_3.3V"
+		(at 0 5 180)
+		(layer "F.Fab")
+		(uuid "cc01955d-a252-4b47-ae29-ac21cb761584")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1499)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b09dc6ca-de7e-4c85-b831-9f3ce380ad10")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " 超级电容_0.22F/3.3V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae99cfc1-5054-4fad-94cc-94f92e68101e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ASSY_OPT" ""
+		(at 314.59397 194.2468 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62446bf0-201c-47c1-984d-5345730123a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Company" " KORCHIP(高奇普) "
+		(at 314.59397 194.2468 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36b26d79-0016-4084-843c-7ecd06a177f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Model" " DMS3R3224R"
+		(at 314.59397 194.2468 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59771c82-f014-4542-b670-9a55b2f18efc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SuppliersPartNumber" "C113705"
+		(at 314.59397 194.2468 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c477a319-e405-43c0-afa3-e991a31f8006")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -4.8603 0)
+		(end -1.4592 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d5c3a41b-4eef-4d6c-8849-4e84f855e1db")
+	)
+	(fp_poly
+		(pts
+			(xy -0.0113 -1.2) (xy -0.0113 -0.4) (xy 0.0887 -0.4) (xy 0.0887 -1.2)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "15875d3f-b355-4a47-986e-a72ef2555863")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4387 -0.85) (xy -0.3613 -0.85) (xy -0.3613 -0.75) (xy 0.4387 -0.75)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "6e6622d5-cfee-4985-8fbe-ebca8fa38424")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4412 0.6486) (xy -0.3588 0.6486) (xy -0.3588 0.7486) (xy 0.4412 0.7486)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "66e35521-0320-4a89-ac59-27b66f40a19a")
+	)
+	(fp_poly
+		(pts
+			(xy -8.3613 0) (xy -8.2941 0.6828) (xy -8.0949 1.3394) (xy -7.7715 1.9445) (xy -7.3362 2.4748) (xy -6.8058 2.9101)
+			(xy -6.2007 3.2335) (xy -5.5441 3.4327) (xy -4.8613 3.5) (xy -4.8613 3.4) (xy -5.5246 3.3346) (xy -6.1625 3.1412)
+			(xy -6.7503 2.827) (xy -7.2655 2.4041) (xy -7.6883 1.8889) (xy -8.0025 1.3011) (xy -8.196 0.6633)
+			(xy -8.2613 0)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "7590b330-4657-4ba3-8a06-8826be3c951f")
+	)
+	(fp_poly
+		(pts
+			(xy -4.8613 -3.5) (xy -5.5441 -3.4328) (xy -6.2007 -3.2336) (xy -6.8058 -2.9102) (xy -7.3362 -2.4749)
+			(xy -7.7715 -1.9445) (xy -8.0949 -1.3394) (xy -8.2941 -0.6828) (xy -8.3613 0) (xy -8.2613 0) (xy -8.196 -0.6633)
+			(xy -8.0025 -1.3011) (xy -7.6883 -1.889) (xy -7.2655 -2.4042) (xy -6.7503 -2.827) (xy -6.1625 -3.1412)
+			(xy -5.5246 -3.3347) (xy -4.8613 -3.4)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "fe4013c0-0773-4c19-b3e9-ff411473ab54")
+	)
+	(fp_poly
+		(pts
+			(xy -4.8613 3.5) (xy -4.1785 3.4327) (xy -3.5219 3.2335) (xy -2.9168 2.9101) (xy -2.3865 2.4748)
+			(xy -1.9512 1.9445) (xy -1.6278 1.3394) (xy -1.4286 0.6828) (xy -1.3613 0) (xy -1.4613 0) (xy -1.5267 0.6633)
+			(xy -1.7201 1.3011) (xy -2.0343 1.8889) (xy -2.4572 2.4041) (xy -2.9724 2.827) (xy -3.5602 3.1412)
+			(xy -4.198 3.3346) (xy -4.8613 3.4)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "2b672d9c-4261-40e5-8b32-55b2be571386")
+	)
+	(fp_poly
+		(pts
+			(xy -1.3613 0) (xy -1.4286 -0.6828) (xy -1.6278 -1.3394) (xy -1.9512 -1.9445) (xy -2.3865 -2.4749)
+			(xy -2.9168 -2.9102) (xy -3.5219 -3.2336) (xy -4.1785 -3.4328) (xy -4.8613 -3.5) (xy -4.8613 -3.4)
+			(xy -4.198 -3.3347) (xy -3.5602 -3.1412) (xy -2.9724 -2.827) (xy -2.4572 -2.4042) (xy -2.0343 -1.889)
+			(xy -1.7201 -1.3011) (xy -1.5267 -0.6633) (xy -1.4613 0)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "c4b33eea-30e1-42b0-acc0-d5cb06b03e41")
+	)
+	(fp_line
+		(start -4.8626 3.525)
+		(end -4.8601 3.525)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bce7819b-1359-4bcf-8f34-6c683593f73b")
+	)
+	(fp_arc
+		(start -4.8626 3.525)
+		(mid -4.86133 -3.525)
+		(end -4.86006 3.525)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfeb8838-9555-4d1f-87f4-1708c5969661")
+	)
+	(fp_text user "-"
+		(at -0.3594 2.1072 180)
+		(layer "F.SilkS")
+		(uuid "ad3be198-f3f0-41e0-a3b2-0e12c8027973")
+		(effects
+			(font
+				(size 0.7143 0.7143)
+				(thickness 0.178575)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "+"
+		(at -0.3594 -1.6418 180)
+		(layer "F.SilkS")
+		(uuid "fe504115-b389-4c01-af2b-4ea49762c4bd")
+		(effects
+			(font
+				(size 0.7143 0.7143)
+				(thickness 0.178575)
+			)
+			(justify right)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.0013 -0.7493)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0.0508)
+		(uuid "25245fa5-0a20-42eb-a28e-414f06d3685a")
+	)
+	(pad "2" smd rect
+		(at 0.0013 0.7493)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0.0508)
+		(uuid "4aeda36c-a902-4688-b9fb-98552a7ad17e")
+	)
+	(embedded_fonts no)
+	(model "${HPM_KICAD_3D}/Capacitance/CAP-SMD_2P-DMS3R3224.wrl"
+		(offset
+			(xyz -5 -0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

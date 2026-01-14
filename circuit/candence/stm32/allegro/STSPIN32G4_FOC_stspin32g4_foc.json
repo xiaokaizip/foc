@@ -1,0 +1,31 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "D2",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16845533@library1.\\led.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "D2"
+		},
+		{
+			"Name" : "R47",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):ins16845592@analog.\\r.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "R47"
+		}
+	],
+	"Net" : [
+		{
+			"Name" : "N16845675",
+			"C_PATH" : "@stspin32g4_foc.schematic1(sch_1):n16845675",
+			"Logical" : null,
+			"Physical" : "N16845675"
+		}
+	],
+	"Connection" : []
+}

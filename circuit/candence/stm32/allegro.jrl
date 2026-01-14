@@ -1,0 +1,29 @@
+\t (00:00:03) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Tue Jan  6 21:45:29 2026
+\t (00:00:03)         Host=DESKTOP-368TKGP User=86136 Pid=9800 CPUs=6
+\t (00:00:03) CmdLine= D:\Cadence\SPB_17.4\tools\bin\allegro.exe -mpssession 86136 -proj d:\project\foc\circuit\candence\stm32\stspin32g4_foc.opj d:\project\foc\circuit\candence\stm32\stspin32g4_foc.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "stspin32g4_foc"
+\d (00:00:04) Design opened: d:/project/foc/circuit/candence/stm32/stspin32g4_foc.brd
+\i (00:00:05) trapsize 2946
+\i (00:00:05) trapsize 3028
+\i (00:00:06) trapsize 2946
+\i (00:00:06) trapsize 3058
+\t (00:00:06) > Sending response DoneOpenBoard
+\i (00:00:06) placementedit 
+\i (00:00:43) plctxt out 
+\i (00:00:47) setwindow form.plctxt
+\i (00:00:47) FORM plctxt body_center YES 
+\i (00:00:51) FORM plctxt execute  
+\t (00:00:51) Starting Place symbols by text file...
+\i (00:00:58) FORM plctxt browse  
+\i (00:01:08) fillin "D:/project/foc/circuit/candence/stm32/STSTP32_FOC/place_txt.txt"
+\i (00:01:09) FORM plctxt execute  
+\t (00:01:09) Starting Place symbols by text file...
+\i (00:23:58) setwindow pcb
+\i (00:23:58) exit 
+\e (00:23:58) Do you want to save the changes you made to stspin32g4_foc.brd?
+\i (00:24:01) fillin no 
+\t (00:24:01)     Journal end - Tue Jan  6 22:09:26 2026

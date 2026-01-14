@@ -1,0 +1,81 @@
+\t (00:00:03) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Tue Jan  6 00:50:39 2026
+\t (00:00:03)         Host=DESKTOP-368TKGP User=86136 Pid=19092 CPUs=6
+\t (00:00:03) CmdLine= D:\Cadence\SPB_17.4\tools\bin\allegro.exe -mpssession 86136 -proj d:\project\foc\circuit\candence\stm32\stspin32g4_foc.opj d:\project\foc\circuit\candence\stm32\stspin32g4_foc.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "stspin32g4_foc"
+\d (00:00:06) Design opened: d:/project/foc/circuit/candence/stm32/stspin32g4_foc.brd
+\i (00:00:07) trapsize 5676
+\i (00:00:07) trapsize 5834
+\i (00:00:07) trapsize 5676
+\i (00:00:07) trapsize 5892
+\t (00:00:07) > Sending response DoneOpenBoard
+\i (00:00:08) placementedit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 2.4632 -4.1506
+\i (00:00:09) trapsize 2946
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 2.4631 -4.1506
+\i (00:00:10) trapsize 1473
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 2.4631 -4.1505
+\i (00:00:13) trapsize 2946
+\i (00:00:23) artwork 
+\i (00:00:26) setwindow form.film_control
+\i (00:00:26) FORM film_control select_all  
+\i (00:00:28) FORM film_control create  
+\i (00:00:30) fillin yes 
+\t (00:00:30) Checking db records
+\t (00:00:30)     checking for orphans...
+\t (00:00:30)     Checked  58 percent
+\t (00:00:30)     Checked 100 percent
+\w (00:00:30) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:00:30) Done dbdoctor.
+\t (00:00:30) Starting Create artwork films...
+\w (00:00:31) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:00:33) Artwork generated with warnings.
+\i (00:00:43) setwindow text
+\i (00:00:43) close
+\i (00:00:45) setwindow form.film_control
+\i (00:00:45) FORM film_control cancel  
+\i (00:00:45) setwindow pcb
+\i (00:00:45) placementedit 
+\i (00:00:50) nctape_full 
+\i (00:00:52) setwindow form.nc_drill
+\i (00:00:52) FORM nc_drill execute  
+\t (00:00:52) Starting Generating NC Drill...
+\i (00:01:17) FORM nc_drill cancel  
+\i (00:01:17) setwindow pcb
+\i (00:01:17) placementedit 
+\i (00:01:20) artwork 
+\i (00:01:22) setwindow form.film_control
+\i (00:01:22) FORM film_control select_all  
+\i (00:01:23) FORM film_control create  
+\i (00:01:26) fillin yes 
+\t (00:01:26) Checking db records
+\t (00:01:26)     checking for orphans...
+\t (00:01:26)     Checked  58 percent
+\t (00:01:26)     Checked 100 percent
+\w (00:01:26) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:26) Done dbdoctor.
+\t (00:01:26) Starting Create artwork films...
+\w (00:01:27) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:01:28) Artwork generated with warnings.
+\i (00:01:29) setwindow text
+\i (00:01:29) close
+\i (00:01:31) setwindow form.film_control
+\i (00:01:31) FORM film_control cancel  
+\i (00:01:31) setwindow pcb
+\i (00:01:31) placementedit 
+\i (00:02:53) exit 
+\e (00:02:53) Do you want to save the changes you made to stspin32g4_foc.brd?
+\i (00:02:55) fillin yes 
+   (00:02:55) Loading signal.cxt 
+\t (00:02:56)     Journal end - Tue Jan  6 00:53:32 2026

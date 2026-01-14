@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hpm6e00")(type "KiCad")(uri "D:/project/foc/circuit/kicad/hpm6e00.kicad_sym")(options "")(descr ""))
+)

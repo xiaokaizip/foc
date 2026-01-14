@@ -1,0 +1,122 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : stspin32g4_foc.brd                            )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Mon Dec 29 23:36:54 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+<< Dangling Lines >>  - Location marked with a star (*) is dangling.
+  Net                 Layer                  Length       Location
+  ------------------------------------------------------------------------------------------
+  SNA                  BOTTOM                6.2486      (11.3750 8.4500) to *(6.2750 11.2230)
+  SNA                  BOTTOM                0.8770      (6.2750 12.1000) to *(6.2750 11.2230)
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  GLS2                 V60H30               (-0.4750 5.1000) TOP/BOTTOM 
+  GLS2                 V60H30               (-0.2757 2.7257) TOP/BOTTOM 
+  GLS1                 V60H30               (0.8016 2.4662)  TOP/BOTTOM 
+  GLS1                 V60H30               (-5.9000 4.9730) TOP/BOTTOM 
+  PC4                  V60H30               (4.3000 2.5000)  TOP/BOTTOM 
+  PC4                  V60H30               (9.6750 10.6000) TOP/BOTTOM 
+  SCREF                V60H30               (7.8736 -7.8002) TOP/BOTTOM 
+  SCREF                V60H30               (0.9750 -5.5250) TOP/BOTTOM 
+  VBAT                 V60H30               (13.9500 -3.6000) TOP/BOTTOM 
+  VBAT                 V60H30               (15.9750 5.0750) TOP/BOTTOM 
+  VBAT                 V60H30               (-3.4250 -6.9500) TOP/BOTTOM 
+  VBAT                 V60H30               (10.5000 5.9750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 7.2750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 7.2750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 6.4750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 6.4750) TOP/BOTTOM 
+  VM                   V60H30               (-14.7750 5.6750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 5.6750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 5.6750) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 5.6750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 4.8750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 4.8750) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 4.8750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 4.0750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 4.0750) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 4.0750) TOP/BOTTOM 
+  VM                   V60H30               (-14.7750 3.2750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 3.2750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 3.2750) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 3.2750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 2.4750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 2.4750) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 2.4750) TOP/BOTTOM 
+  VM                   V60H30               (-17.9750 2.4750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 1.6750) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 1.6750) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 1.6750) TOP/BOTTOM 
+  VM                   V60H30               (-17.9750 1.6750) TOP/BOTTOM 
+  VM                   V60H30               (-14.7750 0.8750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 0.8750) TOP/BOTTOM 
+  VM                   V60H30               (-17.9750 0.8750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 0.0750) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -0.7250) TOP/BOTTOM 
+  VM                   V60H30               (-14.7750 -1.5250) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -1.5250) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 -1.5250) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 -1.5250) TOP/BOTTOM 
+  VM                   V60H30               (-17.9750 -1.5250) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -2.3250) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 -2.3250) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 -2.3250) TOP/BOTTOM 
+  VM                   V60H30               (-17.9750 -2.3250) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -3.1250) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 -3.1250) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 -3.1250) TOP/BOTTOM 
+  VM                   V60H30               (-14.7750 -3.9250) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -3.9250) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 -3.9250) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 -3.9250) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -4.7250) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 -4.7250) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 -4.7250) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -5.5250) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 -5.5250) TOP/BOTTOM 
+  VM                   V60H30               (-17.1750 -5.5250) TOP/BOTTOM 
+  VM                   V60H30               (-15.5750 -6.3250) TOP/BOTTOM 
+  VM                   V60H30               (-16.3750 -6.3250) TOP/BOTTOM 
+  VM                   V60H30               (9.7917 3.4500)  TOP/BOTTOM 
+  VM                   V60H30               (16.5750 1.8750) TOP/BOTTOM 
+  VM                   V60H30               (4.8250 13.9500) TOP/BOTTOM 
+  CLK                  V60H30               (-0.0355 -5.9797) TOP/BOTTOM 
+  DIO                  V60H30               (-1.1330 -6.1325) TOP/BOTTOM 
+  UART_RX              V60H30               (5.3000 -11.5250) TOP/BOTTOM 
+  UART_RX              V60H30               (-0.0028 -4.8565) TOP/BOTTOM 
+  UART_TX              V60H30               (4.3500 -13.1000) TOP/BOTTOM 
+  UART_TX              V60H30               (-0.9333 -4.1119) TOP/BOTTOM 
+  SNA                  V60H30               (-0.3500 13.6000) TOP/BOTTOM 
+  SNA                  V60H30               (-1.1500 13.6000) TOP/BOTTOM 
+  SNA                  V60H30               (-4.3250 14.3250) TOP/BOTTOM 
+  SNA                  V60H30               (-5.1250 14.3250) TOP/BOTTOM 
+  SNA                  V60H30               (-5.9250 14.3250) TOP/BOTTOM 
+  SNA                  V60H30               (-4.3250 13.5250) TOP/BOTTOM 
+  SNA                  V60H30               (-5.9250 13.5250) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       2
+  Total dangling vias:        0
+  Total antenna vias:        83

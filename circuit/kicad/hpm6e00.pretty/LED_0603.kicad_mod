@@ -1,0 +1,298 @@
+(footprint "LED_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.6935 0.112499 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "10d40e73-9d23-46b5-bee5-6b65d04a1e36")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_BLUE"
+		(at 0.15 1.6 180)
+		(layer "F.Fab")
+		(uuid "64cb9c73-4d32-4361-a334-e3bec17d6991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1499)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09a7afdc-edc0-400b-aa33-76fe8d7655a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "963b2256-f009-4956-a8ae-0d41ebdb970d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ASSY_OPT" ""
+		(at 350.6174 261.007996 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "374ca644-4ab9-42a3-ab29-2b1707caf94f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Company" "国星光电"
+		(at 350.6174 261.007996 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59adc197-67dc-44ae-aade-a0b2805728bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Model" "NCD0603B1"
+		(at 350.6174 261.007996 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a498935-2026-438b-9a85-b20d6167df75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.65 -0.55)
+		(end 1.45 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc6af0ba-fde6-424d-ba14-b09ef2bf6ba6")
+	)
+	(fp_line
+		(start -0.6 0.55)
+		(end 1.45 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fcad28bc-f64b-4775-85cf-87b3208167b7")
+	)
+	(fp_line
+		(start -0.11 -0.33)
+		(end -0.1001 -0.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eebefa4c-2981-445e-abe8-f88069299f61")
+	)
+	(fp_line
+		(start -0.11 0.34)
+		(end 0.23 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37bff843-dc70-487c-9a46-ae327215d109")
+	)
+	(fp_line
+		(start -0.11 0.35)
+		(end -0.11 -0.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "600ea32b-41b7-4bda-97fd-1b1d2fc3d215")
+	)
+	(fp_line
+		(start -0.11 0.35)
+		(end -0.11 0.34)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5eed7825-2374-46c5-badd-84470916f90c")
+	)
+	(fp_line
+		(start -0.1001 -0.33)
+		(end 0.23 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75c07d53-c6d5-4b24-8edf-b8b70ce57bce")
+	)
+	(fp_line
+		(start 1.45 -0.55)
+		(end 1.45 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f91df836-dddc-46ef-aa6a-89a7231acdf7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1938 -0.0508) (xy -0.5334 -0.0508) (xy -0.5334 0.1016) (xy -1.1938 0.1016)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "43648983-2385-4a66-bdcc-092add89cdbd")
+	)
+	(fp_poly
+		(pts
+			(xy 0.6604 -0.1016) (xy 1.3208 -0.1016) (xy 1.3208 0.0508) (xy 0.6604 0.0508)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "5d91465f-99ba-4a05-8211-51f0d638faf9")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9347 0.2743) (xy 0.9347 -0.3861) (xy 1.0871 -0.3861) (xy 1.0871 0.2743)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "56504eec-92bd-44b2-a08a-b5987f922d7a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8001 0.3988) (xy -0.8001 -0.3988) (xy -0.5004 -0.3988) (xy -0.5004 0.3988)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco2.User")
+		(uuid "910f34a3-6346-4476-9321-c2d3029dc6dc")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8001 -0.3988) (xy 0.8001 0.3988) (xy 0.5004 0.3988) (xy 0.5004 -0.3988)
+		)
+		(stroke
+			(width 0.0051)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Eco2.User")
+		(uuid "ee58e008-c676-4afa-bee5-432ce678971c")
+	)
+	(fp_line
+		(start -0.8001 -0.55)
+		(end 0.8001 -0.55)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f668cfe0-0e70-433c-8e65-baa7534ef1e5")
+	)
+	(fp_line
+		(start -0.8001 0.55)
+		(end -0.8001 -0.55)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca0592ee-fba4-416e-b7c4-9090d5dbec98")
+	)
+	(fp_line
+		(start 0.8001 -0.55)
+		(end 0.8001 0.55)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "091d7b56-45ae-425e-aaa4-f40d7507f004")
+	)
+	(fp_line
+		(start 0.8001 0.55)
+		(end -0.8001 0.55)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d40888a8-04f2-43e4-86e9-7835b781b34d")
+	)
+	(pad "1" smd rect
+		(at 0.8509 0 90)
+		(size 0.8001 0.8001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0.0508)
+		(uuid "c48a0760-ab68-43ce-a39d-38266565c45f")
+	)
+	(pad "2" smd rect
+		(at -0.8509 0 90)
+		(size 0.8001 0.8001)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0.0508)
+		(uuid "7df08efb-a37d-4756-ae1a-94d5759da291")
+	)
+	(embedded_fonts no)
+	(model "${HPM_KICAD_3D}/LED_KEY_TEST/LED_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

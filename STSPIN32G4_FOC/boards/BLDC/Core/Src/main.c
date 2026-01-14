@@ -59,21 +59,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-#define ADC_BUFFER_SIZE 5   // ???? 10 ???????? ??? � ????
 
-// ?????? uint32_t??? HAL ??? 32 ??? ADC_DR
-uint16_t adc_buffer[ADC_BUFFER_SIZE];
-float bus_voltage = 0;
-void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
-{
-  if (hadc->Instance == ADC1)
-  {
-    bus_voltage = adc_buffer[0]*3.3f/4095*13;
-
-    // ????????Circular ????????????
-    // ????? adc_buffer ??
-  }
-}
 
 /* USER CODE END 0 */
 
@@ -81,64 +67,6 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
   * @brief  The application entry point.
   * @retval int
   */
-int main(void)
-{
-
-  /* USER CODE BEGIN 1 */
-
-  /* USER CODE END 1 */
-
-  /* MCU Configuration--------------------------------------------------------*/
-
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
-
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
-  /* Configure the system clock */
-  SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
-
-  /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_DMA_Init();
-  MX_ADC1_Init();
-  MX_ADC2_Init();
-  MX_OPAMP2_Init();
-  MX_OPAMP3_Init();
-  MX_TIM1_Init();
-  MX_USART1_UART_Init();
-  /* USER CODE BEGIN 2 */
-  if (HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buffer, ADC_BUFFER_SIZE) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE END 2 */
-
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-    HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_8);
-    char num[30];
-    sprintf(num,"bus_voltage:%f\n",bus_voltage);
-    HAL_UART_Transmit(&huart1,num,30,HAL_MAX_DELAY);
-    HAL_Delay(1000);
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
-  }
-  /* USER CODE END 3 */
-}
 
 /**
   * @brief System Clock Configuration

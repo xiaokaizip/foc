@@ -1,0 +1,1 @@
+stm32_create_cube_lib(board_BLDC ${CMAKE_CURRENT_LIST_DIR}/BLDC STM32G431VBTX_FLASH.ld)

@@ -1,0 +1,65 @@
+\t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Jan 14 10:12:27 2026
+\t (00:00:01)         Host=DESKTOP-4UHN77U User=SXF-Admin Pid=15936 CPUs=20
+\t (00:00:01) CmdLine= allegro.exe -proj D:/project/07_foc/foc/circuit/candence/stm32/STSPIN32G4_foc.opj D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "stspin32g4_foc"
+\d (00:00:02) Design opened: D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd
+\i (00:00:02) trapsize 2843
+\i (00:00:02) trapsize 2919
+\i (00:00:02) trapsize 2937
+\i (00:00:02) trapsize 2937
+\t (00:00:02) > Sending response DoneOpenBoard
+\i (00:00:03) placementedit 
+\t (00:00:03) > DoPullSchematic message received
+\t (00:00:03) > Pulling schematic...
+\t (00:00:03) Starting Cadence Logic Import...
+\t (00:00:04) Opening existing design...
+\i (00:00:04) trapsize 2937
+\t (00:00:04) > Sending response DonePullSchematic
+\t (00:00:04) > Schematic pulled successfully
+\i (00:00:04) placementedit 
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in 4.6632 4.0401
+\i (00:00:05) trapsize 1468
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 5.1624 4.0695
+\i (00:00:06) trapsize 734
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 4.7219 3.8786
+\i (00:00:11) trapsize 1468
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 10.5955 4.7890
+\i (00:00:15) trapsize 734
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 10.5955 4.7890
+\i (00:00:16) trapsize 1468
+\i (04:57:12) xrefdes U10 
+\i (04:57:12) xname_flush 
+\i (04:57:12) trapsize 1468
+\i (04:57:41) xrefdes '!' U10 
+\i (04:57:41) xname_flush '!' 
+\i (04:57:42) xrefdes U10 
+\i (04:57:42) xname_flush 
+\i (04:57:42) trapsize 1468
+\i (05:17:57) xrefdes R15 
+\i (05:17:57) xname_flush 
+\i (05:17:57) trapsize 197
+\i (05:17:59) xrefdes '!' R15 
+\i (05:17:59) xname_flush '!' 
+\i (05:17:59) xrefdes R18 
+\i (05:17:59) xname_flush 
+\i (05:17:59) trapsize 197
+\i (05:18:00) xrefdes '!' R18 
+\i (05:18:00) xname_flush '!' 
+\i (07:49:15) exit 
+\e (07:49:15) Do you want to save the changes you made to D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd?
+\i (07:49:16) fillin no 
+\t (07:49:17)     Journal end - Wed Jan 14 18:01:43 2026

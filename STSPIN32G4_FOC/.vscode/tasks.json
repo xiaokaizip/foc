@@ -1,0 +1,11 @@
+{
+  "label": "Build BLDC",
+  "type": "shell",
+  "command": "cmake --build build --target BLDC.elf",
+  "group": "build",
+  "presentation": {
+    "echo": true,
+    "reveal": "always"
+  },
+  "problemMatcher": "$gcc"
+}

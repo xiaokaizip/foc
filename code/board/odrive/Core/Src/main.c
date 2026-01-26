@@ -20,6 +20,7 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "adc.h"
+#include "can.h"
 #include "dma.h"
 #include "spi.h"
 #include "tim.h"

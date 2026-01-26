@@ -54,6 +54,8 @@ void UsageFault_Handler(void);
 void DebugMon_Handler(void);
 void DMA1_Stream2_IRQHandler(void);
 void ADC_IRQHandler(void);
+void CAN1_RX0_IRQHandler(void);
+void CAN1_RX1_IRQHandler(void);
 void TIM8_UP_TIM13_IRQHandler(void);
 void TIM8_TRG_COM_TIM14_IRQHandler(void);
 void UART4_IRQHandler(void);

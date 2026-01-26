@@ -11,6 +11,7 @@
 #include "tim.h"
 #include "adc.h"
 #include "dma.h"
+#include "can.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "cmsis_os.h"
@@ -22,6 +23,7 @@
 #include "fsm.h"
 #include "usbd_cdc_if.h"
 #include "usb_device.h"
+#include "comnunication/can/can_common.h"
 
 extern "C" {
 #include "lwprintf/lwprintf.h"
@@ -63,7 +65,7 @@ int main(void) {
     MX_TIM12_Init();
     MX_ADC1_Init();
     MX_USB_DEVICE_Init();
-
+    MX_CAN1_Init();
     delay_us_init(&htim12);
 
     lwprintf_init(uart_out); // 默认实例
@@ -124,10 +126,15 @@ int main(void) {
     controller.kd = 0.005f;
     controller.t_ff = 0.001f;
     controller.v_bus = 24.0f;
+    CAN::can_driver_init();
+
 
     char str[48] = "hello world\n";
     while (1) {
         // CDC_Transmit_FS((uint8_t *) str, strlen(str));
+        // uint8_t msg[] = {0x7f, 0xff, 0x82, 0xd0, 0x00, 0x00, 0x00, 0x07, 0xff};
+        // CAN::can_serial_write(msg, 8);
+        // CAN::can_transmit();
         HAL_Delay(1);
         serial_process();
     }

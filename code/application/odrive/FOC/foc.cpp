@@ -290,7 +290,6 @@ void position_velocity_control(ControllerStruct *controller) {
     vel_expect = controller->pos_error * controller->pos_kp;
     vel_expect = fmaxf(fminf(vel_expect, controller->v_des * 1.1f), -controller->v_des * 1.1f);
 
-
     controller->vel_error = vel_expect - controller->dtheta_mech;
     controller->vel_int += controller->vel_kp * controller->vel_ki * controller->vel_error;
     controller->vel_int = fmaxf(fminf(controller->vel_int, 1.0f), -1.0f);

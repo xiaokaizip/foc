@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug STM32 (DAPLink + OpenOCD)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "cwd": "${workspaceRoot}",
+      "executable": "./build/applications/BLDC/BLDC.elf",     // ← 替换为你的 ELF 文件路径
+      "configFiles": [
+        "interface/cmsis-dap.cfg",
+        "target/stm32G4x.cfg"                   // ← 根据你的芯片修改
+      ],
+    //   "svdFile": "${env:STM32CUBEMX}/Repository/STM32F4xx.svd", // 可选，用于寄存器视图
+    //   "runToMain": true,
+    //   "preLaunchTask": "Build BLDC"         // 可选，自动构建
+    }
+  ]
+}

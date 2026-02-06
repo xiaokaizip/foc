@@ -236,59 +236,31 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "d:\project\foc\circuit\candence\stm32\stspin32g4_foc.dsn")
+         "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn")
       (Path "Design Resources"
-         "d:\project\foc\circuit\candence\stm32\stspin32g4_foc.dsn" "SCHEMATIC1")
+         "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Layout" ".\stspin32g4_foc.brd"))
+      (Select "Design Resources"
+         "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn"
+         "SCHEMATIC1" "Analog_Sensing")
+      (Select "Design Resources"
+         "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn"
+         "SCHEMATIC1" "driver")
+      (Select "Design Resources"
+         "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn"
+         "SCHEMATIC1" "input&output")
+      (Select "Design Resources"
+         "d:\project\07_foc\foc\circuit\candence\stm32\stspin32g4_foc.dsn"
+         "SCHEMATIC1" "MCU"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 576"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1131 28 598")
-        (Scroll "-169 0")
-        (Zoom "78")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1131 28 598")
-        (Scroll "179 519")
-        (Zoom "110")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "Analog_Sensing"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1131 28 598")
-        (Scroll "-62 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "input&output"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1131 28 598")
-        (Scroll "0 1")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "driver")))
-  (MPSSessionName "86136")
+        (Placement "44 0 1 -1 -1 -1 -1 0 239 0 614"))
+      (Tab 0)))
+  (MPSSessionName "SXF-Admin")
   (ISPCBBASICLICENSE "false"))

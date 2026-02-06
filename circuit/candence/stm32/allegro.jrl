@@ -1,65 +1,299 @@
 \t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Wed Jan 14 10:12:27 2026
-\t (00:00:01)         Host=DESKTOP-4UHN77U User=SXF-Admin Pid=15936 CPUs=20
-\t (00:00:01) CmdLine= allegro.exe -proj D:/project/07_foc/foc/circuit/candence/stm32/STSPIN32G4_foc.opj D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd
+\t (00:00:01)     Journal start - Sun Feb  1 20:50:54 2026
+\t (00:00:01)         Host=DESKTOP-4UHN77U User=SXF-Admin Pid=3272 CPUs=20
+\t (00:00:01) CmdLine= d:\cadence\spb_17.4\tools\bin\allegro.exe -mpssession SXF-Admin -proj D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\STSPIN32G4_FOC.opj D:\PROJECT\07_FOC\FOC\CIRCUIT\CANDENCE\STM32\stspin32g4_foc.brd
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
 \t (00:00:01) Opening existing design...
-\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "stspin32g4_foc"
-\d (00:00:02) Design opened: D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "stspin32g4_foc"
+\d (00:00:01) Design opened: D:/PROJECT/07_FOC/FOC/CIRCUIT/CANDENCE/STM32/stspin32g4_foc.brd
 \i (00:00:02) trapsize 2843
 \i (00:00:02) trapsize 2919
 \i (00:00:02) trapsize 2937
-\i (00:00:02) trapsize 2937
+\i (00:00:02) trapsize 3207
 \t (00:00:02) > Sending response DoneOpenBoard
-\i (00:00:03) placementedit 
-\t (00:00:03) > DoPullSchematic message received
-\t (00:00:03) > Pulling schematic...
-\t (00:00:03) Starting Cadence Logic Import...
-\t (00:00:04) Opening existing design...
-\i (00:00:04) trapsize 2937
-\t (00:00:04) > Sending response DonePullSchematic
-\t (00:00:04) > Schematic pulled successfully
-\i (00:00:04) placementedit 
-\i (00:00:05) zoom in 1 
-\i (00:00:05) setwindow pcb
-\i (00:00:05) zoom in 4.6632 4.0401
-\i (00:00:05) trapsize 1468
-\i (00:00:06) zoom in 1 
-\i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 5.1624 4.0695
-\i (00:00:06) trapsize 734
-\i (00:00:11) zoom out 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom out 4.7219 3.8786
-\i (00:00:11) trapsize 1468
-\i (00:00:15) zoom in 1 
-\i (00:00:15) setwindow pcb
-\i (00:00:15) zoom in 10.5955 4.7890
-\i (00:00:15) trapsize 734
-\i (00:00:16) zoom out 1 
-\i (00:00:16) setwindow pcb
-\i (00:00:16) zoom out 10.5955 4.7890
-\i (00:00:16) trapsize 1468
-\i (04:57:12) xrefdes U10 
-\i (04:57:12) xname_flush 
-\i (04:57:12) trapsize 1468
-\i (04:57:41) xrefdes '!' U10 
-\i (04:57:41) xname_flush '!' 
-\i (04:57:42) xrefdes U10 
-\i (04:57:42) xname_flush 
-\i (04:57:42) trapsize 1468
-\i (05:17:57) xrefdes R15 
-\i (05:17:57) xname_flush 
-\i (05:17:57) trapsize 197
-\i (05:17:59) xrefdes '!' R15 
-\i (05:17:59) xname_flush '!' 
-\i (05:17:59) xrefdes R18 
-\i (05:17:59) xname_flush 
-\i (05:17:59) trapsize 197
-\i (05:18:00) xrefdes '!' R18 
-\i (05:18:00) xname_flush '!' 
-\i (07:49:15) exit 
-\e (07:49:15) Do you want to save the changes you made to D:/project/07_foc/foc/circuit/candence/stm32/stspin32g4_foc.brd?
-\i (07:49:16) fillin no 
-\t (07:49:17)     Journal end - Wed Jan 14 18:01:43 2026
+\i (00:00:02) placementedit 
+\i (00:00:06) xrefdes '!' R6 
+\i (00:00:06) xname_flush '!' 
+\i (00:00:06) xrefdes R8 
+\i (00:00:06) xname_flush 
+\i (00:00:06) trapsize 352
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 7.3979 6.3478
+\i (00:00:07) trapsize 705
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 6.9892 6.3901
+\i (00:00:07) trapsize 1410
+\i (00:00:18) xrefdes '!' R8 
+\i (00:00:18) xname_flush '!' 
+\i (00:00:18) xrefdes R14 
+\i (00:00:18) xname_flush 
+\i (00:00:18) trapsize 448
+\i (00:00:21) zoom out 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom out 7.7637 7.7840
+\i (00:00:21) trapsize 895
+\i (00:00:22) pick grid 16.8231 9.7892
+\t (00:00:22) last pick:  16.8250 9.8000
+\i (00:00:37) show element 
+\i (00:00:40) setwindow form.find
+\i (00:00:40) FORM find all_on  
+\i (00:00:42) setwindow pcb
+\i (00:00:42) pick grid 5.8479 7.0499
+\t (00:00:42) last pick:  5.8500 7.0500
+\i (00:00:54) pick grid 6.9579 7.1036
+\t (00:00:54) last pick:  6.9500 7.1000
+\i (00:01:07) pick grid 8.0680 6.7813
+\t (00:01:07) last pick:  8.0750 6.7750
+\i (00:01:10) pick grid 8.6051 6.4590
+\t (00:01:10) last pick:  8.6000 6.4500
+\i (00:01:25) pick grid 10.0554 6.6739
+\t (00:01:25) last pick:  10.0500 6.6750
+\i (00:02:09) pick grid 15.1938 7.1036
+\t (00:02:09) last pick:  15.2000 7.1000
+\i (00:02:11) pick grid 15.7309 5.8861
+\t (00:02:11) last pick:  15.7250 5.8750
+\i (00:02:14) pick grid 15.0327 7.0678
+\t (00:02:14) last pick:  15.0250 7.0750
+\i (00:03:00) xname_flush '!' 
+\i (00:07:54) setwindow text
+\i (00:07:54) close
+\i (00:07:55) setwindow pcb
+\i (00:07:55) zoom out 1 
+\i (00:07:55) setwindow pcb
+\i (00:07:55) zoom out 1.8195 4.3822
+\i (00:07:55) trapsize 1790
+\i (00:07:55) pick grid 21.9078 8.5001
+\t (00:07:55) last pick:  21.9000 8.5000
+\i (00:07:56) zoom in 1 
+\i (00:07:56) setwindow pcb
+\i (00:07:56) zoom in 5.9731 5.6354
+\i (00:07:56) trapsize 895
+\i (00:07:56) zoom in 1 
+\i (00:07:56) setwindow pcb
+\i (00:07:56) zoom in 6.5282 5.9219
+\i (00:07:56) trapsize 448
+\i (00:07:57) zoom out 1 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom out 5.8121 5.4922
+\i (00:07:57) trapsize 895
+\i (00:07:57) zoom out 1 
+\i (00:07:57) setwindow pcb
+\i (00:07:57) zoom out 5.7046 5.5639
+\i (00:07:57) trapsize 1790
+\i (00:07:58) zoom in 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom in 2.9115 0.5507
+\i (00:07:58) trapsize 895
+\i (00:07:58) zoom in 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom in 2.9115 0.5507
+\i (00:07:58) trapsize 448
+\i (00:07:59) zoom out 1 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom out 2.6698 0.9984
+\i (00:07:59) trapsize 895
+\i (00:08:00) zoom out 1 
+\i (00:08:00) setwindow pcb
+\i (00:08:00) zoom out 4.2633 3.0931
+\i (00:08:00) trapsize 1790
+\i (00:14:00) zoom in 1 
+\i (00:14:00) setwindow pcb
+\i (00:14:00) zoom in 3.1889 1.2311
+\i (00:14:00) trapsize 895
+\i (00:14:00) zoom in 1 
+\i (00:14:00) setwindow pcb
+\i (00:14:00) zoom in 3.2427 1.2311
+\i (00:14:00) trapsize 448
+\i (00:14:00) zoom in 1 
+\i (00:14:00) setwindow pcb
+\i (00:14:00) zoom in 3.2427 1.2311
+\i (00:14:00) trapsize 224
+\i (00:14:00) zoom in 1 
+\i (00:14:00) setwindow pcb
+\i (00:14:00) zoom in 3.2427 1.2312
+\i (00:14:00) trapsize 112
+\i (00:14:01) zoom out 1 
+\i (00:14:01) setwindow pcb
+\i (00:14:01) zoom out 3.1912 1.1976
+\i (00:14:01) trapsize 224
+\i (00:14:04) zoom out 1 
+\i (00:14:04) setwindow pcb
+\i (00:14:04) zoom out 4.9504 1.2961
+\i (00:14:04) trapsize 448
+\i (00:14:12) zoom out 1 
+\i (00:14:12) setwindow pcb
+\i (00:14:12) zoom out 4.6280 2.8180
+\i (00:14:12) trapsize 895
+\i (00:14:12) zoom out 1 
+\i (00:14:12) setwindow pcb
+\i (00:14:12) zoom out 4.6280 2.8180
+\i (00:14:12) trapsize 1790
+\i (00:14:12) zoom out 1 
+\i (00:14:12) setwindow pcb
+\i (00:14:12) zoom out 4.6281 2.8181
+\i (00:14:12) trapsize 3581
+\i (00:14:13) zoom in 1 
+\i (00:14:13) setwindow pcb
+\i (00:14:13) zoom in 4.6281 2.8180
+\i (00:14:13) trapsize 1790
+\i (00:14:14) zoom in 1 
+\i (00:14:14) setwindow pcb
+\i (00:14:14) zoom in 4.6281 2.8181
+\i (00:14:14) trapsize 895
+\i (00:14:14) zoom in 1 
+\i (00:14:14) setwindow pcb
+\i (00:14:14) zoom in 4.6281 2.8181
+\i (00:14:14) trapsize 448
+\i (00:14:14) zoom in 1 
+\i (00:14:14) setwindow pcb
+\i (00:14:14) zoom in 4.6281 2.8181
+\i (00:14:14) trapsize 224
+\i (00:14:23) pick grid 5.3443 2.2586
+\t (00:14:23) last pick:  5.3500 2.2500
+\i (00:15:22) xname_flush '!' 
+\i (00:15:23) xNet Vbat 
+\i (00:15:23) xname_flush 
+\i (00:15:23) trapsize 1981
+\i (00:15:24) xname_flush '!' 
+\i (00:15:24) xrefdes R6.1 
+\i (00:15:24) xname_flush 
+\i (00:15:24) trapsize 147
+\i (00:15:26) setwindow text
+\i (00:15:26) close
+\i (00:15:26) setwindow pcb
+\i (00:15:26) zoom out 1 
+\i (00:15:26) setwindow pcb
+\i (00:15:26) zoom out 10.2283 5.9970
+\i (00:15:26) trapsize 294
+\i (00:15:27) zoom out 1 
+\i (00:15:27) setwindow pcb
+\i (00:15:27) zoom out 10.2283 6.0030
+\i (00:15:27) trapsize 587
+\i (00:15:30) xname_flush '!' 
+\i (00:15:32) xrefdes R5.1 
+\i (00:15:32) xname_flush 
+\i (00:15:32) trapsize 147
+\i (00:15:33) zoom out 1 
+\i (00:15:33) setwindow pcb
+\i (00:15:33) zoom out 16.7518 6.1291
+\i (00:15:33) trapsize 294
+\i (00:15:33) zoom out 1 
+\i (00:15:33) setwindow pcb
+\i (00:15:33) zoom out 17.0280 6.1643
+\i (00:15:33) trapsize 587
+\i (00:16:13) xname_flush '!' 
+\i (00:16:13) xrefdes R14.1 
+\i (00:16:13) xname_flush 
+\i (00:16:13) trapsize 137
+\i (00:16:15) xname_flush '!' 
+\i (00:16:15) xrefdes R13.1 
+\i (00:16:15) xname_flush 
+\i (00:16:15) trapsize 137
+\t (00:16:17) > DoActivateAllegro message received
+\t (00:16:17) > Activating Allegro on existing open design...
+\t (00:16:17) > Sending response DoneActivateAllegro
+\t (00:16:17) > Allegro activated successfully
+\i (00:16:20) zoom out 1 
+\i (00:16:20) setwindow pcb
+\i (00:16:20) zoom out 13.1599 5.7376
+\i (00:16:20) trapsize 274
+\i (00:16:20) zoom out 1 
+\i (00:16:20) setwindow pcb
+\i (00:16:20) zoom out 13.1599 5.7375
+\i (00:16:20) trapsize 548
+\i (00:16:20) zoom out 1 
+\i (00:16:20) setwindow pcb
+\i (00:16:20) zoom out 13.1599 5.7376
+\i (00:16:20) trapsize 1096
+\i (00:16:48) xname_flush '!' 
+\i (00:16:48) xrefdes R14.1 
+\i (00:16:48) xname_flush 
+\i (00:16:48) trapsize 137
+\i (00:16:50) zoom out 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom out 7.0183 5.8582
+\i (00:16:50) trapsize 274
+\i (00:16:50) zoom out 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom out 7.0182 5.8582
+\i (00:16:50) trapsize 548
+\i (00:16:50) zoom out 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom out 7.0182 5.8581
+\i (00:16:50) trapsize 1096
+\i (00:16:50) zoom out 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom out 7.0181 5.8582
+\i (00:16:50) trapsize 2193
+\i (00:16:50) zoom out 1 
+\i (00:16:50) setwindow pcb
+\i (00:16:50) zoom out 7.0182 5.8143
+\i (00:16:50) trapsize 4386
+\i (00:16:51) zoom in 1 
+\i (00:16:51) setwindow pcb
+\i (00:16:51) zoom in 8.1585 5.5511
+\i (00:16:51) trapsize 2193
+\i (00:16:51) zoom in 1 
+\i (00:16:51) setwindow pcb
+\i (00:16:51) zoom in 8.1585 5.5511
+\i (00:16:51) trapsize 1096
+\i (00:17:02) zoom in 1 
+\i (00:17:02) setwindow pcb
+\i (00:17:02) zoom in 6.6454 5.7485
+\i (00:17:02) trapsize 548
+\i (00:17:03) zoom out 1 
+\i (00:17:03) setwindow pcb
+\i (00:17:03) zoom out 7.2375 5.4525
+\i (00:17:03) trapsize 1096
+\i (00:23:59) zoom in 1 
+\i (00:23:59) setwindow pcb
+\i (00:23:59) zoom in 18.7506 6.9218
+\i (00:23:59) trapsize 548
+\i (00:23:59) zoom in 1 
+\i (00:23:59) setwindow pcb
+\i (00:23:59) zoom in 18.7507 6.9219
+\i (00:23:59) trapsize 274
+\i (00:23:59) zoom in 1 
+\i (00:23:59) setwindow pcb
+\i (00:23:59) zoom in 18.7507 6.9219
+\i (00:23:59) trapsize 137
+\i (00:23:59) zoom out 1 
+\i (00:23:59) setwindow pcb
+\i (00:23:59) zoom out 18.6027 6.8698
+\i (00:23:59) trapsize 274
+\i (00:23:59) zoom out 1 
+\i (00:23:59) setwindow pcb
+\i (00:23:59) zoom out 18.8548 6.9576
+\i (00:23:59) trapsize 548
+\i (00:24:00) zoom in 1 
+\i (00:24:00) setwindow pcb
+\i (00:24:00) zoom in 13.3067 5.5432
+\i (00:24:00) trapsize 274
+\i (00:24:00) zoom in 1 
+\i (00:24:00) setwindow pcb
+\i (00:24:00) zoom in 13.3341 5.6090
+\i (00:24:00) trapsize 137
+\i (00:24:03) zoom out 1 
+\i (00:24:03) setwindow pcb
+\i (00:24:03) zoom out 13.4383 5.6583
+\i (00:24:03) trapsize 274
+\i (00:24:03) zoom out 1 
+\i (00:24:03) setwindow pcb
+\i (00:24:03) zoom out 13.4493 5.6584
+\i (00:24:03) trapsize 548
+\i (00:24:31) zoom out 1 
+\i (00:24:31) setwindow pcb
+\i (00:24:31) zoom out 13.4930 6.8096
+\i (00:24:31) trapsize 1096
+\i (00:24:31) zoom out 1 
+\i (00:24:31) setwindow pcb
+\i (00:24:31) zoom out 13.4711 6.9632
+\i (00:24:31) trapsize 2193
+\i (00:39:46) xname_flush '!' 
+\i (01:44:04) exit 
+\e (01:44:04) Do you want to save the changes you made to stspin32g4_foc.brd?
+\i (01:44:06) fillin no 
+\t (01:44:07)     Journal end - Sun Feb  1 22:35:00 2026

@@ -20,7 +20,7 @@
 #include "SMC.h"
 #include "stspin32g4.h"
 #include "spi.h"
-#include "mt6825.h"
+#include "encoder.h"
 
 extern "C" {
 extern void SystemClock_Config(void);
@@ -34,19 +34,8 @@ lwprintf_my_out_func(int ch, lwprintf_t *p);
 unsigned int count = 0;
 
 Controller controller;
-float angle;
+EncoderMT6825 encoder;
 
-void read_mt6825_position(void) {
-    uint8_t cmd[4] = {0x83};
-    uint8_t rx[4] = {0};
-    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_RESET);
-    HAL_SPI_TransmitReceive(&hspi1, cmd, rx, 4,
-                            HAL_MAX_DELAY);
-
-    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_2, GPIO_PIN_SET);
-    unsigned int angle_raw = rx[0] << 16 | rx[1] & 0b11111100 | rx[2] & 0x11110000;
-    angle = angle_raw * 360 / 262144;;
-}
 
 int main(void) {
     /* USER CODE BEGIN 1 */
@@ -85,9 +74,9 @@ int main(void) {
     MX_I2C3_Init();
     MX_SPI1_Init();
     /* USER CODE BEGIN 2 */
-    HAL_ADCEx_Calibration_Start(&hadc1,ADC_SINGLE_ENDED);
+    HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED);
     HAL_Delay(10);
-    HAL_ADCEx_Calibration_Start(&hadc2,ADC_SINGLE_ENDED);
+    HAL_ADCEx_Calibration_Start(&hadc2, ADC_SINGLE_ENDED);
     HAL_Delay(10);
 
     // HAL_ADC_Start_DMA(&hadc1, reinterpret_cast<uint32_t *>(adc_value), 5);
@@ -124,14 +113,13 @@ int main(void) {
     HAL_OPAMP_Start(&hopamp2);
     HAL_OPAMP_Start(&hopamp3);
 
-    HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
-    HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_2);
-    HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_3);
-    HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_4);
+    HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+    HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+    HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+    HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_4);
     HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
     HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
     HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_3);
-    mt6825_t mt6825;
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
@@ -141,13 +129,14 @@ int main(void) {
         // SerialCommunication::printFloatsWithConfig(SIMPLE_PROTOCOL, controller.foc.dtc_u, controller.foc.dtc_v,
         //                                            controller.foc.dtc_w, controller.foc.theta_elec, 4, 4); // 类似 print
 
-        SerialCommunication::printFloatsWithConfig(SIMPLE_PROTOCOL, controller.foc.i_u, controller.foc.i_v,
-                                                   controller.foc.i_w, controller.foc.theta_elec, controller.foc.v_bus,
-                                                   controller.foc.real_voltage_u,
-                                                   controller.smc_param.i_u, controller.smc_param.es_u,
-                                                   controller.foc.i_q,
-                                                   controller.smc_param.theta, controller.foc.i_alpha,
-                                                   controller.foc.i_beta); // 类似 print
+//        SerialCommunication::printFloatsWithConfig(SIMPLE_PROTOCOL, controller.foc.i_u, controller.foc.i_v,
+//                                                   controller.foc.i_w, controller.foc.theta_elec, controller.foc.v_bus,
+//                                                   controller.foc.real_voltage_u,
+//                                                   controller.smc_param.i_u, controller.smc_param.es_u,
+//                                                   controller.foc.i_q,
+//                                                   controller.smc_param.theta, controller.foc.i_alpha,
+//                                                   controller.foc.i_beta); // 类似 print
+        SerialCommunication::printFloatsWithConfig(SIMPLE_PROTOCOL, encoder.phase_vel()); // 类似 print
 
         if (SerialCommunication::parseRefParamFrame()) {
             controller.foc.v_des = SerialCommunication::refParam.refSpeed;
@@ -163,7 +152,6 @@ int main(void) {
 
         // read_mt6825_position();
 
-        get_mt6825(&mt6825);
         // //电流校准
         // static uint32_t adc_buf[2];
         // static uint16_t data_num = 0;
@@ -198,13 +186,15 @@ int main(void) {
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     if (htim->Instance == TIM17) {
+        encoder.update(0.001f);
+
         if (controller.foc.v_des == 0) {
             TIM1->CCR3 = (PWM_ARR >> 1); // Write duty cycles
             TIM1->CCR2 = (PWM_ARR >> 1);
             TIM1->CCR1 = (PWM_ARR >> 1);
-            HAL_GPIO_WritePin(GPIOA,GPIO_PIN_8, GPIO_PIN_SET);
+            HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_SET);
         } else {
-            HAL_GPIO_WritePin(GPIOA,GPIO_PIN_8, GPIO_PIN_RESET);
+            HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_RESET);
         }
     }
 }
